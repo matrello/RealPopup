@@ -1,0 +1,749 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ENV DIALOGEX 0, 0, 207, 173
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Aplikace"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "Spustit p¯i startu Windows",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,120,10
+    CONTROL         "Dotaz u ukonËenÌ",IDC_CHK_WARN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,10,75,10
+    CONTROL         "Varov·nÌ p¯i zruöenÌ odesl·nÌ",IDC_CHK_WARNDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,120,10
+    CONTROL         "Vûdy naho¯e",IDC_CHK_TOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,20,75,8
+    CONTROL         "Varov·nÌ p¯ed odesl·nÌm domÈnÏ",IDC_CHK_WARNDOMAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,185,10
+    CONTROL         "Tray menu aktivuje levÈ tlaËÌtko",IDC_CHK_LEFTTRAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,185,10
+    CONTROL         "P¯i spo¯iËi obrazovky - Nep¯Ìtomen",IDC_CHK_AWAY,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,50,188,10,WS_EX_TRANSPARENT
+    CONTROL         "Nekontrolovat dÈlku zpr·vy",IDC_CHK_LENCHK,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,120,66,85,10
+    CONTROL         "Kl·vesov· zkratka",IDC_RPHOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,10,71,72,12
+    LTEXT           "RealPopup m˘ûe b˝t standardem pro posÌl·nÌ zpr·v ve Windows NT a 2000.",IDC_STATIC_MSN1,10,94,150,20
+    LTEXT           "Kl·vesov· zkratka RealPopupu",IDC_STATIC,85,73,120,8
+    CONTROL         "Aù RealPopup je v˝chozÌm",IDC_MSN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,114,175,10
+    CONTROL         "Ponechat v˝chozÌ z Windows",IDC_MSN2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,125,180,10
+    ICON            IDR_SERVICE,IDC_STATIC,160,94,21,18
+    LTEXT           "Aby se zmÏny projevily musÌte znovu spustit RealPopup.",IDC_STATIC_MSN2,10,139,150,20
+END
+
+IDD_PP_USERS DIALOGEX 0, 0, 212, 187
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "UûivatelÈ a skupiny"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TXT_USER,5,11,85,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_USER,"msctls_updown32",UDS_ARROWKEYS | 
+                    WS_DISABLED,93,10,11,14
+    PUSHBUTTON      "6",IDC_NETWORK,106,11,14,13,BS_ICON
+    PUSHBUTTON      "6",IDC_SRCINSERT,121,11,14,13,BS_ICON
+    PUSHBUTTON      "&P¯idat",IDC_BTN_ADD,138,11,34,13,WS_DISABLED
+    PUSHBUTTON      "&Odstranit",IDC_BTN_REMOVE,174,11,34,13,WS_DISABLED
+    LISTBOX         IDC_LISTUSERS,5,30,85,150,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Uûivatel",IDC_OPT_USER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,30,110,8
+    CONTROL         "Skupina (ËlenovÈ)",IDC_OPT_GROUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,40,110,8
+    EDITTEXT        IDC_TXT_MEMBERS,105,50,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK2,192,50,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "",IDC_CHK_USESRP,"Button",BS_AUTO3STATE | WS_DISABLED | 
+                    WS_TABSTOP,95,72,10,10
+    COMBOBOX        IDC_CBO_USESRP,105,70,100,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_DISABLED | 
+                    WS_TABSTOP
+    CONTROL         "Ignoruj zpr·vy",IDC_CHK_IGNORE,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,85,110,8
+    CONTROL         "Zobraz okno p¯i zpr·vÏ",IDC_CHK_POPUPNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,95,110,8
+    CONTROL         "* RealPopup - vnit¯nÌ zpr·va *\n\nZpr·vu poslal %s, ale p¯enos neprobÏhl v po¯·dku. OdesÌlatel byl upozornÏn.",IDC_CHK_BALLOONNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,105,110,8
+    CONTROL         "* RealPopup - vnit¯nÌ zpr·va *\n\nNepoda¯ilo se odeslat zr·vu pro %s. Zkuste ji poslat znovu.",IDC_CHK_BALLOONPREVIEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,115,110,8
+    CONTROL         "Oznam p¯ihl·öenÌ",IDC_CHK_ONLINEWARN,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,125,110,8
+    CONTROL         "P¯esmÏruj zpr·vy na:",IDC_CHK_REDIRECT,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,135,110,8
+    EDITTEXT        IDC_TXT_REDIRECT,105,145,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK3,192,145,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Ukl·dej zpr·vy do:",IDC_CHK_LOG,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,159,110,8
+    EDITTEXT        IDC_TXT_LOG,105,169,85,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+END
+
+IDD_PP_MSG DIALOGEX 0, 0, 212, 181
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Zpr·vy"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "OdstraÚ p˘vodnÌ zpr·vu po odpovÏdi",IDC_CHK_DELORIGINAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,195,10
+    CONTROL         "Minimalizuj po odpovÏdi",IDC_CHK_MINIMIZEREPL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,195,10
+    CONTROL         "Minimalizuj po odstranÏnÌ poslednÌ zpr·vy",IDC_CHK_MINIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,195,10
+    CONTROL         "Automaticky ukaû poslednÌ zpr·vu",IDC_CHK_LASTMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,195,10
+    CONTROL         "@@RP:221",IDC_CHK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,195,10
+    CONTROL         "Vloû p˘vodnÌ zpr·vu pod odpovÏÔ ",IDC_CHK_REPLYTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,195,10
+    CONTROL         "Ud·losti",IDC_CHK_CRSEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,195,10
+    CONTROL         "Na chvÌli vypnout kl·vesu Delete",IDC_CHK_DISABLEDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,195,10
+    CONTROL         "Zobrazuj p¯ihl·öenÌ uûivatel˘",IDC_CHK_BALLOONONMSGFAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,10,90,195,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "DvojitÈ kliknutÌ k aktivaci odkazu",IDC_CHK_DBLCLICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,100,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Vûdy odesÌlej jmÈno poËÌtaËe",IDC_CHK_SENDPCNAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,110,195,10,WS_EX_TRANSPARENT
+    CONTROL         "PÌpni p¯i novÈ zpr·vÏ",IDC_CHK_BEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,138,195,10
+    CONTROL         "P¯ehr·t WAV p¯i novÈ zpr·vÏ",IDC_CHK_WAV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,148,195,10
+    EDITTEXT        IDC_TXT_WAV,22,159,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_PLAY,143,159,14,13,BS_ICON | WS_DISABLED
+    LTEXT           "ZvukovÈ efekty",IDC_STATIC,10,125,100,10
+    LTEXT           "DalöÌ ud·losti",IDC_STATIC,156,96,52,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | SS_CENTERIMAGE,
+                    10,134,184,1,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 232, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: O aplikaci"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,5,32,14,WS_GROUP
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,5,5,177,37
+    LTEXT           "yo men dudez matro rulez:-)",IDC_TXT_ABOUTVERSION,6,120,
+                    204,12
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 253, 158
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Matro! :)"
+MENU IDR_MENU1
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        TXT_MAIN_FROM,30,5,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_INFO,120,5,87,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_TO,30,15,155,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Od",IDC_MAIN_FROM,5,5,20,9
+    LTEXT           "Komu",IDC_MAIN_TO,5,15,20,9
+END
+
+IDD_DLG_SENDMESSAGE DIALOGEX 0, 0, 196, 147
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "RealPopup: Poslat zpr·vu"
+MENU IDR_MENU2
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    LTEXT           "Komu",IDC_TO,5,7,10,9
+    COMBOBOX        CBO_TO,20,10,165,35,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_NETWORK DIALOG  0, 0, 198, 143
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "RealPopup: ProhlÌûenÌ sÌtÏ"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,5,55,14,WS_DISABLED
+    PUSHBUTTON      "Storno",IDCANCEL,140,22,55,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,5,5,130,135
+    PUSHBUTTON      "?",ID_HELP,140,125,55,14
+END
+
+IDD_CRITERIA DIALOGEX 0, 0, 322, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Vstup kritÈriÌ pro hled·nÌ"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CRITERIA,30,132,150,14,ES_UPPERCASE | ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,265,5,50,14
+    PUSHBUTTON      "Storno",IDCANCEL,265,22,50,14
+    LTEXT           "devworkbymatro:)",IDC_SEARCHCRITERIA,30,5,225,115
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "PodmÌnky v˝bÏru",IDC_STATIC,30,122,90,10
+END
+
+IDD_SERVICE DIALOG  0, 0, 307, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: obsluha sluûby Messenger"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Aù RealPopup p¯evezme kontrolu (doporuËeno)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,65,
+                    195,10
+    CONTROL         "NenÌ moûnÈ nav·zat spojenÌ se sluûbou Messenger",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,76,
+                    195,10
+    LTEXT           "PozdÏji tuto moûnost m˘ûete zmÏnit v Moûnostech.",IDC_STATIC,30,90,235,10
+    DEFPUSHBUTTON   "OK",IDOK,250,5,50,14
+    ICON            IDR_SERVICE,IDC_STATIC,4,5,20,20
+    LTEXT           "RealPopup detekoval sluûbu messenger jako aktivnÌ. RealPopup podporuje standardnÌ messenger pro Windows NT a 2000.",IDC_STATIC,30,5,215,25
+    LTEXT           "Moûn·, budete chtÌt zachovat pro zasÌl·nÌ standardnÌ sluûbu; RealPopup m˘ûe komunikovat jen s jin˝mi klienty RealPopupu.",IDC_STATIC,30,35,215,25
+END
+
+IDD_PP_LANG DIALOG  0, 0, 197, 173
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "UmÌstÏnÌ a jazyky"
+FONT 8, "Arial"
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_FONTRICHEDIT,5,45,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_FONTEDIT,5,65,15,15,BS_ICON
+    LTEXT           "TlaËÌtko v·m umoûnÌ vybrat si pÌsmo pro editor zpr·v.",IDC_STATIC,30,45,160,20
+    LISTBOX         IDC_LSTLANGUAGE,5,90,60,75,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Vyberte si sv˘j jazyk. Aby se zmÏny projevily musÌte znovu spustit RealPopup. MusÌte pouûÌvat lokalizovanou verzi Windows pro nestandardnÌ pÌsma - »eötina, Ruötina.",IDC_STATIC,70,90,120,55
+    LTEXT           "napsal Matro",IDC_LANGUAGE,70,145,125,22
+    LTEXT           "Vyberte si pÌsmo pro polÌËka Od a Komu.",IDC_STATIC,30,65,160,22
+    PUSHBUTTON      "",IDC_BTN_SAVEWIN,5,5,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_SAVEWINDEF,5,25,15,15,BS_ICON
+    LTEXT           "Zde kliknÏte pro uloûenÌ velikosti a pozice okna RealPopupu.",IDC_STATIC,30,5,145,18
+    LTEXT           "Zde m˘ûete p¯i problÈmech obnovit v˝chozÌ nastavenÌ pozice a velikosti.",IDC_STATIC,30,25,145,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PP_ENV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_PP_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_PP_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PP_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,4,0,0
+ PRODUCTVERSION 2,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Lokalizovan˝ zdroj pro RealPopup\0"
+            VALUE "CompanyName", "Matro\0"
+            VALUE "FileDescription", "Lokalizovan˝ zdroj (»esky) pro RealPopup\0"
+            VALUE "FileVersion", "2.5"
+            VALUE "InternalName", "RealPopup\0"
+            VALUE "LegalCopyright", "Matro, freeware\0"
+            VALUE "LegalTrademarks", "Localized by Jaroslav Mira\0"
+            VALUE "OriginalFilename", "RealPopup.EXE\0"
+            VALUE "ProductName", "RealPopup\0"
+            VALUE "ProductVersion", "2.5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_NEW
+    BUTTON      ID_BTN_ANSWER
+    BUTTON      ID_BTN_ANSWERALL
+    BUTTON      ID_BTN_FORWARD
+    SEPARATOR
+    BUTTON      ID_BTN_DEL
+    BUTTON      ID_BTN_DELTHREAD
+    SEPARATOR
+    BUTTON      ID_BTN_PREV
+    BUTTON      ID_BTN_NEXT
+    BUTTON      ID_BTN_COPY
+    BUTTON      ID_BTN_SAVE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+    BUTTON      ID_BTN_OPTIONS
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_SEND
+    BUTTON      ID_BTN_CANCEL
+    SEPARATOR
+    BUTTON      ID_BTN_SENDCUT
+    BUTTON      ID_BTN_SENDCOPY
+    BUTTON      ID_BTN_SENDPASTE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_NETTREE             BITMAP                  "res\\nettreepc.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "res\\rptitle.bmp"
+IDB_BITMAP_RPLOGO       BITMAP                  "res\\NetworkBrowserLogo.bmp"
+IDB_TOOLBAR1HI          BITMAP                  "res\\toolbar1hi.bmp"
+IDB_TOOLBAR2HI          BITMAP                  "res\\toolbar2hi.bmp"
+IDB_TOOLBAR1HIDIS       BITMAP                  "res\\toolbar1hi dis.bmp"
+IDB_TOOLBAR2HIDIS       BITMAP                  "res\\toolbar2hi dis.bmp"
+IDB_TOOLBAR2HIHOT       BITMAP                  "res\\toolbar2hi hot.bmp"
+IDB_TOOLBAR1HIHOT       BITMAP                  "res\\toolbar1hi hot.bmp"
+IDB_NETTREEHI           BITMAP                  "res\\nettreepchi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&Zpr·va"
+    BEGIN
+        MENUITEM "Ode&slat\tCtrl+S",                     ID_BTN_SEND
+        MENUITEM "Z&ruöit\tEsc",                     ID_BTN_CANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "&Vyjmout\tCtrl+X",                     ID_BTN_SENDCUT
+        MENUITEM "&KopÌrovat\tCtrl+C",                     ID_BTN_SENDCOPY
+        MENUITEM "V&loûit\tCtrl+V",                     ID_BTN_SENDPASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&ProhlÌûenÌ sÌtÏ...",                     ID_BTN_NETWORK
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&Prost¯edÌ"
+    BEGIN
+        MENUITEM "&Neruöit",                     ID_TRAY_DISABLE
+        MENUITEM "&Jsem pryË",                    ID_TRAY_AWAY
+        MENUITEM "Ne&posÌlat d·l",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Moûnosti",                     ID_BTN_OPTIONS
+        MENUITEM "&Konec",                     ID_TRAY_EXIT
+    END
+    POPUP "&Zpr·va"
+    BEGIN
+        MENUITEM "&Nov·...\tCtrl+N",                     ID_BTN_NEW
+        MENUITEM "&OdpovÏdÏt...\tCtrl+R",                     ID_BTN_ANSWER
+        MENUITEM "OdpovÏdÏt &vöem...\tCtrl+A",                     ID_BTN_ANSWERALL
+        MENUITEM "&P¯edat d·l...\tCtrl+F",                     ID_BTN_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "&Ignoruj thread",                    ID_BTN_DELTHREAD
+        MENUITEM "Obnovit &threads",                    ID_BTN_RESUMETHREADS
+        MENUITEM SEPARATOR
+        MENUITEM "S&mazat vöe\tCtrl+Shift+Del",                     ID_BTN_DELALL
+        MENUITEM "Sm&azat\tCtrl+Del",                     ID_BTN_DEL
+        MENUITEM "P¯edch&ozÌ\tCtrl+PgUp",                     ID_BTN_PREV
+        MENUITEM "&DalöÌ\tCtrl+PgDn",                     ID_BTN_NEXT
+        MENUITEM "&KopÌrovat\tCtrl+C",                     ID_BTN_COPY
+        MENUITEM "&Uloûit...",                     ID_BTN_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "ProhlÌûenÌ &sÌtÏ...",                     ID_BTN_NETWORK
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&N·povÏda...",                     ID_BTN_HELP
+        MENUITEM "UvÌtacÌ &zpr·va...",                     ID_BTN_WELCOMEMSG
+        MENUITEM "&O aplikaci",                     ID_BTN_ABOUT
+    END
+END
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "MATRO"
+    BEGIN
+        MENUITEM "&Otev¯Ìt",                     ID_TRAY_OPEN
+        MENUITEM "&Minimalizovat",                     ID_TRAY_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "&Neruöit",                     ID_TRAY_DISABLE
+        MENUITEM "&Jsem pryË",                    ID_TRAY_AWAY
+        MENUITEM "&PosÌlat d·l",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Nov· zpr·va....",                     ID_BTN_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Moûnosti",                     ID_BTN_OPTIONS
+        MENUITEM "&Konec",                     ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LINK         CURSOR                  "res\\LGEUP.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RealPopup.ico"
+IDR_MSGARRIVED          ICON                    "res\\new_msg.ico"
+IDR_TRAYICON            ICON                    "res\\idr_msga.ico"
+IDR_MSGDISABLED         ICON                    "res\\idr_msgd.ico"
+IDR_PLAY                ICON                    "res\\idr_play.ico"
+IDR_NETWORK             ICON                    "res\\icon1.ico"
+IDR_EDITFONT            ICON                    "res\\idr_edit.ico"
+IDR_RICHEDITFONT        ICON                    "res\\idr_rich.ico"
+IDR_POSSAVE             ICON                    "res\\idr_poss.ico"
+IDR_POSDEFAULT          ICON                    "res\\idr_posd.ico"
+IDR_SRCINSERT           ICON                    "res\\idr_srci.ico"
+IDR_MSGARRIVED2         ICON                    "res\\old_msgs.ico"
+IDR_MSGAWAY             ICON                    "res\\idr_away.ico"
+IDR_SERVICE             ICON                    "res\\service.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMENU1 ACCELERATORS 
+BEGIN
+    "A",            ID_BTN_ANSWERALL,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_BTN_FORWARD,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_BTN_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_BTN_ANSWER,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DEL,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DELALL,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_BTN_HELP,            VIRTKEY, NOINVERT
+    VK_NEXT,        ID_BTN_NEXT,            VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_BTN_PREV,            VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCMENU2 ACCELERATORS 
+BEGIN
+    "S",            ID_BTN_SEND,            VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_BTN_CANCEL,          VIRTKEY, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\RealPopup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_WELCOMEMSG          TEXT                    "res\\welcomecze.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+2                       RT_MANIFEST             "res\\rt_manif.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "O &aplikaci RealPopup..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW              "Poslat novou zpr·vu uûivateli nebo skupinÏ.\nNov· zpr·va"
+    ID_BTN_ANSWER           "OdpovÏdÏt odesÌlateli.\nOdpovÏdÏt"
+    ID_BTN_ANSWERALL        "OdpovÏdÏt odesilateli i p¯Ìjemci.\nOdpovÏdÏt vöem"
+    ID_BTN_FORWARD          "P¯edat zpr·vu jinÈmu uûivateli nebo skupinÏ.\nP¯edat d·l"
+    ID_BTN_DELTHREAD        "Ignoruj aktu·lnÌ thread.\nIgnoruj thread"
+    ID_BTN_RESUMETHREADS    "Obnovit p¯edchozÌ ignoraci threads."
+    ID_BTN_DELALL           "Odstranit vöechny zpr·vy.\nOdstranit vöe"
+    ID_BTN_DEL              "Odstranit vybranou zpr·vu.\nOdstranit"
+    ID_BTN_PREV             "Uk·zat p¯edchozÌ zpr·vu.\nP¯edchozÌ"
+    ID_BTN_NEXT             "Uk·zat n·sledujÌcÌ zpr·vu.\nN·sledujÌcÌ"
+    ID_BTN_COPY             "KopÌrovat celou nebo Ë·st zpr·vy.\nKopÌrovat"
+    ID_BTN_SAVE             "Uloûit zpr·vu do textovÈho souboru.\nUloûit"
+    ID_BTN_SEND             "Poslat zpr·vu uûivateli nebo skupinÏ\nPoslat zpr·vu"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_CANCEL           "Zruöit odesl·nÌ\nZruöit"
+    ID_BTN_OPTIONS          "Otev¯Ìt dialog moûnostÌ."
+    ID_BTN_ABOUT            "O aplikaci."
+    ID_BTN_WELCOMEMSG       "PodÌvat se znovu na uvÌtacÌ zpr·vu! :)"
+    ID_BTN_HELP             "Zobrazit n·povÏdu."
+    ID_TRAY_OPEN            "UûÌt pro otev¯enÌ okna RealPopup."
+    ID_TRAY_MINIMIZE        "Minimalizovat RealPopup do ikony."
+    ID_TRAY_DISABLE         "Nep¯ijÌmat û·dnÈ zpr·vy."
+    ID_TRAY_EXIT            "UkonËit RealPopup."
+    ID_TRAY_REDIRECT        "Vypnout p¯esmÏrov·nÌ zpr·v a ignorov·nÌ."
+    ID_TRAY_AWAY            "Informuj o mÈ nep¯Ìtomnosti."
+    ID_BTN_NETWORK          "Vyhledat uûivatele na sÌti.\nProhlÌûenÌ sÌtÏ"
+    ID_HELPFILE             "RPHelpCZE.htm"
+    ID_BTN_SENDCOPY         "KopÌrovat do schr·nky.\nKopÌrovat"
+    ID_BTN_SENDCUT          "Vyjmout do schr·nky.\nVyjmout"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SENDPASTE        "Vloûit ze schr·nky.\nVloûit"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "P¯ipraven."
+    MSG_SEND_ERROR          "Uûivatel neby nalezen nebo nebylo moûnÈ odeslat zpr·vu."
+    MSG_POPUP_ERRINIT       "Nepoda¯ilo se inicializovat kompatibilnÌ p¯ijÌmaË s WinPopupem: RealPopup nenÌ schopen p¯ijÌmat zpr·vy Winpopup klient˘.\n\nPravdÏpodobnÏ je na tomto poËÌtaËi uû spuötÏn Winpopup nebo jin˝ p¯Ìjemce zpr·v. \n\nPokud pouûÌv·te Windows NT nebo 20000, musÌte nastavit v Moûnostech RealPopupu, na z·loûce Aplikace p¯evzetÌ sluûby posÌl·nÌ zpr·v."
+    MSG_DIALOG_CAPTION      "RealPopup zpr·va"
+    DEF_USERNAME            "UéIVATEL"
+    AUTOMSG_BETA_FROM       "RealPopup"
+    AUTOMSG_BETA_TO         "Pro tebe!"
+    MSG_BETA_OUT            "Platnost beta verze RealPopup vypröela. Aktualizovan· verze je zde: http://www.realpopup.it. PoslednÌ beta verze je zde: www.realpopup.it/rpbeta.html."
+    MSG_VERSION             "UPOZORNÃNÕ: PLATNOST BETA VERZE DO: %i - %i - %i."
+    MSG_STATUS_WPSENT       "WinPopup kompatibilnÌ zpr·va posl·na %s."
+    MSG_STATUS_RPSENT       "%s obdrûel zpr·vu."
+    MSG_ABOUT               "Vytvo¯il Matro, ÿÌm (It·lie).\n\nTento program je freeware:\nm˘ûete jej pouûÌvat i öÌ¯it bez omezenÌ\n\nDomovsk· str·nka Matra:\nhttp://www.realpopup.it/matro\n\nDomovsk· str·nka RealPopupu:\nhttp://www.realpopup.it\n\nP¯ipomÌnky k programu: matro@usa.net.\n\nLokalizaci RealPopupu m˘ûete najÌt na domovskÈ str·nce RealPopupu !\n\nRealPopup by nebyl tak hezk˝ bez pomoci vöech p¯ekladatel˘, beta testr˘ a freewarov˝ch zdroj˘ na internetu. Seznam tÏch, kter˝m chci podÏkovat najdete na zv·ötnÌ weboskÈ str·nce http://www.realpopup.it/credits.html.\n\nA V·m vöem pat¯Ì moje velkÈ dÌky za Vaöe podnÏty a p¯ipomÌnky a za vöechny p¯ipomÌnky do diskuse a podpisy do seznamu adres.\n\nMatro. =o)\n\nRealPopup poËeötil\nJaroslav Mira, Karvin·, (»esk· republika)\ne-mail: jarek.mira@seznam.cz\nDÏkuji moc Marceli za pomoc.\n\nJarek.\n"
+    MSG_WARNONEXIT          "UkonËenÌm RealPopup nebudete moci p¯ijÌmat ani odesÌlat zpr·vy. Jste si jist?\n\nPokud nechcete zobrazovat tuto informaci, odznaËte 'Dotaz u ukonËenÌ' na dialogu moûnostÌ."
+    MSG_RECEIVE_MULTIPARTERROR "* RealPopup - vnit¯nÌ zpr·va *\n\nZpr·vu poslal %s, ale p¯enos neprobÏhl v po¯·dku. OdesÌlatel byl upozornÏn."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DDXFILE_TT_CAPTION  "ProsÌm vyberte soubor"
+    IDS_DDXFILE_OK          "OK"
+    IDS_DDXFILE_EDIT_TEXT   "..."
+    IDS_DDXFILE_OVERWRITE_PROMPT "%1\nSoubor jiû existuje.\nM·m jej p¯epsat?"
+    IDS_DDXFILE_FILTER_LOG  "Log soubory (*.log)|*.log||"
+    IDS_DDXFILE_FILTER_WAV  "Wav soubory (*.wav)|*.wav||"
+    IDS_DDXFILE_FILTER_TXT  "TextovÈ soubory (*.txt)|*.txt||"
+    FMT_LOG_DATE            "dne %a %d, %b %Y v %H:%M.%S"
+    FMT_LOG_FROMTO          "Od  %s Komu %s %s\n\n"
+    OPTIONS_CAPTION         "RealPopup: Moûnosti"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_SEND_MULTIPARTERROR "* RealPopup - vnit¯nÌ zpr·va *\n\nNepoda¯ilo se odeslat zr·vu pro %s. Zkuste ji poslat znovu."
+    MSG_REALPOPUP_ERRINIT   "Nelze inicializovat RealPopup p¯ijÌmaË: RealPopup nebude schopen p¯ijÌmat zpr·vy od jin˝ch RealPopup klient˘.\n\nPravdÏpodobnÏ je RealPopup uû pouûÌv·n nebo nenÌ p¯id·n protokol NetBEUI."
+    MSG_USERS_ERRLOAD       "Nelze naËÌst informace o uûivatelÌch: pravdÏpodobnÏ soubor RP<uûivatel>.dat nenÌ kompatibilnÌ, mÏl byste jej vymazat."
+    DEF_ALLUSERS            "(VäICHNI)"
+    TOOLTIP_IDLE            "RealPopup"
+    TOOLTIP_MSG             "RealPopup: %i zpr·va."
+    TOOLTIP_MSGS            "RealPopup: %i zpr·vy."
+    MSG_ERRNOTRECEIVED      "*** RealPopup %s - vnit¯nÌ zpr·va ***\n\nUûivatel %s neobdrûel Vaöi zpr·vu; moûn· ûe uûivatel nenÌ p¯ipojen nebo je jeho poËÌtaË zanepr·zdnÏn, p¯ÌpadnÏ nem· spuötÏn RealPopup. \n\nPokud m· uûivatel spuötÏn Winpopup nebo kompatibilnÌ program, p¯idejte jej do skupiny WINPOPUP v UûivatelÌch a skupin·ch v oknÏ moûnostÌ."
+    MSG_STATUS_NOTRECEIVED  "UpozornÏnÌ: uûivatel %s neobdrûel zpr·vu."
+    MSG_ONLINEWARN          "*** RealPopup %s - vnit¯nÌ zpr·va ***\r\n\r\nUûivatel %s pr·vÏ spustil RealPopup %s!"
+    MSG_STATUS_ONLINEWARNNOTRECEIVED "Uûivatel %s neobdrûel UpozornÏnÌ."
+    MSG_ONLINEWARNSTATUS    "Uûivatel %s se p¯ipojil!"
+    MSG_REDIRECTING         "Zpr·va do %s p¯esmÏrov·na komu %s."
+    MSG_REDIRECTING_ERR     "Nem˘ûu p¯esmÏrovat z %s na %s: mnoho smyËek."
+    MSG_LOGHEAD             "RealPopup %s logov˝ soubor\n\n"
+    MSG_STATUS_TOOLONG      "UpozornÏnÌ: %s neobdrûel zpr·vu."
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRTOOLONG          "*** RealPopup %s - vnit¯nÌ zpr·va ***\n\nUûivatel %s neobdrûel Vaöi zpr·vu; moûn· ûe uûivatel nenÌ p¯ipojen nebo je jeho poËÌtaË zanepr·zdnÏn, p¯ÌpadnÏ nem· spuötÏn RealPopup. RealPopup nem˘ûe zpr·vu poslat pomocÌ Winpopup protokolu, protoûe zpr·va je delöÌ neû limit Winpopup zpr·v (kolem 350 znak˘)."
+    MSG_STATUS_RPSENT_OLDVER "%s obdrûel zpr·vu; informujte ho o update z verze %s na %s! :)"
+    MSG_ERRDISABLED         "*** RealPopup %s - vnit¯nÌ zpr·va ***\n\nRealPopup u %s je vypnut˝, proto tento uûivatel neobdrûel Vaöi zpr·vu."
+    MSG_WARNONCANCELINGSEND "Opravdu chcete odstranit tuto zpr·vu?\n\nPokud nechcete zobrazovat toto okno odznaËte p¯Ìsluönou poloûku v oknÏ moûnostÌ. "
+    MSG_ERR_NOTCREATABLE    "Nem˘ûu vytvo¯it soubor."
+    MSG_SAVEHEAD            "RealPopup %s uloûil zpr·vu\n\n"
+    MSG_AUTOSTART_WARN      "Chcete spouötÏt RealPopup vûdy po spuötÏnÌ Windows?"
+    MSG_AUTOSTART_MSG       "*** RealPopup %s - vnit¯nÌ zpr·va ***\n\nLÌbÌ se v·m RealPopup? =o)\n\nPokud si myslÌte, ûe je to hezk˝ program, vyberte si Moûnosti z nabÌdky Prost¯edÌ a oznaËte volbu 'Spustit p¯i startu Windows'!\n\nMatro"
+    MSG_LOCALIZE_ABOUT      "Czech language V2.1\nLocalized by Jaroslav Mira."
+    MSG_LOCALIZE_DESC       "Czech"
+    IDS_WEEKDAYS            "ned|pon|ute|st¯|Ëtv|p·t|sob"
+    MSG_ERR_USERINSERT      "Specifikovan˝ uûivatel nebo skupina je nespr·vn· a nebude vloûena.\n\nHledan˝ text musÌ b˝t vloûen do z·vorek a kaûd· poloûka oddÏlena lomÌtkem, nap¯Ìklad:\nSERVER1[SPOOLER|DISK]\nTento z·pis akceptuje uûivatele nebo skupinu SERVER1 pokud zpr·va obsahuje text SPOOLER nebo DISK.\n\nChcete-li specifikovat r˘zn· nastavenÌ podle obsahu zpr·vy, nepouûÌvejte vÌce neû dvÏ z·vorky; vloûte dalöÌ nastavenÌ, nap¯:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nKaûd· volba m· odliönÈ nastavenÌ; volba bez hledanÈho textu znamen· libovoln˝ obsah tÏla zpr·vy.\n\nPokud chcete specifikovat pouze jmÈno uûivatele nebo skupiny nepouûÌvejte z·vorky."
+    MSG_SEARCHCRITERIA      "Ke kaûdÈ definici uûivatele nebo skupiny m˘ûete p¯i¯adit vyhled·vacÌ kritÈria. Nap¯. pokud u uûivatele MACO nastavÌte podmÌnku s textem DISK a budete nÏkomu posÌlat zpr·vu kde se slovo DISK vyskytuje tato zpr·va bude automaticky doruËena i uûivateli MACO.\n\nJe moûno uvÈst i vÌce podmÌnek oddÏlen˝ch znakem |. Texty jsou spojeny klauzulÌ OR, to znamen·, ûe uûivatel nebo skupina dostane zpr·vu, pokud obsahuje alespoÚ jeden z text˘.\n\nNap¯. 'TISK|DISK' poöle zpr·vu pokud obsahuje slovo TISK nebo DISK.\n\nZde vloûte vaöe kritÈria nebo je vloûte u definice uûivatele Ëi skupiny v z·vork·ch []. Tento dialog v·m provede p¯eklad."
+    MSG_ERR_HOTKEY          "Nem˘ûu nastavit kl·vesovou zkratku, pravdÏpodobnÏ se jiû pouûÌv· jinou aplikacÌ, zkuste jinou."
+    MSG_ERR_REPLY           "\n\nOdpovÏzte na tuto zpr·vu pokud ji chcete znovu poslat.\n\nZpr·va:\n---\n"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRAWAY             "*** RealPopup %s - vnit¯nÌ zpr·va ***\n\nUûivatel %s je nep¯Ìtomen; Vaöi zpr·vu p¯eËte pozdÏji."
+    MSG_ERR_MSNSTOPDENIED   "RealPopup nem˘ûe zastavit sluûbu Messenger protoûe nem·te pr·va Administr·tora. Kontaktujte administr·tora pro zÌsk·nÌ informacÌ.\n\nRealPopup m˘ûe komunikovat pouze s jin˝mi RealPopupy."
+    MSG_ERR_MSNSTOPERR      "RealPopup nem˘ûe zastavit sluûbu Messenger protoûe nastala neoËek·van· chyba. Opakujte toto pozdÏji.\n\nRealPopup m˘ûe komunikovat pouze s jin˝mi RealPopupy."
+    MSG_STATUS_CMDLINESENT  "Zpr·va poslan· z p¯ÌkazovÈho ¯·dku pro %s..."
+    MSG_CMDLINE_HELP        "*** RealPopup %s - vnit¯nÌ zpr·va ***\r\n\r\nPodpora p¯ÌkazovÈ ¯·dky.\nP¯ed posl·nÌm zpr·vy z p¯ÌkazovÈ ¯·dky, musÌte spustit aspoÚ jednou RealPopup: operace spustÌ sluûbu posÌl·nÌ zpr·v.\n\n-send <komu> <zpr·va>\nPoöle zpr·vu uûivateli Ëi skupinÏ; m˘ûete definovat vÌce p¯Ìjemc˘, oddÏlen˝ch Ë·rkou. Pokud pouûÌv·te mezery tak zpr·vu piöte v apostofech '; pro nov˝ ¯·dek vloûte ASCII(13) a ASCII(10).\n\n-noactivate\nTakto deaktivujete RealPopup z p¯ÌkazovÈ ¯·dky.\n\n-posreset\nObnovÌ nastavenÌ pozice a velikosti okna.\n\nP¯Ìklad:\nrealpopup -send MATRO,NEURAL 'Ahoj! Kdy jdeme na pivo ? :-)' -noactivate\n"
+    MSG_NBROWSER_RPUSERS    "RealPopup uûivatelÈ"
+    MSG_WARNDOMAIN          "Chcete poslat zpr·vu celÈ domÈnÏ %s; tuto zpr·vu dostanou vöichni uûivatelÈ p¯ipojenÌ k tÈto domÈnÏ. Chcete ji poslat ?\n\nPokud nechcete zobrazovat toto okno, odznaËte 'Varov·nÌ p¯ed odesl·nÌm domÈnÏ' v Moûnostech.\n"
+    ITEM_USESREALPOPUP      "Vyûaduj potvrzenÌ zpr·vy"
+    ITEM_USESWINPOPUP       "WinPopup pro jistotu"
+    MSG_WELCOME             "@@RP:216"
+    MSG_INTERNALMSGHEAD     "@@RP:217"
+    MSG_BALLOON_NEWMSG      "@@RP:218"
+    MSG_MESSAGESWAITING     "@@RP:219"
+    MSG_BALLOON_ERRMSG      "@@RP:220"
+END
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\RealPopup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+

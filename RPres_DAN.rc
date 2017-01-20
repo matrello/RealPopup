@@ -1,0 +1,772 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ENV DIALOGEX 0, 0, 207, 187
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Program"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "Indlæs ved Windows start",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,120,10
+    CONTROL         "Altid overst",IDC_CHK_TOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,10,75,8
+    CONTROL         "Advar når send fortrydes",IDC_CHK_WARNDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,120,10
+    CONTROL         "Advar ved afslut",IDC_CHK_WARN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,20,75,10
+    CONTROL         "Advar når besked sendes til domæner",IDC_CHK_WARNDOMAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,185,10
+    CONTROL         "Advar hvis RealPopup protekol ikke er aktiveret",IDC_CHK_WARNRPPROTOCOLNOTACTIVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,40,185,10
+    CONTROL         "Venstre museknap aktiverer menu",IDC_CHK_LEFTTRAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,185,10
+    CONTROL         "Ikke tilstede, når Pauseskærm korer",IDC_CHK_AWAY,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,60,188,10,WS_EX_TRANSPARENT
+    CONTROL         "Vµlg farvorit bruger",IDC_CHK_NBDETERMINEFAVORITES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,70,182,10
+    CONTROL         "HotKey1",IDC_RPHOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,10,85,72,12
+    LTEXT           "RealPopup understotter standard besked systemet i Windows NT/2000/XP.",IDC_STATIC_MSN1,10,108,150,20
+    LTEXT           "RealPopup genvejstast",IDC_STATIC,84,87,119,8
+    CONTROL         "Lad RealPopup overtage kontrollen",IDC_MSN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,128,175,10
+    CONTROL         "Lad standard besked systemet fortsætte uændret",IDC_MSN2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,138,180,10
+    ICON            IDR_SERVICE,IDC_STATIC,164,108,20,20
+    LTEXT           "For at ændringerne kan træde i kraft, skal du genstarte RealPopup.",IDC_STATIC_MSN2,10,152,150,20
+END
+
+IDD_PP_USERS DIALOGEX 0, 0, 212, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Brugere og grupper"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TXT_USER,5,11,85,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_USER,"msctls_updown32",UDS_ARROWKEYS | 
+                    WS_DISABLED,93,10,11,14
+    PUSHBUTTON      "6",IDC_NETWORK,106,11,14,13,BS_ICON
+    PUSHBUTTON      "6",IDC_SRCINSERT,121,11,14,13,BS_ICON
+    PUSHBUTTON      "&Tilfoj",IDC_BTN_ADD,138,11,34,13,WS_DISABLED
+    PUSHBUTTON      "&Fjern",IDC_BTN_REMOVE,174,11,34,13,WS_DISABLED
+    LISTBOX         IDC_LISTUSERS,6,30,85,168,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Bruger",IDC_OPT_USER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,95,30,110,8
+    CONTROL         "Gruppe",IDC_OPT_GROUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,40,110,8
+    EDITTEXT        IDC_TXT_MEMBERS,105,50,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK2,192,50,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Medtag i farvorit brugere",IDC_CHK_NBINCLUDEFAVORITES,"Button",
+                    BS_AUTO3STATE | WS_DISABLED | WS_TABSTOP,95,65,110,8
+    CONTROL         "",IDC_CHK_USESRP,"Button",BS_AUTO3STATE | WS_DISABLED | 
+                    WS_TABSTOP,95,88,10,10
+    COMBOBOX        IDC_CBO_USESRP,105,86,100,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_DISABLED | 
+                    WS_TABSTOP
+    CONTROL         "Ignorer beskeder",IDC_CHK_IGNORE,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,101,110,8
+    CONTROL         "Pop op ved ny besked",IDC_CHK_POPUPNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,111,110,8
+    CONTROL         "* RealPopup intern besked *\n\nEn besked blev sendt fra %s men der skete en fejl ved overforslen. Afsenderen har fået en advarsel herom.",IDC_CHK_BALLOONNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,121,110,8
+    CONTROL         "* RealPopup intern besked *\n\nBeskeden sendt til %s blev ikke afsendt. Prov at sende den igen.",IDC_CHK_BALLOONPREVIEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,131,110,8
+    CONTROL         "Giv besked når bruger er online",IDC_CHK_ONLINEWARN,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,141,110,8
+    CONTROL         "Omdiriger beskeder til:",IDC_CHK_REDIRECT,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,151,110,8
+    EDITTEXT        IDC_TXT_REDIRECT,105,161,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK3,192,161,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Log beskeder til:",IDC_CHK_LOG,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,175,110,8
+    EDITTEXT        IDC_TXT_LOG,105,185,85,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CONTROL         "Medlemmer",IDC_OPT_NBINCLUDEASMEMBERS,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,106,75,44,10
+    CONTROL         "Gruppe",IDC_OPT_NBINCLUDEASGROUP,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,153,75,53,10
+END
+
+IDD_PP_MSG DIALOGEX 0, 0, 212, 181
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Beskeder"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "Slet original besked når svar er sendt",IDC_CHK_DELORIGINAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,195,10
+    CONTROL         "Minimer når svar er sendt",IDC_CHK_MINIMIZEREPL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,195,10
+    CONTROL         "Minimer når sidste besked er slettet",IDC_CHK_MINIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,195,10
+    CONTROL         "Vis sidste besked automatisk",IDC_CHK_LASTMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,195,10
+    CONTROL         "Citere original meddelse",IDC_CHK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,195,10
+    CONTROL         "Sæt egen tekst i toppen ved svar",IDC_CHK_REPLYTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,195,10
+    CONTROL         "Funktioner",IDC_CHK_CRSEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,195,10
+    CONTROL         "Slå slet knappe fra ",IDC_CHK_DISABLEDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,195,10
+    CONTROL         "Vis resultat af beskedsaflevering i Pop op vindue",IDC_CHK_BALLOONONMSGFAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,10,90,195,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Dobbeltklik for at aktivere hyperlinks",IDC_CHK_DBLCLICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,100,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Send altid pc navn i fra-feltet",IDC_CHK_SENDPCNAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,110,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Bip ved ny besked",IDC_CHK_BEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,138,195,10
+    CONTROL         "Afspil WAV-fil ved ny besked",IDC_CHK_WAV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,148,195,10
+    EDITTEXT        IDC_TXT_WAV,22,159,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_PLAY,143,159,14,13,BS_ICON | WS_DISABLED
+    LTEXT           "Lydeffekter",IDC_STATIC,10,125,100,10
+    LTEXT           "Flere indstillinger",IDC_STATIC,156,96,52,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | SS_CENTERIMAGE,
+                    10,134,184,1,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 232, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Om"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,5,32,14,WS_GROUP
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,5,5,177,37
+    LTEXT           "",IDC_TXT_ABOUTVERSION,6,120,204,12
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 253, 158
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Matro! :)"
+MENU IDR_MENU1
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        TXT_MAIN_FROM,30,5,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_INFO,120,5,87,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_TO,30,15,155,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Fra   ",IDC_MAIN_FROM,5,5,20,9
+    LTEXT           "Til ",IDC_MAIN_TO,5,15,20,9
+END
+
+IDD_DLG_SENDMESSAGE DIALOGEX 0, 0, 196, 147
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "RealPopup: Send besked"
+MENU IDR_MENU2
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    LTEXT           "Til ",IDC_TO,5,7,10,9
+    COMBOBOX        CBO_TO,20,10,165,35,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_NETWORK DIALOG  0, 0, 198, 143
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "RealPopup: Netværk browser"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,5,55,14,WS_DISABLED
+    PUSHBUTTON      "Fortyd",IDCANCEL,140,22,55,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,5,5,130,135
+    PUSHBUTTON      "?",ID_HELP,140,125,55,14
+END
+
+IDD_CRITERIA DIALOGEX 0, 0, 322, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Soge kriterie input box"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CRITERIA,30,132,150,14,ES_UPPERCASE | ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,265,5,50,14
+    PUSHBUTTON      "Fortryd",IDCANCEL,265,22,50,14
+    LTEXT           "devworkbymatro:)",IDC_SEARCHCRITERIA,30,5,225,115
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "Soge kriterie",IDC_STATIC,30,122,90,10
+END
+
+IDD_SERVICE DIALOG  0, 0, 307, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Besked service behandling"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Lad RealPopup overtage kontrollen (anbefales)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,65,
+                    195,10
+    CONTROL         "Lad standard besked systemet fortsætte uændret",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,76,
+                    195,10
+    LTEXT           "Du kan ændre denne valgmulighed senere, under Program fanebladet.",IDC_STATIC,30,90,235,10
+    DEFPUSHBUTTON   "OK",IDOK,250,5,50,14
+    ICON            IDR_SERVICE,IDC_STATIC,4,5,20,20
+    LTEXT           "RealPopup har konstateret at messenger servicen korer. RealPopup understotter standard messenger servicen i Windows NT/2000/XP.",IDC_STATIC,30,5,215,25
+    LTEXT           "Hvis du onsker at bibeholde dit standard besked system af en eller anden grund, skal du være opmærksom på at din RealPopup kun kan kommunikere med andre RealPopup brugere.",IDC_STATIC,30,35,215,25
+END
+
+IDD_PP_LANG DIALOGEX 0, 0, 197, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Layout og sprog"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_FONTRICHEDIT,6,51,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_FONTEDIT,6,71,15,15,BS_ICON
+    LTEXT           "Klik på knappen for at vælge din foretrukne skrifttype til indholdsruderne.",IDC_STATIC,31,51,160,20
+    LISTBOX         IDC_LSTLANGUAGE,6,96,60,90,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Vælg dit foretrukne sprog. For ændringerne kan træde i kraft, skal du genstarte RealPopup. Du skal anvende en lokal Windows version for ikke standard fonte, som f.eks. Russisk.",IDC_STATIC,71,96,120,60
+    LTEXT           "skrevet af Matro",IDC_LANGUAGE,71,160,125,22
+    LTEXT           "Vælg din foretrukne skrifttype til informations felterne, som f.eks. Fra og Til.",IDC_STATIC,31,71,160,22
+    PUSHBUTTON      "",IDC_BTN_SAVEWIN,6,11,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_SAVEWINDEF,6,31,15,15,BS_ICON
+    LTEXT           "Klik på denne knap for at gemme vinduets position og storrelse.",IDC_STATIC,31,11,145,18
+    LTEXT           "Hvis du har problemer, så klik her for at gendanne standard positioner og st°rrelser.",IDC_STATIC,31,31,145,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PP_ENV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        VERTGUIDE, 10
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_PP_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_PP_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PP_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,6,0,0
+ PRODUCTVERSION 2,6,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Sprogindstilling til RealPopup\0"
+            VALUE "CompanyName", "Matro\0"
+            VALUE "FileDescription", "Sprogindstilling (Engelsk) til RealPopup\0"
+            VALUE "FileVersion", "2.6"
+            VALUE "InternalName", "RealPopup\0"
+            VALUE "LegalCopyright", "Matro, freeware\0"
+            VALUE "LegalTrademarks", "Localized by C Bitsch\0"
+            VALUE "OriginalFilename", "RealPopup.EXE\0"
+            VALUE "ProductName", "RealPopup\0"
+            VALUE "ProductVersion", "2.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_NEW
+    BUTTON      ID_BTN_ANSWER
+    BUTTON      ID_BTN_ANSWERALL
+    BUTTON      ID_BTN_FORWARD
+    SEPARATOR
+    BUTTON      ID_BTN_DEL
+    BUTTON      ID_BTN_DELTHREAD
+    SEPARATOR
+    BUTTON      ID_BTN_PREV
+    BUTTON      ID_BTN_NEXT
+    BUTTON      ID_BTN_COPY
+    BUTTON      ID_BTN_SAVE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+    BUTTON      ID_BTN_OPTIONS
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_SEND
+    BUTTON      ID_BTN_CANCEL
+    SEPARATOR
+    BUTTON      ID_BTN_SENDCUT
+    BUTTON      ID_BTN_SENDCOPY
+    BUTTON      ID_BTN_SENDPASTE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_NETTREE             BITMAP                  "res\\nettreepc.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "res\\rptitle.bmp"
+IDB_BITMAP_RPLOGO       BITMAP                  "res\\NetworkBrowserLogo.bmp"
+IDB_TOOLBAR1HI          BITMAP                  "res\\toolbar1hi.bmp"
+IDB_TOOLBAR2HI          BITMAP                  "res\\toolbar2hi.bmp"
+IDB_TOOLBAR1HIDIS       BITMAP                  "res\\toolbar1hi dis.bmp"
+IDB_TOOLBAR2HIDIS       BITMAP                  "res\\toolbar2hi dis.bmp"
+IDB_TOOLBAR2HIHOT       BITMAP                  "res\\toolbar2hi hot.bmp"
+IDB_TOOLBAR1HIHOT       BITMAP                  "res\\toolbar1hi hot.bmp"
+IDB_NETTREEHI           BITMAP                  "res\\nettreepchi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&Besked"
+    BEGIN
+        MENUITEM "&Send\tCtrl+S",                     ID_BTN_SEND
+        MENUITEM "A&fbryd\tEsc",                     ID_BTN_CANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "Kl&ip\tCtrl+X",                     ID_BTN_SENDCUT
+        MENUITEM "&Kopier\tCtrl+C",                     ID_BTN_SENDCOPY
+        MENUITEM "&Sæt ind\tCtrl+V",                     ID_BTN_SENDPASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Netværk &browser...",                     ID_BTN_NETWORK
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&Indstillinger"
+    BEGIN
+        MENUITEM "&Forstyr ikke",                     ID_TRAY_DISABLE
+        MENUITEM "&Jeg er ikke tilstede",                    ID_TRAY_AWAY
+        MENUITEM "&Vågn op automatisk",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "F&unktioner",                     ID_BTN_OPTIONS
+        MENUITEM "&Afslut",                     ID_TRAY_EXIT
+    END
+    POPUP "&Besked"
+    BEGIN
+        MENUITEM "&Ny...\tCtrl+N",                     ID_BTN_NEW
+        MENUITEM "Besva&r...\tCtrl+R",                     ID_BTN_ANSWER
+        MENUITEM "&Besvar alle...\tCtrl+A",                     ID_BTN_ANSWERALL
+        MENUITEM "&Videresend...\tCtrl+F",                     ID_BTN_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "&Ignorer tråd",                    ID_BTN_DELTHREAD
+        MENUITEM "Genoptag &tråd",                    ID_BTN_RESUMETHREADS
+        MENUITEM SEPARATOR
+        MENUITEM "Slet a&lle\tCtrl+Shift+Del",                     ID_BTN_DELALL
+        MENUITEM "&Slet\tCtrl+Del",                     ID_BTN_DEL
+        MENUITEM "&Forrige\tCtrl+PgUp",                     ID_BTN_PREV
+        MENUITEM "N&æste\tCtrl+PgDn",                     ID_BTN_NEXT
+        MENUITEM "&Kopier\tCtrl+C",                     ID_BTN_COPY
+        MENUITEM "&Gem...",                     ID_BTN_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Netværk &browser...",                     ID_BTN_NETWORK
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Hjælp...",                     ID_BTN_HELP
+        MENUITEM "Velkomst &besked",                     ID_BTN_WELCOMEMSG
+        MENUITEM "&Om",                     ID_BTN_ABOUT
+    END
+END
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "MATRO"
+    BEGIN
+        MENUITEM "&Åben",                     ID_TRAY_OPEN
+        MENUITEM "&Minimer",                     ID_TRAY_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "&Forstyr ikke",                     ID_TRAY_DISABLE
+        MENUITEM "&Jeg er ikke tilstede",                    ID_TRAY_AWAY
+        MENUITEM "&Automatisk vågn op",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Ny besked...",                     ID_BTN_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "F&unktioner",                     ID_BTN_OPTIONS
+        MENUITEM "A&fslut",                     ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LINK         CURSOR                  "res\\LGEUP.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_RPENABLED           ICON                    "res\\rppe.ico"
+IDR_MAINFRAME           ICON                    "res\\RealPopup.ico"
+IDR_MSGARRIVED          ICON                    "res\\new_msg.ico"
+IDR_TRAYICON            ICON                    "res\\idr_msga.ico"
+IDR_MSGDISABLED         ICON                    "res\\idr_msgd.ico"
+IDR_PLAY                ICON                    "res\\idr_play.ico"
+IDR_NETWORK             ICON                    "res\\icon1.ico"
+IDR_EDITFONT            ICON                    "res\\idr_edit.ico"
+IDR_RICHEDITFONT        ICON                    "res\\idr_rich.ico"
+IDR_POSSAVE             ICON                    "res\\idr_poss.ico"
+IDR_POSDEFAULT          ICON                    "res\\idr_posd.ico"
+IDR_SRCINSERT           ICON                    "res\\idr_srci.ico"
+IDR_MSGARRIVED2         ICON                    "res\\old_msgs.ico"
+IDR_MSGAWAY             ICON                    "res\\idr_away.ico"
+IDR_SERVICE             ICON                    "res\\service.ico"
+IDR_WPENABLED           ICON                    "res\\wppe.ico"
+IDR_WPDISABLED          ICON                    "res\\wppd.ico"
+IDR_RPDISABLED          ICON                    "res\\rppd.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMENU1 ACCELERATORS 
+BEGIN
+    "A",            ID_BTN_ANSWERALL,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_BTN_FORWARD,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_BTN_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_BTN_ANSWER,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DEL,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DELALL,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_BTN_HELP,            VIRTKEY, NOINVERT
+    VK_NEXT,        ID_BTN_NEXT,            VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_BTN_PREV,            VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCMENU2 ACCELERATORS 
+BEGIN
+    "S",            ID_BTN_SEND,            VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_BTN_CANCEL,          VIRTKEY, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\RealPopup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_WELCOMEMSG          TEXT                    "res\\welcomeDAN.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+2                       RT_MANIFEST             "res\\rt_manif.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&Om RealPopup..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SENDPASTE        "Indsæt fra klippebordet..\nIndsæt"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW              "Send ny besked til bruger(e) eller hele netværket.\nNy besked"
+    ID_BTN_ANSWER           "Send svar til afsenderen.\nBesvar"
+    ID_BTN_ANSWERALL        "Send svar til både afsender og modtagere.\nBesvar alle"
+    ID_BTN_FORWARD          "Videresend beskeden til andre bruger(e).\nVideresend"
+    ID_BTN_DELTHREAD        "Ignorer den nuværende tråd.\nIgnorer tråd"
+    ID_BTN_RESUMETHREADS    "Genoptag tidligere ignorerede tråde."
+    ID_BTN_DELALL           "Slet alle beskeder.\nSlet alle"
+    ID_BTN_DEL              "Slet nuværende besked.\nSlet"
+    ID_BTN_PREV             "Se forrige besked.\nForrige"
+    ID_BTN_NEXT             "Se næste besked.\nNæste"
+    ID_BTN_COPY             "Kopier hele eller dele af beskeden.\nKopier"
+    ID_BTN_SAVE             "Gem besked som tekst fil.\nGem"
+    ID_BTN_SEND             "Send beskeden til brugeren eller hele netværket\nSend besked"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_CANCEL           "Fortryd afsendelsen\nFortryd"
+    ID_BTN_OPTIONS          "Åben menuen Funktioner. \nFunktioner"
+    ID_BTN_ABOUT            "Om menuen."
+    ID_BTN_WELCOMEMSG       "Se velkomst besked igen! :)"
+    ID_BTN_HELP             "Viser hjælpefilen."
+    ID_TRAY_OPEN            "Brug dette emne til at åbne RealPopup vinduet."
+    ID_TRAY_MINIMIZE        "Minimer RealPopup til Proceslinien."
+    ID_TRAY_DISABLE         "Modtag ikke beskeder."
+    ID_TRAY_EXIT            "Luk RealPopup programmet."
+    ID_TRAY_REDIRECT        "Slå besked omdirigering fra, og ignorer (hvis nogen)."
+    ID_TRAY_AWAY            "Giv brugere besked på at du ikke er tilstede."
+    ID_BTN_NETWORK          "Led efter en bruger på netværket.\nNetværk browser"
+    ID_HELPFILE             "RPHelpENG.htm"
+    ID_BTN_SENDCOPY         "Kopier til klippebordet.\nKopier"
+    ID_BTN_SENDCUT          "Klip til klippebordet.\nKlip"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Klar."
+    MSG_SEND_ERROR          "Kunne ikke finde brugeren, eller beskeden kunne ikke afsendes."
+    MSG_POPUP_ERRINIT       "Kan ikke finde Winpopup kompatibel modtager-service: RealPopup vil ikke vµre i stand til at modtage beskeder fra Winpopup klienter.\n\n+rsager: a. Messenger servicen er aktiv og realpopup har ikke tilstrµkkelige rettigheder til at stoppe dem; b. Formentlig k°rer Winpopup allerede ps denne maskine; c. Der et andet program der hsndterer Winpopup beskeder. \n\nPr°v igen senere at dobbeltklikke ps iconen i nederste h°jre i status baren."
+    MSG_DIALOG_CAPTION      "RealPopup besked"
+    DEF_USERNAME            "BRUGER"
+    AUTOMSG_BETA_FROM       "RealPopup"
+    AUTOMSG_BETA_TO         "Ny bruger!"
+    MSG_BETA_OUT            "Denne RealPopup beta version er udl°bet. Fs den opdaterede version her: http://www.realpopup.it og f°lg med ps diskussionsgruppen http://groups.yahoo.com/group/RealPopupdisc."
+    MSG_VERSION             "ADVARSEL: Dette er en BETA udgave, der udl°ber den %i-%i-%i. \n\nHent opdateret version ps: www.realpopup.it/ og f°lg med i diskussionsgruppen ps http://groups.yahoo.com/group/RealPopupdisc.\n\nDend mail for information til beta@realpopup. Tak."
+    MSG_STATUS_WPSENT       "WinPopup kompatibel besked sendt til %s."
+    MSG_STATUS_RPSENT       "%s modtog beskeden."
+    MSG_ABOUT               "Udviklet af Matro, Rome (Italy).\n\nDette program er freeware:\brug og videregiv det frit!\n\nRealPopup hjemmeside:\nwww.realpopup.it\n\nMatro's hjemmeside:\nwww.realpopup.it/matro\n\nSend feedbacks til matro@realpopup.it.\n\nDownload lokal RealPopup med dit sprog fra hjemmesiden!\n\nRealPopup vil ikke vµre ss godt uden hjµlp fra lokale oversµttere, aktive brugere, beta testere og freeware kode rundt i verden. Se download siden www.realpopup.it/download.html. Tak til alle!\n\nEn stor tak for alt feedback og til alle Realpopup mail liste tilmeldte.\n\nMatro.\n\nRealPopup har modtaget %i og sendt %i beskeder siden installationen.\n"
+    MSG_WARNONEXIT          "Hvis du afslutter RealPopup, kan du ikke længere modtage eller sende beskeder. Er du sikker?\n\nHvis du ikke onsker at se denne advarsel i fremtiden, så fjern markeringen 'Advar ved afslut' under fanebladet Funktioner."
+    MSG_RECEIVE_MULTIPARTERROR "* RealPopup intern besked *\n\nEn besked blev sendt fra %s men der skete en fejl ved overforslen. Afsenderen har fået en advarsel herom."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DDXFILE_TT_CAPTION  "Skriv venligst et filnavn"
+    IDS_DDXFILE_OK          "OK"
+    IDS_DDXFILE_EDIT_TEXT   "..."
+    IDS_DDXFILE_OVERWRITE_PROMPT "%1\nDette filnavn eksisterer allerede.\nSkal den eksisterende fil erstattes?"
+    IDS_DDXFILE_FILTER_LOG  "Log Filer (*.log)|*.log||"
+    IDS_DDXFILE_FILTER_WAV  "Wav Filer (*.wav)|*.wav||"
+    IDS_DDXFILE_FILTER_TXT  "Tekst Filer (*.txt)|*.txt||"
+    FMT_LOG_DATE            "den %a %d, %b %Y at %H:%M.%S"
+    FMT_LOG_FROMTO          "Fra %s Til %s %s\n\n"
+    OPTIONS_CAPTION         "RealPopup: Funktioner"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_SEND_MULTIPARTERROR "* RealPopup intern besked *\n\nBeskeden sendt til %s blev ikke afsendt. Prov at sende den igen."
+    MSG_REALPOPUP_ERRINIT   "Kan ikke starte Realpopup modtageren: RealPopup vil ikke vµre i stand til at modtage beskeder fra andre RealPopup brugere.\n\nFormentlig k°rer en anden version af RealPopup allerede ps denne maskine, eller msske er NetBios ikke bundet til en protekol.\n\nPr°v igen senere at dobbeltklikke ps iconen i nederste h°jre hj°rne af status baren."
+    MSG_USERS_ERRLOAD       "Kan ikke indlæse bruger informationer: formentlig er din RP<user>.dat ikke kompatibel, du bor slette den."
+    DEF_ALLUSERS            "(ALLE BRUGERE)"
+    TOOLTIP_IDLE            "RealPopup"
+    TOOLTIP_MSG             "RealPopup: %i besked."
+    TOOLTIP_MSGS            "RealPopup: %i beskeder."
+    MSG_ERRNOTRECEIVED      "*** RealPopup %s intern besked ***\n\nBruger %s har ikke modtaget din besked; måske er brugeren ikke logget på, brugerens pc er optaget, eller brugeren har ikke RealPopup startet. \n\nHvis brugeren har Winpopup eller et andet besked-program, ss tilf°j den til WINPOPUP gruppen under Brugere og Grupper fanebladet."
+    MSG_STATUS_NOTRECEIVED  "Advarsel: %s har ikke modtaget beskeden."
+    MSG_ONLINEWARN          "Bruger %s er tilgængelig ved %s."
+    MSG_STATUS_ONLINEWARNNOTRECEIVED "Bruger %s har ikke modtaget advarslen."
+    MSG_ONLINEWARNSTATUS    "Bruger %s er nu online!"
+    MSG_REDIRECTING         "Besked fra %s omdirigeret til %s."
+    MSG_REDIRECTING_ERR     "Kan ikke omdirigere fra %s til %s: teknisk fejl."
+    MSG_LOGHEAD             "RealPopup %s log fil\n\n"
+    MSG_STATUS_TOOLONG      "Advarsel: %s har ikke modtaget beskeden."
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRTOOLONG          "*** RealPopup %s intern besked ***\n\nBruger %s har ikke modtaget din besked; RealPopup kan ikke sende besked med Winpopup protekollen fordi beskeden er for lang - %i karakterer - og overstiger NET SEND besked længden på ca. 900 karakterer.\n\nSæt DisableMessageLengthCheck indstillingen til 1 for at frakoble dette tjek."
+    MSG_STATUS_RPSENT_OLDVER "%s modtog beskeden; giv besked om at opgradere fra %s til %s! :)"
+    MSG_ERRDISABLED         "*** RealPopup %s intern besked ***\n\n%s's RealPopup er slået fra, så brugeren har kke modtaget din besked."
+    MSG_WARNONCANCELINGSEND "Er du sikker på at du onsker at afbyde?\n\nHvis du onsker at slå denne meddelelse fra, kan du gore det under Funktioner."
+    MSG_ERR_NOTCREATABLE    "Kan ikke danne filen."
+    MSG_SAVEHEAD            "RealPopup %s gemte beskeden\n\n"
+    MSG_AUTOSTART_WARN      "Hvis du have RealPopup til at starte automatisk ved Windows start?"
+    MSG_AUTOSTART_MSG       "*** RealPopup %s intern besked ***\n\nKan du lide RealPopup? =o)\n\nHvis du synes det er et godt program, så vælg Funktioner og marker 'Indlæs ved Windows start'!\n\nMatro"
+    MSG_LOCALIZE_ABOUT      "Danish language V2.6\nLocalized by Carsten Bitsch "
+    MSG_LOCALIZE_DESC       "Danish"
+    IDS_WEEKDAYS            "son|man|tir|ons|tor|fre|lor"
+    MSG_ERR_USERINSERT      "Den specificerede bruger eller gruppe eksisterer ikke og kan ikke indsættes.\n\nHvis du onsker at specificere en sogestreng, skal den være i paranteser, og hvert emne skal være separeret med en efterfolgende skråstreg, som for eksempel:\nSERVER1[SPOOLER|DISK]\nDenne sogning vil lede efter bruger eller gruppe SERVER1, hvis den indkomne besked i teksten indeholder et af ordene SPOOLER eller DISK.\n\nBrug ikke mere end to paranteser. Hvis du onsker at specificere forskellige muligheder baseret på indholdsteksten, skal du indsætte mere end en sætning, som her:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nHver sætning kan have forskellige opsætninger; sætninger unden sogestreng betyder 'al tekst indhold'.\n\nHvis du onsker kun at specificere en bruger eller gruppe, skal du undlade paranteserne."
+    MSG_SEARCHCRITERIA      "Du kan tilknytte soge kriterier til brugere eller grupper du definerer; indstillinger vil blive accepteret hvis sogningen stemmer med forsporgslen. Det er muligt at tilknytte flere sogestrenge adskilt af efterfolgende | karakteren. Tekststrenge kan kombineres med OR, som betyder at brugeren eller gruppen er gyldig hvis blot en af strengene passer.\n\nFor eksempel, soge-strengen 'SPOOLER|DISK' vil finde den bruger eller gruppe som er defineret i beskeden, hvis det indeholder enten orden spooler eller disk.\n\nIndtast dit sogekriterie her. Du kan skrive den direkte på bruger eller gruppe niveau ved at sætte den i parantes []. Denne dialog vil oversætte for dig."
+    MSG_ERR_HOTKEY          "Kan ikke sætte genvejstasten. Måske anvendes kombinationen allerede af et andet program eller ogss er der allerede et RealPopup program k°rende i forvejen."
+    MSG_ERR_REPLY           "\n\nSvar på denne besked hvis du onsker at sende den igen.\n\nBesked folger:\n---\n"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRAWAY             "*** RealPopup %s intern besked ***\n\nBruger %s er ikke tilstede; din besked vil blive læst senere."
+    MSG_ERR_MSNSTOPDENIED   "RealPopup kan ikke stoppe besked systemet, idet du ikke har Administrator rettigheder. Kontakt din administrator for detaljer.\n\nRealPopup vil kun kommunikere med andre RealPopup brugere."
+    MSG_ERR_MSNSTOPERR      "RealPopup kan ikke stoppe besked systemet på grund af en uventet fejl. Prov igen senere.\n\nRealPopup vil kun kommunikere med andre RealPopup brugere."
+    MSG_STATUS_CMDLINESENT  "Sender besked fra kommandolinie til %s..."
+    MSG_CMDLINE_HELP        "*** RealPopup %s intern besked ***\r\n\r\nKommandolinie support.\nFor du kan sende en besked fra kommandolinien, skal RealPopup være startet mindst en gang: dette vil starte besked-behandleren.\n\n-send <til> <besked>\nSend en besked til en bruger eller en gruppe; du kan definere mere end en modtager, adskilt af kommaer. Skriv beskeden i citationstegn hvis du bruger mellemrumstegn; indsæt ASCII(13) og ASCII(10) for linieskift.\n\n-noactivate\nDenne option får RealPopup til ikke at blive aktiveret via  kommandolinien.\n\n-posreset\nGendan storrelse og placering af vinduet.\n\nExample:\nrealpopup -send MATRO,NEURAL 'Hej! Er det ikke smart? :-)' -noactivate\n"
+    MSG_NBROWSER_RPUSERS    "Farvorit brugere"
+    MSG_WARNDOMAIN          "Du er ved at sende en besked til hele domænet %s; denne besked vil blive læst af alle brugere der er logget på. Er du sikker?\n\nHvis du ikke onsker at se denne advarsel igen, så skal du fjerne markeringen 'Advar ved send til domæner' under fanebladet Funktioner.\n"
+    ITEM_USESREALPOPUP      "Bruger RealPopup"
+    ITEM_USESWINPOPUP       "Benytter helt sikkert WinPopup"
+    MSG_WELCOME             "Velkommen til RealPopup, dette freeware program er det fuldkommende WinPopup erstatningsprogram til dit netværk ! Dobbelklik på ikonen nedenfor for at åbne programmet og lµse velkomst beskeden. "
+    MSG_INTERNALMSGHEAD     "*** RealPopup %s Besked ***\r\n\r\n"
+    MSG_BALLOON_NEWMSG      "Meddelse fra %s"
+    MSG_MESSAGESWAITING     " (%i meddelser venter)"
+    MSG_BALLOON_ERRMSG      "Bruger %s har ikke læst din meddelse"
+    MSG_OFFLINEWARNSTATUS   "Bruger %s logged ud fra %s."
+    TOOLTIP_STATUS_WPENABLED "WinPopup protocol startet"
+END
+
+STRINGTABLE 
+BEGIN
+    TOOLTIP_STATUS_RPENABLED "RealPopup protocol aktiv"
+    TOOLTIP_STATUS_WPDISABLED "WinPopup protocol ikke aktiv"
+    TOOLTIP_STATUS_RPDISABLED "RealPopup protocol ikke aktiv"
+    MSG_POPUP_ERRMSGSERVICE "Kan ikke starte WinPopup kompatibel modtager: standard Messenger service er aktiv og RealPopup har ikke rettigheder nok til at stoppe.\n\nDu kan (a) kore RealPopup med tilstrækkelige rettigheder, (b) lade Administratoren ændre rettighederne til din bruger/gruppe eller (c) manuelt slukke messenger service.\n\nProv igen at dobbelt klikke på nederste hojre icon i status baren senere."
+    MSG_BALLOON_POPUP_ERRMSGSERVICE "Kan ikke starte WinPopup kompatibel modtager: standard Messenger service er aktiv og RealPopup har ikke rettigheder nok til at stoppe. Åben RealPopup for at læse mere."
+    MSG_BALLOON_POPUP_ERRINIT "Kan ikke starte WinPopup kompatibel modtager: måske korer der allerede RealPopup eller WinPopup kompatibel klient på maskinen. Åben RealPopup for at læse mere."
+    MSG_BALLOON_REALPOPUP_ERRINIT "Kan ikke starte RealPopup modtager: måske korer der allerede en RealPopup instance på maskinen. Åben RealPopup for at læse mere."
+    MSG_ERR_HOTKEYHEAD      "RealPopup aktivering hotkey"
+END
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\RealPopup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+

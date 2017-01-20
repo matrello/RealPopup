@@ -1,0 +1,786 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ENV DIALOGEX 0, 0, 207, 187
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Application"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "Executer avec Windows",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,120,10
+    CONTROL         "Toujours visible",IDC_CHK_TOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,10,75,8
+    CONTROL         "Avertir en annulant un envoi",IDC_CHK_WARNDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,120,10
+    CONTROL         "Avertir en quittant",IDC_CHK_WARN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,20,75,10
+    CONTROL         "Avertir lors d'un envoi vers un domaine",IDC_CHK_WARNDOMAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,185,10
+    CONTROL         "Prévenir si le protocole de RealPopup est inactif",IDC_CHK_WARNRPPROTOCOLNOTACTIVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,40,185,10
+    CONTROL         "Le bouton de gauche active le menu",IDC_CHK_LEFTTRAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,185,10
+    CONTROL         "Etat Absent si Ecran de veille",IDC_CHK_AWAY,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,60,188,10,WS_EX_TRANSPARENT
+    CONTROL         "Détermine les utilisateurs favoris",IDC_CHK_NBDETERMINEFAVORITES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,70,182,10
+    CONTROL         "HotKey1",IDC_RPHOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,10,85,72,12
+    LTEXT           "RealPopup fourni les fonctions standard du service Messagerie de Windows NT/2000/XP.",IDC_STATIC_MSN1,10,108,150,20
+    LTEXT           "Touche pour activer RealPopup",IDC_STATIC,84,87,119,8
+    CONTROL         "Laisser RealPopup utiliser le service Messagerie",IDC_MSN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,128,175,10
+    CONTROL         "Ne pas utiliser le service Messagerie",IDC_MSN2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,138,180,10
+    ICON            IDR_SERVICE,IDC_STATIC,164,108,20,20
+    LTEXT           "Pour que le changement soit appliqué, vous devez redémarrer RealPopup.",IDC_STATIC_MSN2,10,152,150,20
+END
+
+IDD_PP_USERS DIALOGEX 0, 0, 212, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Utilisateurs et groupes"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TXT_USER,5,11,85,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_USER,"msctls_updown32",UDS_ARROWKEYS | 
+                    WS_DISABLED,93,10,11,14
+    PUSHBUTTON      "6",IDC_NETWORK,106,11,14,13,BS_ICON
+    PUSHBUTTON      "6",IDC_SRCINSERT,121,11,14,13,BS_ICON
+    PUSHBUTTON      "&Ajouter",IDC_BTN_ADD,138,11,34,13,WS_DISABLED
+    PUSHBUTTON      "&Supprimer",IDC_BTN_REMOVE,174,11,34,13,WS_DISABLED
+    LISTBOX         IDC_LISTUSERS,6,30,85,168,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Utilisateur",IDC_OPT_USER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,95,30,110,8
+    CONTROL         "Groupe (membres:)",IDC_OPT_GROUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,40,110,8
+    EDITTEXT        IDC_TXT_MEMBERS,105,50,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK2,192,50,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Inclure dans les utilisateurs favoris",IDC_CHK_NBINCLUDEFAVORITES,"Button",
+                    BS_AUTO3STATE | WS_DISABLED | WS_TABSTOP,95,65,110,8
+    CONTROL         "",IDC_CHK_USESRP,"Button",BS_AUTO3STATE | WS_DISABLED | 
+                    WS_TABSTOP,95,88,10,10
+    COMBOBOX        IDC_CBO_USESRP,105,86,100,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_DISABLED | 
+                    WS_TABSTOP
+    CONTROL         "Ignorer les messages",IDC_CHK_IGNORE,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,101,110,8
+    CONTROL         "Fenêtre en avant à la réception d'un message",IDC_CHK_POPUPNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,111,110,8
+    CONTROL         "Bulle pour un nouveau message",IDC_CHK_BALLOONNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,121,110,8
+    CONTROL         "Prévisualiser dans une bulle",IDC_CHK_BALLOONPREVIEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,131,110,8
+    CONTROL         "Prévenir quand il se connecte",IDC_CHK_ONLINEWARN,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,141,110,8
+    CONTROL         "Transfert des messages à:",IDC_CHK_REDIRECT,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,151,110,8
+    EDITTEXT        IDC_TXT_REDIRECT,105,161,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK3,192,161,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Log messages vers:",IDC_CHK_LOG,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,175,110,8
+    EDITTEXT        IDC_TXT_LOG,105,185,85,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CONTROL         "Membres",IDC_OPT_NBINCLUDEASMEMBERS,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,106,75,44,10
+    CONTROL         "Groupe",IDC_OPT_NBINCLUDEASGROUP,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,153,75,53,10
+END
+
+IDD_PP_MSG DIALOGEX 0, 0, 212, 181
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Messages"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "Supprimer le message original après réponse",IDC_CHK_DELORIGINAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,195,10
+    CONTROL         "Minimiser la fenêtre après réponse",IDC_CHK_MINIMIZEREPL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,195,10
+    CONTROL         "Minimiser la fenêtre après suppression du dernier message",IDC_CHK_MINIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,195,10
+    CONTROL         "Montrer automatiquement le dernier message reçu",IDC_CHK_LASTMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,195,10
+    CONTROL         "Rappeler le message d'origine",IDC_CHK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,195,10
+    CONTROL         "Positionner le curseur au début pour répondre",IDC_CHK_REPLYTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,195,10
+    CONTROL         "Appuyer sur entrée pour envoyer le message",IDC_CHK_CRSEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,195,10
+    CONTROL         "Désactiver temporairement le bouton supprimer",IDC_CHK_DISABLEDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,195,10
+    CONTROL         "Notifier le résultat de l'envoi des messages avec une bulle",IDC_CHK_BALLOONONMSGFAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,10,90,195,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Double clique pour activer les liens hypertextes",IDC_CHK_DBLCLICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,100,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Toujours envoyer avec le nom de l'ordinateur",IDC_CHK_SENDPCNAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,110,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Beeper à la reception d'un nouveau message",IDC_CHK_BEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,138,195,10
+    CONTROL         "Jouer un WAV à la réception d'un nouveau message",IDC_CHK_WAV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,148,195,10
+    EDITTEXT        IDC_TXT_WAV,22,159,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_PLAY,143,159,14,13,BS_ICON | WS_DISABLED
+    LTEXT           "Effets sonores",IDC_STATIC,10,125,100,10
+    LTEXT           "Juste pour couvrir",IDC_STATIC,156,96,52,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | SS_CENTERIMAGE,
+                    10,134,184,1,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 232, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: A Propos de"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,5,32,14,WS_GROUP
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,5,5,177,37
+    LTEXT           "",IDC_TXT_ABOUTVERSION,6,120,204,12
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 253, 158
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Matro! :)"
+MENU IDR_MENU1
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        TXT_MAIN_FROM,30,5,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_INFO,120,5,87,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_TO,30,15,155,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "De",IDC_MAIN_FROM,5,5,20,9
+    LTEXT           "A",IDC_MAIN_TO,5,15,20,9
+END
+
+IDD_DLG_SENDMESSAGE DIALOGEX 0, 0, 196, 147
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "RealPopup: Envoyer un message"
+MENU IDR_MENU2
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    LTEXT           "A",IDC_TO,5,7,10,9
+    COMBOBOX        CBO_TO,20,10,165,35,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_NETWORK DIALOG  0, 0, 198, 143
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "RealPopup: Explorateur Réseau"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,5,55,14,WS_DISABLED
+    PUSHBUTTON      "Annuler",IDCANCEL,140,22,55,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,5,5,130,135
+    PUSHBUTTON      "?",ID_HELP,140,125,55,14
+END
+
+IDD_CRITERIA DIALOGEX 0, 0, 322, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Boite de saisie de recherche par critères"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CRITERIA,30,132,150,14,ES_UPPERCASE | ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,265,5,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,265,22,50,14
+    LTEXT           "devworkbymatro:)",IDC_SEARCHCRITERIA,30,5,225,115
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "Rechercher les critères",IDC_STATIC,30,122,90,10
+END
+
+IDD_SERVICE DIALOG  0, 0, 307, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Traitement du service de messagerie"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Laisser RealPopup utiliser le service Messagerie (recommandé)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,65,
+                    195,10
+    CONTROL         "Ne pas utiliser le service Messagerie de Windows",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,76,
+                    195,10
+    LTEXT           "Vous pouvez changer cette option plus tard dans le menu de configuration.",IDC_STATIC,30,90,235,10
+    DEFPUSHBUTTON   "OK",IDOK,250,5,50,14
+    ICON            IDR_SERVICE,IDC_STATIC,4,5,20,20
+    LTEXT           "RealPopup a détecté que le service messagerie est actif. RealPopup fourni les fonctions standard du service Messagerie de Windows NT/2000/XP.",IDC_STATIC,30,5,215,25
+    LTEXT           "Cependant, vous pouvez ne pas vouloir toucher au service Messagerie pour des raisons particulières; si tel est le cas, RealPopup ne communiquera qu'avec d'autres clients RealPopup.",IDC_STATIC,30,35,215,25
+END
+
+IDD_PP_LANG DIALOGEX 0, 0, 197, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Réglages et langues"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_FONTRICHEDIT,6,51,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_FONTEDIT,6,71,15,15,BS_ICON
+    LTEXT           "Appuyez sur le bouton pour choisir votre police préférée pour le contenu des messages.",IDC_STATIC,31,51,160,20
+    LISTBOX         IDC_LSTLANGUAGE,6,96,60,90,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Choisissez votre langue. Redémarrez RealPopup pour l'appliquer. Vous devez utiliser une version de windows pour laquelle une traduction de RealPopup est proposée, pour les polices particulières: russe...",IDC_STATIC,71,96,120,60
+    LTEXT           "Ecrit par Matro",IDC_LANGUAGE,71,160,125,22
+    LTEXT           "Choisissez votre police pour l'utilisation des champs expéditeur et destinataire(s).",IDC_STATIC,31,71,160,22
+    PUSHBUTTON      "",IDC_BTN_SAVEWIN,6,11,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_SAVEWINDEF,6,31,15,15,BS_ICON
+    LTEXT           "Appuyez sur ce bouton pour conserver la position et la taille de la fenêtre.",IDC_STATIC,31,11,145,18
+    LTEXT           "Si vous avez des problèmes, cliquez ici pour revenir à la taille et à la position par défaut.",IDC_STATIC,31,31,145,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PP_ENV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        VERTGUIDE, 10
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_PP_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_PP_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PP_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,6,0,0
+ PRODUCTVERSION 2,6,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Ressource de traduction pour RealPopup\0"
+            VALUE "CompanyName", "Matro\0"
+            VALUE "FileDescription", "Ressource de Traduction (Anglais) pour RealPopup\0"
+            VALUE "FileVersion", "2.6"
+            VALUE "InternalName", "RealPopup\0"
+            VALUE "LegalCopyright", "Matro, gratuiciel\0"
+            VALUE "LegalTrademarks", "Traduit par Olivier MARTIN\0"
+            VALUE "OriginalFilename", "RealPopup.EXE\0"
+            VALUE "ProductName", "RealPopup\0"
+            VALUE "ProductVersion", "2.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_NEW
+    BUTTON      ID_BTN_ANSWER
+    BUTTON      ID_BTN_ANSWERALL
+    BUTTON      ID_BTN_FORWARD
+    SEPARATOR
+    BUTTON      ID_BTN_DEL
+    BUTTON      ID_BTN_DELTHREAD
+    SEPARATOR
+    BUTTON      ID_BTN_PREV
+    BUTTON      ID_BTN_NEXT
+    BUTTON      ID_BTN_COPY
+    BUTTON      ID_BTN_SAVE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+    BUTTON      ID_BTN_OPTIONS
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_SEND
+    BUTTON      ID_BTN_CANCEL
+    SEPARATOR
+    BUTTON      ID_BTN_SENDCUT
+    BUTTON      ID_BTN_SENDCOPY
+    BUTTON      ID_BTN_SENDPASTE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_NETTREE             BITMAP                  "res\\nettreepc.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "res\\rptitle.bmp"
+IDB_BITMAP_RPLOGO       BITMAP                  "res\\NetworkBrowserLogo.bmp"
+IDB_TOOLBAR1HI          BITMAP                  "res\\toolbar1hi.bmp"
+IDB_TOOLBAR2HI          BITMAP                  "res\\toolbar2hi.bmp"
+IDB_TOOLBAR1HIDIS       BITMAP                  "res\\toolbar1hi dis.bmp"
+IDB_TOOLBAR2HIDIS       BITMAP                  "res\\toolbar2hi dis.bmp"
+IDB_TOOLBAR2HIHOT       BITMAP                  "res\\toolbar2hi hot.bmp"
+IDB_TOOLBAR1HIHOT       BITMAP                  "res\\toolbar1hi hot.bmp"
+IDB_NETTREEHI           BITMAP                  "res\\nettreepchi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&Message"
+    BEGIN
+        MENUITEM "&Envoyer\tCtrl+S",                     ID_BTN_SEND
+        MENUITEM "&Annuler\tEsc",                     ID_BTN_CANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "Co&uper\tCtrl+X",                     ID_BTN_SENDCUT
+        MENUITEM "&Copier\tCtrl+C",                     ID_BTN_SENDCOPY
+        MENUITEM "Co&ller\tCtrl+V",                     ID_BTN_SENDPASTE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xplorateur réseau...",                     ID_BTN_NETWORK
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&Environnement"
+    BEGIN
+        MENUITEM "&Ne pas déranger",                     ID_TRAY_DISABLE
+        MENUITEM "&Je suis absent",                    ID_TRAY_AWAY
+        MENUITEM "&Force le réveil",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...",                     ID_BTN_OPTIONS
+        MENUITEM "&Quitter",                     ID_TRAY_EXIT
+    END
+    POPUP "&Message"
+    BEGIN
+        MENUITEM "&Nouveau...\tCtrl+N",                     ID_BTN_NEW
+        MENUITEM "R&épondre...\tCtrl+R",                     ID_BTN_ANSWER
+        MENUITEM "&Répondre à tous...\tCtrl+A",                     ID_BTN_ANSWERALL
+        MENUITEM "&Transférer...\tCtrl+F",                     ID_BTN_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "&Ignorer le fil",                    ID_BTN_DELTHREAD
+        MENUITEM "Reprendre les &fils",                    ID_BTN_RESUMETHREADS
+        MENUITEM SEPARATOR
+        MENUITEM "&Tout supprimer\tCtrl+Shift+Del",                     ID_BTN_DELALL
+        MENUITEM "&Supprimer\tCtrl+Del",                     ID_BTN_DEL
+        MENUITEM "&Précédent\tCtrl+PgUp",                     ID_BTN_PREV
+        MENUITEM "&Suivant\tCtrl+PgDn",                     ID_BTN_NEXT
+        MENUITEM "&Copier\tCtrl+C",                     ID_BTN_COPY
+        MENUITEM "&Enregistrer...",                     ID_BTN_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xploration réseau...",                     ID_BTN_NETWORK
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Aide...",                     ID_BTN_HELP
+        MENUITEM "&Message de Bienvenue...",                     ID_BTN_WELCOMEMSG
+        MENUITEM "&A Propos de...",                     ID_BTN_ABOUT
+    END
+END
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "MATRO"
+    BEGIN
+        MENUITEM "&Ouvrir",                     ID_TRAY_OPEN
+        MENUITEM "&Minimiser",                     ID_TRAY_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "&Ne pas déranger",                     ID_TRAY_DISABLE
+        MENUITEM "&Je suis absent",                    ID_TRAY_AWAY
+        MENUITEM "&Force le réveil",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Nouveau message...",                     ID_BTN_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...",                     ID_BTN_OPTIONS
+        MENUITEM "&Quitter",                     ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LINK         CURSOR                  "res\\LGEUP.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_RPENABLED           ICON                    "res\\rppe.ico"
+IDR_MAINFRAME           ICON                    "res\\RealPopup.ico"
+IDR_MSGARRIVED          ICON                    "res\\new_msg.ico"
+IDR_TRAYICON            ICON                    "res\\idr_msga.ico"
+IDR_MSGDISABLED         ICON                    "res\\idr_msgd.ico"
+IDR_PLAY                ICON                    "res\\idr_play.ico"
+IDR_NETWORK             ICON                    "res\\icon1.ico"
+IDR_EDITFONT            ICON                    "res\\idr_edit.ico"
+IDR_RICHEDITFONT        ICON                    "res\\idr_rich.ico"
+IDR_POSSAVE             ICON                    "res\\idr_poss.ico"
+IDR_POSDEFAULT          ICON                    "res\\idr_posd.ico"
+IDR_SRCINSERT           ICON                    "res\\idr_srci.ico"
+IDR_MSGARRIVED2         ICON                    "res\\old_msgs.ico"
+IDR_MSGAWAY             ICON                    "res\\idr_away.ico"
+IDR_SERVICE             ICON                    "res\\service.ico"
+IDR_WPENABLED           ICON                    "res\\wppe.ico"
+IDR_WPDISABLED          ICON                    "res\\wppd.ico"
+IDR_RPDISABLED          ICON                    "res\\rppd.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMENU1 ACCELERATORS 
+BEGIN
+    "A",            ID_BTN_ANSWERALL,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_BTN_FORWARD,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_BTN_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_BTN_ANSWER,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DEL,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DELALL,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_BTN_HELP,            VIRTKEY, NOINVERT
+    VK_NEXT,        ID_BTN_NEXT,            VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_BTN_PREV,            VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCMENU2 ACCELERATORS 
+BEGIN
+    "S",            ID_BTN_SEND,            VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_BTN_CANCEL,          VIRTKEY, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\RealPopup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_WELCOMEMSG          TEXT                    "res\\welcomeFRA.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+2                       RT_MANIFEST             "res\\rt_manif.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&A Propos de RealPopup..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SENDPASTE        "Coller dans le Presse-Papiers..\nColler"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW              "Envoyer un message à un ou plusieurs utilisateur(s) ou général.\nNouveau Message"
+    ID_BTN_ANSWER           "Répondre à l'expéditeur.\nRépondre"
+    ID_BTN_ANSWERALL        "Répondre à l'expéditeur et aux destinataires.\nRépondre à tous"
+    ID_BTN_FORWARD          "Transférer le message à d'autres utilisateurs.\nTransférer"
+    ID_BTN_DELTHREAD        "Ignorer le fil de discussion en cours.\nIgnorer le fil"
+    ID_BTN_RESUMETHREADS    "Reprendre les fils ignorés précédents."
+    ID_BTN_DELALL           "Supprimer tous les messages.\nTout supprimer"
+    ID_BTN_DEL              "Supprimer le message courant.\nSupprimer"
+    ID_BTN_PREV             "Voir le message précédent.\nPrécédent"
+    ID_BTN_NEXT             "Voir le message suivant.\nSuivant"
+    ID_BTN_COPY             "Copier une partie ou totalité du message.\nCopier"
+    ID_BTN_SAVE             "Enregistrer le message en fichier texte.\nEnregistrer"
+    ID_BTN_SEND             "Envoyer un message à l'utilisateur(s) ou général.\nEnvoyer le message"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_CANCEL           "Annuler l'envoi\nAnnuler"
+    ID_BTN_OPTIONS          "Ouvrir la fenêtre d'options.\nOptions"
+    ID_BTN_ABOUT            "Fenêtre A Propos de."
+    ID_BTN_WELCOMEMSG       "Lisez de nouveau le message de bienvenue! :)"
+    ID_BTN_HELP             "Afficher le fichier d'aide."
+    ID_TRAY_OPEN            "Utilisez cet élément pour ouvrir la fenêtre RealPopup."
+    ID_TRAY_MINIMIZE        "Minimiser RealPopup dans la barre des tâches."
+    ID_TRAY_DISABLE         "Ne recevoir aucun message."
+    ID_TRAY_EXIT            "Fermer RealPopup."
+    ID_TRAY_REDIRECT        "Désactiver la redirection du message et ignorer."
+    ID_TRAY_AWAY            "Informer les utilisateurs de votre absence."
+    ID_BTN_NETWORK          "Rechercher un utilisateur sur le réseau.\nExplorateur réseau"
+    ID_HELPFILE             "RPHelpFRA.htm"
+    ID_BTN_SENDCOPY         "Copier dans le Press-Papiers.\nCopier"
+    ID_BTN_SENDCUT          "Couper dans le Presse-Papiers.\nCouper"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Prêt."
+    MSG_SEND_ERROR          "Ne peux trouver l'utilisateur, ou ne peux pas envoyer le message."
+    MSG_POPUP_ERRINIT       "Impossible d'initialiser le réceptionneur Winpopup: RealPopup ne sera pas en mesure de réceptionner les messages issus du service messagerie de Windows.\n\nLes principales causes sont: a. Le service messagerie est actif et RealPopup ne dispose pas des privilèges suffisants pour le stopper; b. RealPopup (ou Winpopup) s'exécute déjà sur cette machine; c. Netbios n'est attaché à aucun protocole de transport.\n\nEssayez à nouveau plus tard en double-cliquant surl'icône de la barre d'état."
+    MSG_DIALOG_CAPTION      "Message RealPopup"
+    DEF_USERNAME            "UTILISATEUR"
+    AUTOMSG_BETA_FROM       "RealPopup"
+    AUTOMSG_BETA_TO         "Vous utilisateur!"
+    MSG_BETA_OUT            "Cette version beta de RealPopup a expiré. Téléchargez la dernière version sur http://www.realpopup.it et suivez les discussions sur RealPopup sur http://groups.yahoo.com/group/RealPopupdisc."
+    MSG_VERSION             "ATTENTION: Il s'agit d'une version BETA qui expire le %i - %i - %i. Téléchargez la dernière version sur http://www.realpopup.it et suivez les discussions sur RealPopup sur http://groups.yahoo.com/group/RealPopupdisc.\n\envoyez un mail pour plus d'infos à beta@realpopup.it merci."
+    MSG_STATUS_WPSENT       "Message compatible Winpopup envoyé à %s."
+    MSG_STATUS_RPSENT       "%s a reçu le message."
+    MSG_ABOUT               "Développé par Matro, Rome (Italy).\n\nCe programme est un gratuiciel (freeware):\nVous pouvez l'utiliser et le distribuer librement !\n\nPage d'accueil de RealPopup:\nwww.realpopup.it\n\npage d'accueil de Matro:\nwww.realpopup.it/matro\n\nEnvoyez vos commentaires à matro@realpopup.it.\n\nTéléchargez la version de RealPopup dans votre langue depuis la page d'accueil !\n\nRealPopup ne serait pas ce qu'il est sans l'aide des traducteurs, des utilisateurs, des beta testeurs et des codes sources gratuits du monde entier.\n\nJetez un oeil à la page des téléchargements www.realpopup.it/download.html.merci à tous !\n\nUn grand merci pour toutes vos remarques et à tous les abonnés aux mailings lists RealPopup et RealPopup Discussion.\n\nMatro.\n\nRealPopup a reçu %i et a transmis %i messages depuis son installation.\n"
+    MSG_WARNONEXIT          "Si vous quittez RealPopup, vous ne pourrez plus recevoir de message. Etes vous sûr ?\n\nSi vous voulez désactiver ce message, décochez l'option 'Avertir en quittant' dans l'onglet option."
+    MSG_RECEIVE_MULTIPARTERROR "Bulle pour un nouveau message"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DDXFILE_TT_CAPTION  "Spécifiez un nom de fichier"
+    IDS_DDXFILE_OK          "OK"
+    IDS_DDXFILE_EDIT_TEXT   "..."
+    IDS_DDXFILE_OVERWRITE_PROMPT "%1\nCe fichier existe déjà.\nRemplacer le fichier existant?"
+    IDS_DDXFILE_FILTER_LOG  "Fichiers Log (*.log)|*.log||"
+    IDS_DDXFILE_FILTER_WAV  "Fichiers Wave (*.wav)|*.wav||"
+    IDS_DDXFILE_FILTER_TXT  "Fichiers Texte (*.txt)|*.txt||"
+    FMT_LOG_DATE            "le %a %d, %b %Y à %H:%M.%S"
+    FMT_LOG_FROMTO          "De %s à %s %s\n\n"
+    OPTIONS_CAPTION         "RealPopup: Options"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_SEND_MULTIPARTERROR "Prévisualiser dans une bulle"
+    MSG_REALPOPUP_ERRINIT   "Impossible d'initialiser le réceptionneur RealPopup: RealPopup ne pourra pas écouter les messages des autres clients RealPopup.\n\nLes raisons principales sont: a.une autre session RealPopup s'exécute déjà; b. Netbios n'est attaché à aucun protocole.\n\nEssayez à nouveau plus tard en double-cliquant surl'icône de la barre d'état."
+    MSG_USERS_ERRLOAD       "Impossible de charger les informations utilisateur : le fichier RP<user>.dat n'est certainement pas compatible, vous devez dans ce cas le supprimer."
+    DEF_ALLUSERS            "(TOUT LE MONDE)"
+    TOOLTIP_IDLE            "RealPopup"
+    TOOLTIP_MSG             "RealPopup: %i message."
+    TOOLTIP_MSGS            "RealPopup: %i messages."
+    MSG_ERRNOTRECEIVED      "*** Message Interne de RealPopup %s ***\n\nL'utilisateur %s n'a pas reçu votre message; peut-être est-il hors ligne, son pc est très sollicité, ou il n'a pas lancé RealPopup. \n\nSi l'utilisateur emploie Winpopup ou un programme compatible, ajoutez-le au groupe WINPOPUP dans l'onglet utilisateurs et Groupes des options."
+    MSG_STATUS_NOTRECEIVED  "Attention: %s n'a pas reçu le message."
+    MSG_ONLINEWARN          "L'utilisateur %s est disponible à %s."
+    MSG_STATUS_ONLINEWARNNOTRECEIVED "L'utilisateur %s n'a pas reçu l'avertissement de mise en ligne."
+    MSG_ONLINEWARNSTATUS    "L'utilisateur %s est disponible à %s avec RealPopup %s."
+    MSG_REDIRECTING         "Message de %s redirigé vers %s."
+    MSG_REDIRECTING_ERR     "Ne peux pas rediriger de %s to %s: trop de boucles."
+    MSG_LOGHEAD             "Fichier RealPopup %s de log\n\n"
+    MSG_STATUS_TOOLONG      "Attention: %s n'a pas reçu le message."
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRTOOLONG          "*** Message Interne de RealPopup %s ***\n\nL'utilisateur %s n'a pas reçu votre message; RealPopup ne peut pas essayer de passer par le protocole Winpopup car le message est trop long - %i caractères - et dépasse la longueur limite de NET SEND qui est d'environ 900 caractères.\n\nEtablissez l'option DisableMessageLengthCheck de la base de registre à 1 pour désactiver ce controle."
+    MSG_STATUS_RPSENT_OLDVER "%s a reçu le message; conseillez lui de passer de %s à %s! :)"
+    MSG_ERRDISABLED         "*** Message Interne de RealPopup %s ***\n\n%s's RealPopup est désactivé, l'utilisateur n'a donc pas reçu votre message."
+    MSG_WARNONCANCELINGSEND "Etes vous sûr de supprimer ce message?\n\nSi vous voulez désactiver ce message, décochez l'option approprié dans l'onglet options."
+    MSG_ERR_NOTCREATABLE    "Impossible de créer le fichier."
+    MSG_SAVEHEAD            "Message de %s enregistré.\n\n"
+    MSG_AUTOSTART_WARN      "Voulez vous que RealPopup se lance automatiquement au démarrage de Windows ?"
+    MSG_AUTOSTART_MSG       "Si vous trouvez RealPopup utile, configurez-le pour qu'il démarre automatiquement: allez dans options->Application et cochez l'option 'Executer avec Windows' :)"
+    MSG_LOCALIZE_ABOUT      "French language V2.6\nLocalized by Olivier MARTIN."
+    MSG_LOCALIZE_DESC       "French"
+    IDS_WEEKDAYS            "dim|lun|mar|mer|jeu|ven|sam"
+    MSG_ERR_USERINSERT      "L'utilisateur ou le groupe spécifié est erroné et ne peut être insérer.\n\nSi vous désirez spécifier une chaine de recherche, elle doit être entourée de crochets, chaque élément séparé par un slash vertical, par exemple:\nSERVER1[SPOOLER|DISK]\nCette entrée considèrera l'utilisateur ou groupe nommé SERVER1 si le corps du message entrant contient soit le mot SPOOLER soit le mot DISK.\n\nNe jamais utiliser plus que deux crochets. Si vous désirez spécifier differents paramètres basés sur le corps du message, insérez plus qu'une seule entrée comme:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nChaque entrée peut avoir différents paramètres; une entrée sans aucune chaîne de recherche signifie 'contexte de n'importe quel corps'.\n\nAutrement, si vous voulez seulement spécifier un seul utilisateur ou groupe, n'utilisez pas de crochets."
+    MSG_SEARCHCRITERIA      "Vous pouvez associer le critère de recherche à la suite de l'utilisateur ou groupe que vous avez défini; les paramètres seront validés si la recherche réponds à vos attentes. Il est possible d'associer plusieurs chaînes de recherche en les séparant par un slash vertical |. Les chaînes de caractères peuvent être combinées avec une clause OR, cela signifie que l'utilisateur ou groupe est valide si n'importe laquelle des chaînes convient.\nPar exemple, le critère de recherche 'SPOOLER|DISK' validera l'utilisateur ou groupe que vous avez défini si le corps du message contient soit le mot SPOOLER ou DISK.\n\nSaisissez vos critères de recherche ici. Vous pouvez directement les saisir directement à la suite du nom de l'utilisateur ou du groupe entouré de crochets []. Cependant, cette boite de dialogue le fera pour vous !"
+    MSG_ERR_HOTKEY          "Impossible d'assigner la touche d'activation: cette combinaison est utilisée par une autre application ou une autre session RealPopup est déjà en cours."
+    MSG_ERR_REPLY           "\n\nRepondez à ce message si vous voulez l'envoyer de nouveau.\n\nMessage :\n---\n"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRAWAY             "*** Message Interne de RealPopup %s ***\n\nL'Utilisateur %s est absent; votre message sera lu plus tard."
+    MSG_ERR_MSNSTOPDENIED   "RealPopup ne peut pas arrêter le service messagerie car vous n'avez pas les privilèges administrateur. Contactez votre administrateur réseau pour plus de renseignements.\n\nRealPopup ne communiquera qu'avec les autres clients RealPopup."
+    MSG_ERR_MSNSTOPERR      "RealPopup ne peut pas arrêter le service messagerie car une erreur inconnue s'est produite. Essayez cette fonction plus tard.\n\nRealPopup ne communiquera qu'avec les autres clients RealPopup."
+    MSG_STATUS_CMDLINESENT  "Envoi du message de la ligne de commande à %s..."
+    MSG_CMDLINE_HELP        "*** Message Interne de RealPopup %s ***\r\n\r\nUtilisation de la ligne de commande.\nAvant d'envoyer un message depuis la ligne de commande, RealPopup doit être lancé au moins une fois: cette opération activera les fonctions de RealPopup.\n\n-send <to> <message>\nEnvoyer un message à un utilisateur ou à un groupe; vous pouvez définir plusieurs destinataires, separés par des virgules. Inclure le message entre guillemets si vous utilisez des espaces; utiliser les ASCII(13) et ASCII(10) pour un retour chariot.\n\n-noactivate\nCe paramètre empêche RealPopup de s'afficher lorsqu'il est appelé par la ligne de commande.\n\n-posreset\nRéajuste la taille et la position de la fenêtre aux valeurs par défaut.\n\nExemple:\nRealPopup -send MATRO,NEURAL 'Hey man! This rocks! :-)' -noactivate\n"
+    MSG_NBROWSER_RPUSERS    "Utilisateurs favoris"
+    MSG_WARNDOMAIN          "Vous allez envoyer un message vers le domaine %s; celui-ci sera lu par tous les clients connectés à ce domaine. Etes-vous certain?\n\nSi vous voulez désactiver ce message, décochez 'Avertir lors d'un envoi vers un domaine' dans les options du programme.\n"
+    ITEM_USESREALPOPUP      "Utilise certainement RealPopup"
+    ITEM_USESWINPOPUP       "Utilise certainement WinPopup"
+    MSG_WELCOME             "Bienvenue sur RealPopup, le freeware remplaçant WinPopup avec toutes ses fonctionnalités pour votre LAN !(réseau local) Double-clickez cet icone pour ouvrir la fenêtre principale et lire le message de bienvenue."
+    MSG_INTERNALMSGHEAD     "*** message de RealPopup %s ***\r\n\r\n"
+    MSG_BALLOON_NEWMSG      "Message de %s"
+    MSG_MESSAGESWAITING     " (%i msgs en attente)"
+    MSG_BALLOON_ERRMSG      "L'utilisateur %s n'a pas lu votre message"
+    MSG_OFFLINEWARNSTATUS   "Utilisateur %s déconnecté de %s."
+    TOOLTIP_STATUS_WPENABLED "Protocole WinPopup activé"
+END
+
+STRINGTABLE 
+BEGIN
+    TOOLTIP_STATUS_RPENABLED "Protocole RealPopup activé"
+    TOOLTIP_STATUS_WPDISABLED "Protocole WinPopup inactif"
+    TOOLTIP_STATUS_RPDISABLED "Protocole RealPopup inactif"
+    MSG_POPUP_ERRMSGSERVICE "Impossible d'initialiser le réceptionneur compatible Winpopup: Le service messagerie est actif et RealPopup ne dispose pas des privilèges suffisants pour le stopper.\n\nVous pouvez (a) lancer RealPopup avec des droits suffisants, (b) laisser l'administrateur attribuer les bons droits pour votre utilisateur/groupe ou (c) désactiver manuellement le service messagerie.\n\nEssayez à nouveau plus tard en double-cliquant surl'icône de la barre d'état."
+    MSG_BALLOON_POPUP_ERRMSGSERVICE "Impossible d'initialiser le réceptionneur compatible Winpopup: Le service messagerie est actif et RealPopup ne dispose pas des privilèges suffisants pour le stopper. Ouvrez RealPopup pour en apprendre plus."
+    MSG_BALLOON_POPUP_ERRINIT "Impossible d'initialiser le réceptionneur compatible Winpopup:  peut-être RealPopup ou un programme compatible WinPopup est déjà actif sur cette machine. Ouvrez RealPopup pour en apprendre plus."
+    MSG_BALLOON_REALPOPUP_ERRINIT "Impossible d'initialiser le réceptionneur RealPopup: peut-être une autre session RealPopup est déjà active sur cette machine. Ouvrez RealPopup pour en apprendre plus."
+    MSG_ERR_HOTKEYHEAD      "Touche pour activer RealPopup"
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\RealPopup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+

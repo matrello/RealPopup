@@ -1,0 +1,712 @@
+; RealPopup localization project
+; handled by RealPopupLocalizer V1.1.14
+; last touch date 2005-05-03 00.32
+;
+; Each block is a string in the project resource file:
+; - Line1 string id          @@RP:1
+; - Line2 english string     This program is freeware
+; - Line3 translated string  Questo programma è freeware
+;
+@@RP:0
+RealPopup: About
+RealPopup: Om
+@@RP:1
+Matro! :)
+Matro! :)
+@@RP:2
+From
+Fra   
+@@RP:3
+To
+Til 
+@@RP:4
+RealPopup: Send message
+RealPopup: Send besked
+@@RP:5
+To
+Til 
+@@RP:6
+Application
+Program
+@@RP:7
+Execute on Windows startup
+Indlæs ved Windows start
+@@RP:8
+Warn on exit
+Advar ved afslut
+@@RP:9
+Warn on canceling a send
+Advar når send fortrydes
+@@RP:10
+Always on top
+Altid overst
+@@RP:11
+Left button activates tray menu
+Venstre museknap aktiverer menu
+@@RP:12
+Determine Favorite Users
+Vµlg farvorit bruger
+@@RP:13
+Click left button to save current RealPopup window placement, right one for default.
+Klik på venstre museknap for at gemme nuværende placering af RealPopup vinduet, klik på hojre for standard.
+@@RP:14
+Choose your preferred font, left button for message field, right for information ones.
+Vælg din foretrukne skrifttype, venstre museknap for besked feltet, hojre for informations felter.
+@@RP:15
+Choose your language; restart RealPopup for changes to take effect.
+Vælg dit sprog; og genstart RealPopup for at ændringerne kan slå igennem.
+@@RP:16
+written by Matro
+skrevet af Matro
+@@RP:17
+Fonts and localization
+Skrifttyper og placering
+@@RP:18
+Users and groups
+Brugere og grupper
+@@RP:19
+&Add
+&Tilfoj
+@@RP:20
+&Remove
+&Fjern
+@@RP:21
+User
+Bruger
+@@RP:22
+Group (members:)
+Gruppe
+@@RP:23
+Ignore messages
+Ignorer beskeder
+@@RP:24
+Pop up on new message
+Pop op ved ny besked
+@@RP:25
+Uses RealPopup for sure
+Bruger RealPopup
+@@RP:26
+Notify when comes online
+Giv besked når bruger er online
+@@RP:27
+Redirect messages to:
+Omdiriger beskeder til:
+@@RP:28
+Log messages to:
+Log beskeder til:
+@@RP:29
+(members:)
+(medlemmer:)
+@@RP:30
+RealPopup: Network browser
+RealPopup: Netværk browser
+@@RP:31
+Cancel
+Fortyd
+@@RP:32
+Mark as &default
+Marker som &standard
+@@RP:33
+Matro '99
+Matro '99
+@@RP:34
+Messages
+Beskeder
+@@RP:35
+Delete original message when replied
+Slet original besked når svar er sendt
+@@RP:36
+Minimize when replied
+Minimer når svar er sendt
+@@RP:37
+Minimize when deleting last message
+Minimer når sidste besked er slettet
+@@RP:38
+Automatically show last message
+Vis sidste besked automatisk
+@@RP:39
+Beep on new message
+Bip ved ny besked
+@@RP:40
+Play WAV on new message
+Afspil WAV-fil ved ny besked
+@@RP:41
+Notify message delivery issues through balloon
+Vis resultat af beskedsaflevering i Pop op vindue
+@@RP:42
+Double click to activate hyperlinks
+Dobbeltklik for at aktivere hyperlinks
+@@RP:43
+Sound effects
+Lydeffekter
+@@RP:44
+Use Enter to send the message
+Funktioner
+@@RP:45
+Just to cover
+Flere indstillinger
+@@RP:46
+Localized resource for RealPopup\0
+Sprogindstilling til RealPopup\0
+@@RP:47
+Matro\0
+Matro\0
+@@RP:48
+Localized resource (English) for RealPopup\0
+Sprogindstilling (Engelsk) til RealPopup\0
+@@RP:49
+Include in Favorite Users
+Medtag i farvorit brugere
+@@RP:50
+RealPopup\0
+RealPopup\0
+@@RP:51
+Matro, freeware\0
+Matro, freeware\0
+@@RP:52
+Localized by Matro\0
+Localized by C Bitsch\0
+@@RP:53
+RealPopup.EXE\0
+RealPopup.EXE\0
+@@RP:54
+RealPopup\0
+RealPopup\0
+@@RP:55
+%s\0
+%s\0
+@@RP:56
+&Message
+&Besked
+@@RP:57
+&Send\tCtrl+S
+&Send\tCtrl+S
+@@RP:58
+C&ancel\tEsc
+A&fbryd\tEsc
+@@RP:59
+Cu&t\tCtrl+X
+Kl&ip\tCtrl+X
+@@RP:60
+&Copy\tCtrl+C
+&Kopier\tCtrl+C
+@@RP:61
+&Paste\tCtrl+V
+&Sæt ind\tCtrl+V
+@@RP:62
+Network &browser...
+Netværk &browser...
+@@RP:63
+&Environment
+&Indstillinger
+@@RP:64
+&Do not disturb
+&Forstyr ikke
+@@RP:65
+&Force wake up
+&Vågn op automatisk
+@@RP:66
+&Options...
+F&unktioner
+@@RP:67
+&Exit
+&Afslut
+@@RP:68
+&Message
+&Besked
+@@RP:69
+&New...\tCtrl+N
+&Ny...\tCtrl+N
+@@RP:70
+Answe&r...\tCtrl+R
+Besva&r...\tCtrl+R
+@@RP:71
+&Answer all...\tCtrl+A
+&Besvar alle...\tCtrl+A
+@@RP:72
+&Forward...\tCtrl+F
+&Videresend...\tCtrl+F
+@@RP:73
+Delete a&ll\tCtrl+Shift+Del
+Slet a&lle\tCtrl+Shift+Del
+@@RP:74
+&Delete\tCtrl+Del
+&Slet\tCtrl+Del
+@@RP:75
+&Previous\tCtrl+PgUp
+&Forrige\tCtrl+PgUp
+@@RP:76
+N&ext\tCtrl+PgDn
+N&æste\tCtrl+PgDn
+@@RP:77
+&Copy\tCtrl+C
+&Kopier\tCtrl+C
+@@RP:78
+&Save...
+&Gem...
+@@RP:79
+Network &browser...
+Netværk &browser...
+@@RP:80
+&?
+&?
+@@RP:81
+&Help...
+&Hjælp...
+@@RP:82
+Welcome &message
+Velkomst &besked
+@@RP:83
+&About
+&Om
+@@RP:84
+MATRO
+MATRO
+@@RP:85
+&Open
+&Åben
+@@RP:86
+&Minimize
+&Minimer
+@@RP:87
+&Do not disturb
+&Forstyr ikke
+@@RP:88
+&Force wake up
+&Automatisk vågn op
+@@RP:89
+&New message...
+&Ny besked...
+@@RP:90
+E&xit
+A&fslut
+@@RP:91
+&About RealPopup...
+&Om RealPopup...
+@@RP:92
+Send new message to user(s) or broadcast.\nNew Message
+Send ny besked til bruger(e) eller hele netværket.\nNy besked
+@@RP:93
+Answer the source.\nAnswer
+Send svar til afsenderen.\nBesvar
+@@RP:94
+Answer to both source and destinations.\nAnswer all
+Send svar til både afsender og modtagere.\nBesvar alle
+@@RP:95
+Forward the message to other user(s).\nForward
+Videresend beskeden til andre bruger(e).\nVideresend
+@@RP:96
+Delete all messages.\nDelete all
+Slet alle beskeder.\nSlet alle
+@@RP:97
+Delete current message.\nDelete
+Slet nuværende besked.\nSlet
+@@RP:98
+View previous message.\nPrevious
+Se forrige besked.\nForrige
+@@RP:99
+View next message.\nNext
+Se næste besked.\nNæste
+@@RP:100
+Copy entire or part of the message.\nCopy
+Kopier hele eller dele af beskeden.\nKopier
+@@RP:101
+Save message as text file.\nSave
+Gem besked som tekst fil.\nGem
+@@RP:102
+Send the message to the user or broadcast\nSend message
+Send beskeden til brugeren eller hele netværket\nSend besked
+@@RP:103
+Cancel the send\nCancel
+Fortryd afsendelsen\nFortryd
+@@RP:104
+Open options dialog.\nOptions
+Åben menuen Funktioner. \nFunktioner
+@@RP:105
+About box.
+Om menuen.
+@@RP:106
+Look at the welcome message again! :)
+Se velkomst besked igen! :)
+@@RP:107
+Use this item to open RealPopup window.
+Brug dette emne til at åbne RealPopup vinduet.
+@@RP:108
+Minimize RealPopup to the tray area.
+Minimer RealPopup til Proceslinien.
+@@RP:109
+Do not receive any message.
+Modtag ikke beskeder.
+@@RP:110
+Close RealPopup program.
+Luk RealPopup programmet.
+@@RP:111
+Disable message redirection and ignore (if any).
+Slå besked omdirigering fra, og ignorer (hvis nogen).
+@@RP:112
+Look for an user on the network.\nNetwork browser
+Led efter en bruger på netværket.\nNetværk browser
+@@RP:113
+Shows help file.
+Viser hjælpefilen.
+@@RP:114
+Copy into clipboard.\nCopy
+Kopier til klippebordet.\nKopier
+@@RP:115
+Cut into clipboard.\nCut
+Klip til klippebordet.\nKlip
+@@RP:116
+Paste to the clipboard..\nPaste
+Indsæt fra klippebordet..\nIndsæt
+@@RP:117
+Ready.
+Klar.
+@@RP:118
+Could not find the user, or could not be able to send the message.
+Kunne ikke finde brugeren, eller beskeden kunne ikke afsendes.
+@@RP:119
+Cannot initialize the WinPopup compatible receiver: RealPopup won't be able to listen messages from standard Windows messaging system.\n\nMost common causes are: (a) the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it, (b) RealPopup or a WinPopup compatible client is already executing on this machine, (c) NetBios is not binded to any transport protocol.\n\nTry again later by double clicking the lower right icon in the status bar.
+Kan ikke finde Winpopup kompatibel modtager-service: RealPopup vil ikke vµre i stand til at modtage beskeder fra Winpopup klienter.\n\n+rsager: a. Messenger servicen er aktiv og realpopup har ikke tilstrµkkelige rettigheder til at stoppe dem; b. Formentlig k°rer Winpopup allerede ps denne maskine; c. Der et andet program der hsndterer Winpopup beskeder. \n\nPr°v igen senere at dobbeltklikke ps iconen i nederste h°jre i status baren.
+@@RP:120
+RealPopup message
+RealPopup besked
+@@RP:121
+USER
+BRUGER
+@@RP:122
+RealPopup
+RealPopup
+@@RP:123
+You user!
+Ny bruger!
+@@RP:124
+This RealPopup beta preview has expired. Get updated version at http://www.realpopup.it and follow RealPopup discussions at http://groups.yahoo.com/group/RealPopupdisc.
+Denne RealPopup beta version er udl°bet. Fs den opdaterede version her: http://www.realpopup.it og f°lg med ps diskussionsgruppen http://groups.yahoo.com/group/RealPopupdisc.
+@@RP:125
+WARNING: This is a BETA release, expiring on %i-%i-%i.\n\nGet updated version at http://www.realpopup.it and follow RealPopup discussions at http://groups.yahoo.com/group/RealPopupdisc.\n\nsend mail for info at beta@realpopup.it thank you.
+ADVARSEL: Dette er en BETA udgave, der udl°ber den %i-%i-%i. \n\nHent opdateret version ps: www.realpopup.it/ og f°lg med i diskussionsgruppen ps http://groups.yahoo.com/group/RealPopupdisc.\n\nDend mail for information til beta@realpopup. Tak.
+@@RP:126
+WinPopup compatible message sent to %s.
+WinPopup kompatibel besked sendt til %s.
+@@RP:127
+%s received the message.
+%s modtog beskeden.
+@@RP:128
+Developed by Matro, Rome (Italy).\n\nThis program is freeware:\nuse and distribute as you like!\n\nRealPopup homepage:\nwww.realpopup.it\n\nMatro's homepage:\nwww.realpopup.it/matro\n\nSend feedback to matro@realpopup.it.\n\nDownload localized versions of RealPopup in various languages from the homepage!\n\nRealPopup would not be as good without the help of all the localizers, active users, beta testers and freeware source around the globe. Take a look at the download page www.realpopup.it/download.html. Thank you all!\n\nA great -thank you- for all your feedbacks, and to all the RealPopup and RealPopup Discussion mailing lists subscribers.\n\nMatro.\n\nRealPopup received %i and sent %i messages since installation.\n
+Udviklet af Matro, Rome (Italy).\n\nDette program er freeware:\brug og videregiv det frit!\n\nRealPopup hjemmeside:\nwww.realpopup.it\n\nMatro's hjemmeside:\nwww.realpopup.it/matro\n\nSend feedbacks til matro@realpopup.it.\n\nDownload lokal RealPopup med dit sprog fra hjemmesiden!\n\nRealPopup vil ikke vµre ss godt uden hjµlp fra lokale oversµttere, aktive brugere, beta testere og freeware kode rundt i verden. Se download siden www.realpopup.it/download.html. Tak til alle!\n\nEn stor tak for alt feedback og til alle Realpopup mail liste tilmeldte.\n\nMatro.\n\nRealPopup har modtaget %i og sendt %i beskeder siden installationen.\n
+@@RP:129
+If you exit RealPopup, you cannot receive or send messages anymore. Are you sure?\n\nIf you want to disable this message, uncheck 'warn on exit' in the options tab.
+Hvis du afslutter RealPopup, kan du ikke længere modtage eller sende beskeder. Er du sikker?\n\nHvis du ikke onsker at se denne advarsel i fremtiden, så fjern markeringen 'Advar ved afslut' under fanebladet Funktioner.
+@@RP:130
+Balloon on new message
+* RealPopup intern besked *\n\nEn besked blev sendt fra %s men der skete en fejl ved overforslen. Afsenderen har fået en advarsel herom.
+@@RP:131
+Please specify a filename
+Skriv venligst et filnavn
+@@RP:132
+OK
+OK
+@@RP:133
+User %s logged out from %s.
+Bruger %s logged ud fra %s.
+@@RP:134
+%1\nThis file already exists.\nReplace existing file?
+%1\nDette filnavn eksisterer allerede.\nSkal den eksisterende fil erstattes?
+@@RP:135
+Log Files (*.log)|*.log||
+Log Filer (*.log)|*.log||
+@@RP:136
+Wav Files (*.wav)|*.wav||
+Wav Filer (*.wav)|*.wav||
+@@RP:137
+Text Files (*.txt)|*.txt||
+Tekst Filer (*.txt)|*.txt||
+@@RP:138
+on %a %d, %b %Y at %H:%M.%S
+den %a %d, %b %Y at %H:%M.%S
+@@RP:139
+From %s To %s %s\n\n
+Fra %s Til %s %s\n\n
+@@RP:140
+RealPopup: Options
+RealPopup: Funktioner
+@@RP:141
+Preview on balloon
+* RealPopup intern besked *\n\nBeskeden sendt til %s blev ikke afsendt. Prov at sende den igen.
+@@RP:142
+Cannot initialize the RealPopup receiver: RealPopup won't be able to listen messages from other RealPopup clients.\n\nMost common causes are: (a) another RealPopup instance is already running; (b) NetBios is not binded to any transport protocol.\n\nTry again later by double clicking the lower right icon in the status bar.
+Kan ikke starte Realpopup modtageren: RealPopup vil ikke vµre i stand til at modtage beskeder fra andre RealPopup brugere.\n\nFormentlig k°rer en anden version af RealPopup allerede ps denne maskine, eller msske er NetBios ikke bundet til en protekol.\n\nPr°v igen senere at dobbeltklikke ps iconen i nederste h°jre hj°rne af status baren.
+@@RP:143
+Cannot load users informations: probably the RP<user>.dat is not compatible, you should remove it.
+Kan ikke indlæse bruger informationer: formentlig er din RP<user>.dat ikke kompatibel, du bor slette den.
+@@RP:144
+(ALL USERS)
+(ALLE BRUGERE)
+@@RP:145
+RealPopup
+RealPopup
+@@RP:146
+RealPopup: %i message.
+RealPopup: %i besked.
+@@RP:147
+RealPopup: %i messages.
+RealPopup: %i beskeder.
+@@RP:148
+*** RealPopup %s internal message ***\n\nUser %s hasn't received your message; maybe the user is currently offline, its pc is very busy, or the user hasn't got RealPopup loaded. \n\nIf the user has got WinPopup or compatible listener, add it to the WINPOPUP group in the Users and Groups options tab.
+*** RealPopup %s intern besked ***\n\nBruger %s har ikke modtaget din besked; måske er brugeren ikke logget på, brugerens pc er optaget, eller brugeren har ikke RealPopup startet. \n\nHvis brugeren har Winpopup eller et andet besked-program, ss tilf°j den til WINPOPUP gruppen under Brugere og Grupper fanebladet.
+@@RP:149
+Warning: %s hasn't received the message.
+Advarsel: %s har ikke modtaget beskeden.
+@@RP:150
+*** RealPopup %s internal message ***\r\n\r\nUser %s is now online!
+*** RealPopup %s intern besked ***\r\n\r\nUser %s er nu online!
+@@RP:151
+User %s hasn't received the online warning.
+Bruger %s har ikke modtaget advarslen.
+@@RP:152
+User %s is available at %s with RealPopup %s.
+Bruger %s er nu online!
+@@RP:153
+Message from %s redirected to %s.
+Besked fra %s omdirigeret til %s.
+@@RP:154
+Cannot redirect from %s to %s: too many loops.
+Kan ikke omdirigere fra %s til %s: teknisk fejl.
+@@RP:155
+RealPopup %s log file\n\n
+RealPopup %s log fil\n\n
+@@RP:156
+Warning: %s hasn't received the message.
+Advarsel: %s har ikke modtaget beskeden.
+@@RP:157
+*** RealPopup %s internal message ***\n\nUser %s hasn't received your message; RealPopup cannot try to send through WinPopup protocol because message is too long - %i chars - and exceeds NET SEND message length limit which is about 900 chars.\n\nSet the DisableMessageLengthCheck registry option to 1 to disable this check.
+*** RealPopup %s intern besked ***\n\nBruger %s har ikke modtaget din besked; RealPopup kan ikke sende besked med Winpopup protekollen fordi beskeden er for lang - %i karakterer - og overstiger NET SEND besked længden på ca. 900 karakterer.\n\nSæt DisableMessageLengthCheck indstillingen til 1 for at frakoble dette tjek.
+@@RP:158
+%s received the message; tell to upgrade from %s to %s! :)
+%s modtog beskeden; giv besked om at opgradere fra %s til %s! :)
+@@RP:159
+*** RealPopup %s internal message ***\n\n%s's RealPopup is disabled, so the user hasn't received your message.
+*** RealPopup %s intern besked ***\n\n%s's RealPopup er slået fra, så brugeren har kke modtaget din besked.
+@@RP:160
+Are you sure to discard this message?\n\nIf you want to disable this message, uncheck the appropriate checkmark in the options tab.
+Er du sikker på at du onsker at afbyde?\n\nHvis du onsker at slå denne meddelelse fra, kan du gore det under Funktioner.
+@@RP:161
+Cannot create the file.
+Kan ikke danne filen.
+@@RP:162
+RealPopup %s saved message\n\n
+RealPopup %s gemte beskeden\n\n
+@@RP:163
+Do you want RealPopup to start automatically on Windows startup?
+Hvis du have RealPopup til at starte automatisk ved Windows start?
+@@RP:164
+If you find RealPopup useful, set it to start automatically: go to Options->Application and check the 'Execute on Windows startup' option! :)
+*** RealPopup %s intern besked ***\n\nKan du lide RealPopup? =o)\n\nHvis du synes det er et godt program, så vælg Funktioner og marker 'Indlæs ved Windows start'!\n\nMatro
+@@RP:165
+English language V2.6\nLocalized by Matro.
+Danish language V2.6\nLocalized by Carsten Bitsch 
+@@RP:166
+English
+Danish
+@@RP:167
+sun|mon|tue|wed|thu|fri|sat
+son|man|tir|ons|tor|fre|lor
+@@RP:168
+The specified user or group is bad and cannot be inserted.\n\nIf you want to specify a search string, it must be enclosed in brackets, each item separated by a trailing slash, for example:\nSERVER1[SPOOLER|DISK]\nThis entry will consider user or group SERVER1 if the incoming message body contains either the words SPOOLER or DISK.\n\nDo not use more than two brackets, if you want to specify different settings based on message body, insert more than one entry, such as:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nEach entry can have different settings; entry without any search string means 'any body context'.\n\nOtherwise, if you want to specify an user or group name only, do not use brackets.
+Den specificerede bruger eller gruppe eksisterer ikke og kan ikke indsættes.\n\nHvis du onsker at specificere en sogestreng, skal den være i paranteser, og hvert emne skal være separeret med en efterfolgende skråstreg, som for eksempel:\nSERVER1[SPOOLER|DISK]\nDenne sogning vil lede efter bruger eller gruppe SERVER1, hvis den indkomne besked i teksten indeholder et af ordene SPOOLER eller DISK.\n\nBrug ikke mere end to paranteser. Hvis du onsker at specificere forskellige muligheder baseret på indholdsteksten, skal du indsætte mere end en sætning, som her:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nHver sætning kan have forskellige opsætninger; sætninger unden sogestreng betyder 'al tekst indhold'.\n\nHvis du onsker kun at specificere en bruger eller gruppe, skal du undlade paranteserne.
+@@RP:169
+You can associate search criteria along with the user or group you define; settings for it will be accepted if the search matches your requirements. It is possible to associate more search strings separated by a trailing slash | character. Strings are combined with OR clause, this means the user or group is valid if ANY of the strings match.\n\nFor example, the search string criteria 'SPOOLER|DISK' will validate the user or group you defined if the message body contains either the words spooler or disk.\n\nEnter your search criteria here. You can enter it directly on the user or group name enclosing it in brackets []. This dialog will do the translation for you.
+Du kan tilknytte soge kriterier til brugere eller grupper du definerer; indstillinger vil blive accepteret hvis sogningen stemmer med forsporgslen. Det er muligt at tilknytte flere sogestrenge adskilt af efterfolgende | karakteren. Tekststrenge kan kombineres med OR, som betyder at brugeren eller gruppen er gyldig hvis blot en af strengene passer.\n\nFor eksempel, soge-strengen 'SPOOLER|DISK' vil finde den bruger eller gruppe som er defineret i beskeden, hvis det indeholder enten orden spooler eller disk.\n\nIndtast dit sogekriterie her. Du kan skrive den direkte på bruger eller gruppe niveau ved at sætte den i parantes []. Denne dialog vil oversætte for dig.
+@@RP:170
+RealPopup: Search criteria input box
+RealPopup: Soge kriterie input box
+@@RP:171
+Cancel
+Fortryd
+@@RP:172
+devworkbymatro:)
+devworkbymatro:)
+@@RP:173
+Search criteria
+Soge kriterie
+@@RP:174
+RPHelpENG.htm
+RPHelpENG.htm
+@@RP:175
+HotKey1
+HotKey1
+@@RP:176
+RealPopup activation hotkey
+RealPopup genvejstast
+@@RP:177
+Cannot set the hotkey: the combination is used by another application or another RealPopup instance is already running.
+Kan ikke sætte genvejstasten. Måske anvendes kombinationen allerede af et andet program eller ogss er der allerede et RealPopup program k°rende i forvejen.
+@@RP:178
+Set away when ScreenSaver runs
+Ikke tilstede, når Pauseskærm korer
+@@RP:179
+&I'm away
+&Jeg er ikke tilstede
+@@RP:180
+&I'm away
+&Jeg er ikke tilstede
+@@RP:181
+Inform users you're away.
+Giv brugere besked på at du ikke er tilstede.
+@@RP:182
+\n\nReply to this message if you want to send it again.\n\nMessage follows:\n---\n
+\n\nSvar på denne besked hvis du onsker at sende den igen.\n\nBesked folger:\n---\n
+@@RP:183
+*** RealPopup %s internal message ***\n\nUser %s is away; your message will be read later.
+*** RealPopup %s intern besked ***\n\nBruger %s er ikke tilstede; din besked vil blive læst senere.
+@@RP:184
+Warn when send to domains
+Advar når besked sendes til domæner
+@@RP:185
+RealPopup provides standard messenger capabilities for Windows NT/2000/XP.
+RealPopup understotter standard besked systemet i Windows NT/2000/XP.
+@@RP:186
+Let RealPopup take control
+Lad RealPopup overtage kontrollen
+@@RP:187
+Leave standard messenger
+Lad standard besked systemet fortsætte uændret
+@@RP:188
+For change to take effect, you must restart RealPopup.
+For at ændringerne kan træde i kraft, skal du genstarte RealPopup.
+@@RP:189
+Put caret on top when replying
+Sæt egen tekst i toppen ved svar
+@@RP:190
+Send always pc name on from field
+Send altid pc navn i fra-feltet
+@@RP:191
+RealPopup: Messenger service handling
+RealPopup: Besked service behandling
+@@RP:192
+Let RealPopup take control (recommended)
+Lad RealPopup overtage kontrollen (anbefales)
+@@RP:193
+Do not touch standard messenger service activity
+Lad standard besked systemet fortsætte uændret
+@@RP:194
+You can change this option later in the Application pane.
+Du kan ændre denne valgmulighed senere, under Program fanebladet.
+@@RP:195
+RealPopup has detected the messenger service is active. RealPopup provides standard messenger capabilities for Windows NT/2000/XP.
+RealPopup har konstateret at messenger servicen korer. RealPopup understotter standard messenger servicen i Windows NT/2000/XP.
+@@RP:196
+However, you may want to maintain standard service for particular behaviours; if this is the case, RealPopup will communicate with other RealPopup clients only.
+Hvis du onsker at bibeholde dit standard besked system af en eller anden grund, skal du være opmærksom på at din RealPopup kun kan kommunikere med andre RealPopup brugere.
+@@RP:197
+Layout and languages
+Layout og sprog
+@@RP:198
+Push the button to select your preferred font for the edit controls.
+Klik på knappen for at vælge din foretrukne skrifttype til indholdsruderne.
+@@RP:199
+Choose your wanted language. For changes to take effect, you must restart RealPopup. You must use a localized Windows version for non standard fonts, such as Russian.
+Vælg dit foretrukne sprog. For ændringerne kan træde i kraft, skal du genstarte RealPopup. Du skal anvende en lokal Windows version for ikke standard fonte, som f.eks. Russisk.
+@@RP:200
+Select your coolest font used in the information fields such as From and To.
+Vælg din foretrukne skrifttype til informations felterne, som f.eks. Fra og Til.
+@@RP:201
+Click this button to maintain this window position and size.
+Klik på denne knap for at gemme vinduets position og storrelse.
+@@RP:202
+If you are in trouble, click here to revert to default position and size.
+Hvis du har problemer, så klik her for at gendanne standard positioner og st°rrelser.
+@@RP:203
+&Ignore thread
+&Ignorer tråd
+@@RP:204
+Resume &threads
+Genoptag &tråd
+@@RP:205
+Ignore the current thread.\nIgnore thread
+Ignorer den nuværende tråd.\nIgnorer tråd
+@@RP:206
+Resume previously ignored threads.
+Genoptag tidligere ignorerede tråde.
+@@RP:207
+User %s is available at %s.
+Bruger %s er tilgængelig ved %s.
+@@RP:208
+RealPopup can't stop the Messenger service because you don't have Administrator rights. Contact your administrator for details.\n\nRealPopup will communicate with other RealPopup clients only.
+RealPopup kan ikke stoppe besked systemet, idet du ikke har Administrator rettigheder. Kontakt din administrator for detaljer.\n\nRealPopup vil kun kommunikere med andre RealPopup brugere.
+@@RP:209
+RealPopup can't stop the Messenger service because an unexpected error occurred. Try this task later.\n\nRealPopup will communicate with other RealPopup clients only.
+RealPopup kan ikke stoppe besked systemet på grund af en uventet fejl. Prov igen senere.\n\nRealPopup vil kun kommunikere med andre RealPopup brugere.
+@@RP:210
+Sending message came from commandline to %s...
+Sender besked fra kommandolinie til %s...
+@@RP:211
+*** RealPopup %s internal message ***\r\n\r\nCommand line support.\nBefore to send a message from the command line, RealPopup must be launched one time at least: the operation will start the message pump.\n\n-send <to> <message>\nSend a message to an user or group; you can define more than one destination, separated by commas. Enclose the message in quotes if you use spaces; put the ASCII(13) and ASCII(10) for carriage return.\n\n-noactivate\nThis switch causes RealPopup not to activate when invoked by the command line.\n\n-posreset\nReset window size and position to default values.\n\nExample:\nRealPopup -send MATRO,NEURAL 'Hey man! This rocks! :-)' -noactivate\n
+*** RealPopup %s intern besked ***\r\n\r\nKommandolinie support.\nFor du kan sende en besked fra kommandolinien, skal RealPopup være startet mindst en gang: dette vil starte besked-behandleren.\n\n-send <til> <besked>\nSend en besked til en bruger eller en gruppe; du kan definere mere end en modtager, adskilt af kommaer. Skriv beskeden i citationstegn hvis du bruger mellemrumstegn; indsæt ASCII(13) og ASCII(10) for linieskift.\n\n-noactivate\nDenne option får RealPopup til ikke at blive aktiveret via  kommandolinien.\n\n-posreset\nGendan storrelse og placering af vinduet.\n\nExample:\nrealpopup -send MATRO,NEURAL 'Hej! Er det ikke smart? :-)' -noactivate\n
+@@RP:212
+Favorite users
+Farvorit brugere
+@@RP:213
+You're going to send to the network domain %s; this message will be read by all the clients connected to it. Are you sure?\n\nIf you want to disable this message, uncheck 'warn when send to domains' in the options tab.\n
+Du er ved at sende en besked til hele domænet %s; denne besked vil blive læst af alle brugere der er logget på. Er du sikker?\n\nHvis du ikke onsker at se denne advarsel igen, så skal du fjerne markeringen 'Advar ved send til domæner' under fanebladet Funktioner.\n
+@@RP:214
+Disable delete button for a while
+Slå slet knappe fra 
+@@RP:215
+Uses WinPopup for sure
+Benytter helt sikkert WinPopup
+@@RP:216
+Welcome to RealPopup, the freeware full featured WinPopup replacer for your lan! Double click this icon to open it and read the welcome message.
+Velkommen til RealPopup, dette freeware program er det fuldkommende WinPopup erstatningsprogram til dit netværk ! Dobbelklik på ikonen nedenfor for at åbne programmet og lµse velkomst beskeden. 
+@@RP:217
+*** RealPopup %s message ***\r\n\r\n
+*** RealPopup %s Besked ***\r\n\r\n
+@@RP:218
+Message from %s
+Meddelse fra %s
+@@RP:219
+ (%i msgs waiting)
+ (%i meddelser venter)
+@@RP:220
+User %s has not read your message
+Bruger %s har ikke læst din meddelse
+@@RP:221
+Quote original message
+Citere original meddelse
+@@RP:222
+Members
+Medlemmer
+@@RP:223
+Group
+Gruppe
+@@RP:224
+WinPopup protocol enabled
+WinPopup protocol startet
+@@RP:225
+RealPopup protocol enabled
+RealPopup protocol aktiv
+@@RP:226
+WinPopup protocol not active
+WinPopup protocol ikke aktiv
+@@RP:227
+RealPopup protocol not active
+RealPopup protocol ikke aktiv
+@@RP:228
+Cannot initialize WinPopup compatible receiver: the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it.\n\nYou can (a) run RealPopup with sufficient privileges, (b) let the Administrator to assign proper rights to your user/group or (c) manually disable the messenger service.\n\nTry again later by double clicking the lower right icon in the status bar.
+Kan ikke starte WinPopup kompatibel modtager: standard Messenger service er aktiv og RealPopup har ikke rettigheder nok til at stoppe.\n\nDu kan (a) kore RealPopup med tilstrækkelige rettigheder, (b) lade Administratoren ændre rettighederne til din bruger/gruppe eller (c) manuelt slukke messenger service.\n\nProv igen at dobbelt klikke på nederste hojre icon i status baren senere.
+@@RP:229
+Cannot initialize the WinPopup compatible receiver: maybe RealPopup or a WinPopup compatible client is already executing on this machine. Open RealPopup to read more.
+Kan ikke starte WinPopup kompatibel modtager: måske korer der allerede RealPopup eller WinPopup kompatibel klient på maskinen. Åben RealPopup for at læse mere.
+@@RP:230
+Cannot initialize WinPopup compatible receiver: the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it. Open RealPopup to read more.
+Kan ikke starte WinPopup kompatibel modtager: standard Messenger service er aktiv og RealPopup har ikke rettigheder nok til at stoppe. Åben RealPopup for at læse mere.
+@@RP:231
+Cannot initialize the RealPopup receiver: maybe another RealPopup instance is already executing on this machine. Open RealPopup to read more.
+Kan ikke starte RealPopup modtager: måske korer der allerede en RealPopup instance på maskinen. Åben RealPopup for at læse mere.
+@@RP:232
+RealPopup activation hotkey
+RealPopup aktivering hotkey
+@@RP:233
+Warn if RealPopup protocol is not active
+Advar hvis RealPopup protekol ikke er aktiveret
+

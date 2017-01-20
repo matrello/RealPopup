@@ -1,0 +1,714 @@
+; RealPopup localization project
+; handled by RealPopupLocalizer V1.1.14
+; last touch date 2003-01-29 12.24
+;
+; Each block is a string in the project resource file:
+; - Line1 string id          @@RP:1
+; - Line2 english string     This program is freeware
+; - Line3 translated string  Questo programma è freeware
+;
+@@RP:0
+RealPopup: About
+RealPopup: Lühiinfo
+@@RP:1
+Matro! :)
+Matro! :)
+@@RP:2
+From
+Saatja
+@@RP:3
+To
+Saaja
+@@RP:4
+RealPopup: Send message
+RealPopup: Saada sõnum
+@@RP:5
+To
+Saaja
+@@RP:6
+Application
+Programm
+@@RP:7
+Execute on Windows startup
+Käivita koos Windowsiga
+@@RP:8
+Warn on exit
+Hoiata sulgemisel
+@@RP:9
+Warn on canceling a send
+Hoiata saatmise tühistamisel
+@@RP:10
+Always on top
+Kõige pealmine
+@@RP:11
+Left button activates tray menu
+Vasaku nupu klõps ikoonil avab menüü
+@@RP:12
+Determine Favorite Users
+Tuvasta lemmikkasutajad
+@@RP:13
+Click left button to save current RealPopup window placement, right one for default.
+Vasak hiirenupp salvestab RealPopup akna asukoha, parem nupp taastab vaikeasukoha.
+@@RP:14
+Choose your preferred font, left button for message field, right for information ones.
+Vali oma lemmikfont, vasaku nupuga sõnumivälja font, parema nupuga infovälja font.
+@@RP:15
+Choose your language; restart RealPopup for changes to take effect.
+Vali keel; pärast valimist taaskäivita programm.
+@@RP:16
+written by Matro
+Autor on Matro
+@@RP:17
+Fonts and localization
+Fondid ja lokaliseerimine
+@@RP:18
+Users and groups
+Kasutajad ja grupid
+@@RP:19
+&Add
+&Lisa
+@@RP:20
+&Remove
+&Eemalda
+@@RP:21
+User
+Kasutaja
+@@RP:22
+Group (members:)
+Grupp (liikmed:)
+@@RP:23
+Ignore messages
+Ignoreeri sõnumeid
+@@RP:24
+Pop up on new message
+Hüppa ette kui sõnum saabub
+@@RP:25
+Uses RealPopup for sure
+Kasutab kindlasti RealPopupi
+@@RP:26
+Notify when comes online
+Teavita levisse saabumisest
+@@RP:27
+Redirect messages to:
+Suuna sõnumid edasi:
+@@RP:28
+Log messages to:
+Salvesta sõnumid:
+@@RP:29
+(members:)
+(liikmed:)
+@@RP:30
+RealPopup: Network browser
+RealPopup: Võrgusirvija
+@@RP:31
+Cancel
+Loobu
+@@RP:32
+Mark as &default
+Märgi kui &vaikimisi
+@@RP:33
+Matro '99
+Matro '99
+@@RP:34
+Messages
+Sõnumid
+@@RP:35
+Delete original message when replied
+Kustuta saabunud sõnum pärast vastamist
+@@RP:36
+Minimize when replied
+Minimeeri pärast vastamist
+@@RP:37
+Minimize when deleting last message
+Minimeeri pärast viimase sõnumi kustutamist
+@@RP:38
+Automatically show last message
+Näita automaatselt viimast sõnumit
+@@RP:39
+Beep on new message
+Häälemärguanne sõnumi saabumisel
+@@RP:40
+Play WAV on new message
+Mängi WAV-fail sõnumi saabumisel
+@@RP:41
+Notify message delivery issues through balloon
+Kuva teated sõnumi edastamise kohta mullis
+@@RP:42
+Double click to activate hyperlinks
+Lingid avanevad topeltklõpsuga
+@@RP:43
+Sound effects
+Heliefektid
+@@RP:44
+Use Enter to send the message
+Enter-klahv saadab sõnumi
+@@RP:45
+Just to cover
+-------------
+@@RP:46
+Localized resource for RealPopup\0
+RealPopup keele andmefail\0
+@@RP:47
+Matro\0
+Matro\0
+@@RP:48
+Localized resource (English) for RealPopup\0
+RealPopup (inglise) keele andmefail\0
+@@RP:49
+Include in Favorite Users
+Lisa lemmikkasutajate gruppi
+@@RP:50
+RealPopup\0
+RealPopup\0
+@@RP:51
+Matro, freeware\0
+Matro, vabavara\0
+@@RP:52
+Localized by Matro\0
+Tõlkija: Matro\0
+@@RP:53
+RealPopup.EXE\0
+RealPopup.EXE\0
+@@RP:54
+RealPopup\0
+RealPopup\0
+@@RP:55
+%s\0
+%s\0
+@@RP:56
+&Message
+&Sõnum
+@@RP:57
+&Send\tCtrl+S
+&Saada\tCtrl+S
+@@RP:58
+C&ancel\tEsc
+L&oobu\tEsc
+@@RP:59
+Cu&t\tCtrl+X
+&Lõika\tCtrl+X
+@@RP:60
+&Copy\tCtrl+C
+&Kopeeri\tCtrl+C
+@@RP:61
+&Paste\tCtrl+V
+&Aseta\tCtrl+V
+@@RP:62
+Network &browser...
+&Võrgu sirvija...
+@@RP:63
+&Environment
+&Keskkond
+@@RP:64
+&Do not disturb
+&Levist väljas
+@@RP:65
+&Force wake up
+&Ignoreeri suunamist
+@@RP:66
+&Options...
+&Seadistused...
+@@RP:67
+&Exit
+Lõpeta &töö
+@@RP:68
+&Message
+&Sõnum
+@@RP:69
+&New...\tCtrl+N
+&Uus...\tCtrl+N
+@@RP:70
+Answe&r...\tCtrl+R
+&Vasta...\tCtrl+R
+@@RP:71
+&Answer all...\tCtrl+A
+Vasta &kõigile...\tCtrl+A
+@@RP:72
+&Forward...\tCtrl+F
+E&dasta...\tCtrl+F
+@@RP:73
+Delete a&ll\tCtrl+Shift+Del
+Ku&stuta kõik\tCtrl+Shift+Del
+@@RP:74
+&Delete\tCtrl+Del
+&Kustuta\tCtrl+Del
+@@RP:75
+&Previous\tCtrl+PgUp
+&Eelmine\tCtrl+PgUp
+@@RP:76
+N&ext\tCtrl+PgDn
+&Järgmine\tCtrl+PgDn
+@@RP:77
+&Copy\tCtrl+C
+K&opeeri\tCtrl+C
+@@RP:78
+&Save...
+Sa&lvesta...
+@@RP:79
+Network &browser...
+Võ&rgu sirvija...
+@@RP:80
+&?
+&?
+@@RP:81
+&Help...
+&Abi...
+@@RP:82
+Welcome &message
+&Tervitussõnum
+@@RP:83
+&About
+&Lühiinfo
+@@RP:84
+MATRO
+MATRO
+@@RP:85
+&Open
+&Ava
+@@RP:86
+&Minimize
+&Minimeeri
+@@RP:87
+&Do not disturb
+&Levist väljas
+@@RP:88
+&Force wake up
+&Ignoreeri suunamist
+@@RP:89
+&New message...
+&Uus sõnum...
+@@RP:90
+E&xit
+Lõpeta &töö
+@@RP:91
+&About RealPopup...
+&RealPopup Lühiinfo...
+@@RP:92
+Send new message to user(s) or broadcast.\nNew Message
+Saada kasutaja(grupi)le uus sõnum.\nUus sõnum
+@@RP:93
+Answer the source.\nAnswer
+Vasta sõnumi saatjale.\nVasta
+@@RP:94
+Answer to both source and destinations.\nAnswer all
+Vasta nii sõnumi saatjale kui saajale.\nVasta kõigile
+@@RP:95
+Forward the message to other user(s).\nForward
+Edasta sõnum teis(t)ele kasutaja(te)le.\nEdasta
+@@RP:96
+Delete all messages.\nDelete all
+Kustuta kõik sõnumid.\nKustuta kõik
+@@RP:97
+Delete current message.\nDelete
+Kustuta see sõnum.\nKustuta
+@@RP:98
+View previous message.\nPrevious
+Vaata eelmist sõnumit.\nEelmine
+@@RP:99
+View next message.\nNext
+Vaata järgmist sõnumit.\nJärgmine
+@@RP:100
+Copy entire or part of the message.\nCopy
+Kopeeri sõnum või osa sellest mällu.\nKopeeri
+@@RP:101
+Save message as text file.\nSave
+Salvesta sõnum tekstifaili.\nSalvesta
+@@RP:102
+Send the message to the user or broadcast\nSend message
+Saada see sõnum ära\nSaada sõnum
+@@RP:103
+Cancel the send\nCancel
+Loobu sõnumi saatmisest\nLoobu
+@@RP:104
+Open options dialog.\nOptions
+Ava seadistusteaken.\nSeadistused
+@@RP:105
+About box.
+Lühiinfo.
+@@RP:106
+Look at the welcome message again! :)
+Loe veelkord tervitussõnumit :)
+@@RP:107
+Use this item to open RealPopup window.
+Kliki siia, et RealPopup ette manada.
+@@RP:108
+Minimize RealPopup to the tray area.
+Minimiseeri RealPopup tray alasse.
+@@RP:109
+Do not receive any message.
+Ükski saabuv sõnum ei häiri.
+@@RP:110
+Close RealPopup program.
+Pane RealPopup kinni.
+@@RP:111
+Disable message redirection and ignore (if any).
+Katkesta sõnumite suunamine (kui see on aktiveeritud)
+@@RP:112
+Look for an user on the network.\nNetwork browser
+Otsi kasutajat võrgust.\nVõrgu sirvija
+@@RP:113
+Shows help file.
+Näitab abiinfot.
+@@RP:114
+Copy into clipboard.\nCopy
+Kopeerib lõikepuhvrisse.\nKopeeri
+@@RP:115
+Cut into clipboard.\nCut
+Tõsta lõikepuhvrisse.\nLõika
+@@RP:116
+Paste to the clipboard..\nPaste
+Aseta siia lõikepuhvri sisu.\nAseta
+@@RP:117
+Ready.
+Valmis.
+@@RP:118
+Could not find the user, or could not be able to send the message.
+Kasutajat ei õnnestu leida või ei saa sõnumi saatmisega hakkama.
+@@RP:119
+Cannot initialize the WinPopup compatible receiver: RealPopup won't be able to listen messages from standard Windows messaging system.\n\nMost common causes are: (a) the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it, (b) RealPopup or a WinPopup compatible client is already executing on this machine, (c) NetBios is not binded to any transport protocol.\n\nTry again later by double clicking the lower right icon in the status bar.
+WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: RealPopup ei suuda Windowsi standardseid teateid näidata.\n\nTüüpilisemad põhjused on: (a) Messenger teenus on aktiivne ning RealPopup õigused on selle seiskamiseks ebapiisavad; (b) RealPopup või WinPopup juba käivitub siin arvutis; (c) NetBios ei ole ühegi transportprotokolliga seotud.\n\nProovi hiljem uuesti topeltklõpsates olekuribal alumist parempoolset ikooni.
+@@RP:120
+RealPopup message
+RealPopup sõnum
+@@RP:121
+USER
+KASUTAJA
+@@RP:122
+RealPopup
+RealPopup
+@@RP:123
+You user!
+Sulle, kasutaja!
+@@RP:124
+This RealPopup beta preview has expired. Get updated version at http://www.realpopup.it and follow RealPopup discussions at http://groups.yahoo.com/group/RealPopupdisc.
+See RealPopup ßeta-versioon on aegunud. Tõmba uus versioon aadressilt http://www.realpopup.it ja loe RealPopup vestlusi aadresilt http://groups.yahoo.com/group/realpopupdisc.
+@@RP:125
+WARNING: This is a BETA release, expiring on %i-%i-%i.\n\nGet updated version at http://www.realpopup.it and follow RealPopup discussions at http://groups.yahoo.com/group/RealPopupdisc.\n\nsend mail for info at beta@realpopup.it thank you.
+HOIATUS: See on BETA versioon, mis aegub %i.%i.%i.\n\nUue versiooni saad tõmmata http://www.realpopup.it ning loe ka RealPopup vestlusi http://groups.yahoo.com/group/realpopupdisc.\n\nInfo edastamiseks kirjuta beta@realpopup.it, aitäh.
+@@RP:126
+WinPopup compatible message sent to %s.
+Winpopup tüüpi sõnum saadeti aadressile %s.
+@@RP:127
+%s received the message.
+%s sai sõnumi kätte.
+@@RP:128
+Developed by Matro, Rome (Italy).\n\nThis program is freeware:\nuse and distribute as you want!\n\nRealPopup homepage:\nwww.realpopup.it\n\nMatro homepage:\nwww.realpopup.it/matro\n\nSend feedbacks to matro@realpopup.it.\n\nDownload localized RealPopup with your language from the homepage!\n\nRealPopup would not be so nice without the help of all the localizers, active users, beta testers and freeware source around the globe. Take a look at the download page www.realpopup.it/download.html. thank you all!\n\nA great -thank you- for all your feedbacks, and to all the RealPopup and RealPopup Discussion mailing lists subscribers.\n\nMatro.\n\nRealPopup received %i and sent %i messages since installation.\n
+Programmi autor on Matro, ta on pärit Roomast (Itaaliast).\n\nSee programm on vabavara:\nkasuta ja levita, nagu soovid!\n\nRealPopup koduleht:\nwww.realpopup.it\n\nMatro koduleht:\nwww.realpopup.it/matro\n\nTagasiside-aadress: matro@realpopup.it.\n\nTõmba koduleheküljelt omale Sinu keelde tõlgitud versioon!\n\nRealPopupi loomisele on kaasa aidanud tõlkijad, aktiivsed kasutajad, beta-testijad ja tasuta levitatav tarkvara üle maailma. Vaata allalaadimislehte www.realpopup.it/download.html. Tänud teile kõigile!\n\nSuur -aitäh- kõigile tagasiside eest ning kõigile RealPopup ja RealPopup Discussion postilistide tellijatele.\n\nMatro.\n\nAlates paigaldamisest on RealPopup vastu võtnud %i ja saatnud %i sõnumit.\n\nTõlge eesti keelde: Marko Laurits. Tagasiside tõlke kohta on oodatud aadressil marko.laurits@neti.ee\n
+@@RP:129
+If you exit RealPopup, you cannot receive or send messages anymore. Are you sure?\n\nIf you want to disable this message, uncheck 'warn on exit' in the options tab.
+Kui Sa RealPopupi sulged, ei saa Sa sõnumeid saata ega vastu võtta. Oled kindel?\n\nKui Sa ei soovi seda küsimust enam näha, muuda määrangut 'hoiata sulgemisel'.
+@@RP:130
+Balloon on new message
+Teata uuest sõnumist mullis
+@@RP:131
+Please specify a filename
+Sisesta failinimi
+@@RP:132
+OK
+OK
+@@RP:133
+User %s logged out from %s.
+Kasutaja %s logis masinast %s välja.
+@@RP:134
+%1\nThis file already exists.\nReplace existing file?
+%1\nSee fail on juba olemas.\nKas kirjutame üle?
+@@RP:135
+Log Files (*.log)|*.log||
+Logifailid (*.log)|*.log||
+@@RP:136
+Wav Files (*.wav)|*.wav||
+Wave-failid (*.wav)|*.wav||
+@@RP:137
+Text Files (*.txt)|*.txt||
+Tekstifailid (*.txt)|*.txt||
+@@RP:138
+on %a %d, %b %Y at %H:%M.%S
+%a %d, %b %Y, kell %H:%M.%S
+@@RP:139
+From %s To %s %s\n\n
+%s -> %s: %s\n\n
+@@RP:140
+RealPopup: Options
+RealPopup: Seadistused
+@@RP:141
+Preview on balloon
+Eelvaatlus mullis
+@@RP:142
+Cannot initialize the RealPopup receiver: RealPopup won't be able to listen messages from other RealPopup clients.\n\nMost common causes are: (a) another RealPopup instance is already running; (b) NetBios is not binded to any transport protocol.\n\nTry again later by double clicking the lower right icon in the status bar.
+\n\nTry again later by double clicking the lower right icon in the status bar.
+RealPopup vastuvõtja käivitamine ei õnnestu: RealPopup ei suuda teiste RealPopup kasutajate teateid vastu võtta.\n\nKõige tõenäolisemad põhjused: a) RealPopup on juba käivitatud; b. NetBios pole seotud ühegi transpordiprotokolliga.
+\n\nProovi hiljem uuesti topeltklõpsates olekuribal alumist parempoolset ikooni.
+@@RP:143
+Cannot load users informations: probably the RP<user>.dat is not compatible, you should remove it.
+Kasutajainfot ei õnnestu lugeda: tõenäoliselt on RP<user>.dat ebasobiv, kustuta see ära.
+@@RP:144
+(ALL USERS)
+(KÕIK KASUTAJAD)
+@@RP:145
+RealPopup
+RealPopup
+@@RP:146
+RealPopup: %i message.
+RealPopup: %i sõnum.
+@@RP:147
+RealPopup: %i messages.
+RealPopup: %i sõnumit.
+@@RP:148
+*** RealPopup %s internal message ***\n\nUser %s hasn't received your message; maybe the user is currently offline, its pc is very busy, or the user hasn't got RealPopup loaded. \n\nIf the user has got WinPopup or compatible listener, add it to the WINPOPUP group in the Users and Groups options tab.
+*** RealPopup %s sisemine teade ***\n\nKasutaja %s ei saanud Sinu teadet kätte; võib-olla pole ta hetkel võrgus, tema arvuti on väga koormatud, või tal pole RealPopup käivitatud. \n\nKui sel kasutajal on WinPopup tüüpi programm, lisa kasutaja WINPOPUP gruppi - seadistuste aknas Kasuatajad ja Grupid lehel.
+@@RP:149
+Warning: %s hasn't received the message.
+Hoiatus: %s ei saanud sõnumit kätte.
+@@RP:150
+*** RealPopup %s internal message ***\r\n\r\nUser %s is now online!
+*** RealPopup %s sisemine teade ***\r\n\r\nKasutaja %s on nüüd liinil!
+@@RP:151
+User %s hasn't received the online warning.
+Kasutaja %s ei saanud hoiatust kätte.
+@@RP:152
+User %s is available at %s with RealPopup %s.
+RealPopup kasutaja %s on saadaval %s nime all %s.
+@@RP:153
+Message from %s redirected to %s.
+%s sõnum on suunatud aadressile %s.
+@@RP:154
+Cannot redirect from %s to %s: too many loops.
+%s ei saa aadressile %s ümber suunata: liiga palju tsükleid.
+@@RP:155
+RealPopup %s log file\n\n
+RealPopup %s logifail\n\n
+@@RP:156
+Warning: %s hasn't received the message.
+Hoiatus: %s ei saanud sõnumit kätte.
+@@RP:157
+*** RealPopup %s internal message ***\n\nUser %s hasn't received your message; RealPopup cannot try to send through WinPopup protocol because message is too long - %i chars - and exceeds NET SEND message length limit which is about 900 chars.\n\nSet the DisableMessageLengthCheck registry option to 1 to disable this check.
+*** RealPopup %s siseteade ***\n\nKasutaja %s ei saanud Sinu sõnumit kätte; WinPopup protokolli kasutamine selle teate saatmisel pole võimalik, kuna sõnum on liiga pikk - %i tähemärki - see ületab NET SEND ca 900 märgise sõnupikkuse piirangu.\n\nAntud kontrolli on võimalik välja lülitada määrates Registrys muutuja DisableMessageLengthCheck väärtuseks 1.
+@@RP:158
+%s received the message; tell to upgrade from %s to %s! :)
+%s sai teate kätte; soovita tal uuendada RP %s RP %s-ks! :)
+@@RP:159
+*** RealPopup %s internal message ***\n\n%s's RealPopup is disabled, so the user hasn't received your message.
+*** RealPopup %s siseteade ***\n\n%s RealPopup pole aktiveeritud - kasutaja ei saanud sõnumit kätte.
+@@RP:160
+Are you sure to discard this message?\n\nIf you want to disable this message, uncheck the appropriate checkmark in the options tab.
+Oled kindel, et soovid saatmise katkestada?\n\nKui Sa ei soovi seda küsimust enam näha, kustuta määrangute lahtris vastav linnuke.
+@@RP:161
+Cannot create the file.
+Seda faili pole võimalik luua.
+@@RP:162
+RealPopup %s saved message\n\n
+RealPopup %s salvestas sõnumi\n\n
+@@RP:163
+Do you want RealPopup to start automatically on Windows startup?
+Kas soovid, et Windowsi käivitumisel läheks ka RealPopup tööle?
+@@RP:164
+If you find RealPopup useful, set it to start automatically: go to Options->Application and check the 'Execute on Windows startup' option! :)
+Kui RealPopup tundub Sulle vajalik, siis lase tal automaatselt käivituda: mine Seadistuste menüüsse ja tee linnuke 'Käivita koos Windowsiga' lahtrisse! :)
+@@RP:165
+English language V2.5\nLocalized by Matro.
+Eesti keel V2.5\nTõlkinud Marko Laurits.
+@@RP:166
+English
+Estonian
+@@RP:167
+sun|mon|tue|wed|thu|fri|sat
+P|E|T|K|N|R|L
+@@RP:168
+The specified user or group is bad and cannot be inserted.\n\nIf you want to specify a search string, it must be enclosed in brackets, each item separated by a trailing slash, for example:\nSERVER1[SPOOLER|DISK]\nThis entry will consider user or group SERVER1 if the incoming message body contains either the words SPOOLER or DISK.\n\nDo not use more than two brackets, if you want to specify different settings based on message body, insert more than one entry, such as:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nEach entry can have different settings; entry without any search string means 'any body context'.\n\nOtherwise, if you want to specify an user or group name only, do not use brackets.
+Antud kasutaja- või grupinimi on sobimatu.\n\nKui Sa soovisid sisestada otsingusõna, siis see peab olema nurksulgudes, igale elemendile peab järgnema püstkriips, näiteks:\nSERVER1[SPOOLER|DISK]\nSellele stringile vastab kasutaja või grupp SERVER1 juhul kui saabuva sõnumi tekstis on sõna SPOOLER või DISK.\n\nÜhes otsingustringis võib olla kuni üks paar nurksulge: kui Sa soovid luua mitu sõnumi sisul põhinevat määrangut, siis loo mitu kirjet. Näiteks:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nIgale kirjele võivad vastata erinevad määrangud; kirje ilma otsingustringita tähendab 'suvalise sisuga sõnum'.\n\nTeisalt, kui soovid kirjeldada ainult kasutajat või gruppi, ära kasuta nurksulge.
+@@RP:169
+You can associate search criteria along with the user or group you define; settings for it will be accepted if the search matches your requirements. It is possible to associate more search strings separated by a trailing slash | character. Strings are combined with OR clause, this means the user or group is valid if ANY of the strings match.\n\nFor example, the search string criteria 'SPOOLER|DISK' will validate the user or group you defined if the message body contains either the words spooler or disk.\n\nEnter your search criteria here. You can enter it directly on the user or group name enclosing it in brackets []. This dialog will do the translation for you.
+Sa võid kasutaja- või grupinime siduda otsingukriteeriumitega; määrangud rakendatakse kui sõnumi sisu vastab otsingumäärangule. Kui soovitakse kasutada mitut otsingustringi, eraldatakse need püstkriipsuga '|'. Otsingul rakendatakse VÕI kriteeriumi: kasutaja- või grupinimi kehtib kui tekstis esineb vähemalt üks loetelus olevatest stringidest.\n\nNäiteks otsingukriteeriumile 'SPOOLER|DISK' loetakse kasutaja või grupp vastavaks kui sõnumis esines sõna 'spooler' või sõna 'disk'.\n\nSisesta otsingukriteerium siia lahtrisse. Otsingukriteeriumi võib sisestada ka nurksulgudesse [] kasutaja või grupi nime järele. Antud dialoogiaken teeb selle teisenduse Sinu eest.
+@@RP:170
+RealPopup: Search criteria input box
+RealPopup: Otsingukriteeriumi sisestamine
+@@RP:171
+Cancel
+Loobu
+@@RP:172
+devworkbymatro:)
+devworkbymatro:)
+@@RP:173
+Search criteria
+Otsingukriteerium
+@@RP:174
+RPHelpENG.htm
+RPHelpEST.htm
+@@RP:175
+HotKey1
+Kiirklahv1
+@@RP:176
+RealPopup activation hotkey
+RealPopup avamise kiirklahv
+@@RP:177
+Cannot set the hotkey: the combination is used by another application or another RealPopup instance is already running.
+Seda klahvikombinatsiooni ei saa kasutusele võtta: seda kasutab mõni muu rakendus või on RealPopup käivitatud mitu korda.
+@@RP:178
+Set away when ScreenSaver runs
+Olen ära, kui ekraanisäästja töötab
+@@RP:179
+&I'm away
+&Olen ära
+@@RP:180
+&I'm away
+&Olen ära
+@@RP:181
+Inform users you're away.
+Teistele antakse teada, et Sind ei ole.
+@@RP:182
+\n\nReply to this message if you want to send it again.\n\nMessage follows:\n---\n
+\n\nVasta sellele sõnumile, kui soovid alljärgnevat sõnumit uuesti saata.\n\nSõnum:\n---\n
+@@RP:183
+*** RealPopup %s internal message ***\n\nUser %s is away; your message will be read later.
+*** RealPopup %s siseteade ***\n\nKasutaja %s on ära; Sinu sõnumit loetakse hiljem.
+@@RP:184
+Warn when send to domains
+Hoiata domeenile saatimsel
+@@RP:185
+RealPopup provides standard messenger capabilities for Windows NT/2000/XP.
+RealPopup täidab Windows NT/2000/XP Messenger funktsioone.
+@@RP:186
+Let RealPopup take control
+Kasuta RealPopupi sõnumite näitamiseks
+@@RP:187
+Leave standard messenger
+Las Windows ise näitab
+@@RP:188
+For change to take effect, you must restart RealPopup.
+Et muudatus aktiveeruks, tuleb RealPopup uuesti käivitada.
+@@RP:189
+Put caret on top when replying
+Vastamisel aseta kursor sõnumi ette
+@@RP:190
+Send always pc name on from field
+Kasuta From-real alati arvuti nime
+@@RP:191
+RealPopup: Messenger service handling
+RealPopup: Messenger funktsioonide täitmine
+@@RP:192
+Let RealPopup take control (recommended)
+Kasuta RealPopup sõnumite näitamiseks (soovitav)
+@@RP:193
+Do not touch standard messenger service activity
+Las Messenger teenus jääb, nagu on
+@@RP:194
+You can change this option later in the Application pane.
+Seda seadistust saab hiljem Programmi lahtris muuta.
+@@RP:195
+RealPopup has detected the messenger service is active. RealPopup provides standard messenger capabilities for Windows NT/2000/XP.
+RealPopup tuvastas, et Messenger teenus on aktiveeritud. RealPopup võib täita Windows NT/2000/XP Messenger funktsioone.
+@@RP:196
+However, you may want to maintain standard service for particular behaviours; if this is the case, RealPopup will communicate with other RealPopup clients only.
+Soovi korral võid Windowsi enda Messengeri edasi kasutada; ent siis vahetab RealPopup sõnumeid ainult teiste RealPopup klientidega.
+@@RP:197
+Layout and languages
+Kujundus ja keeled
+@@RP:198
+Push the button to select your preferred font for the edit controls.
+Vajuta siia, kui soovid muuta sõnumite fonti.
+@@RP:199
+Choose your wanted language. For changes to take effect, you must restart RealPopup. You must use a localized Windows version for non standard fonts, such as Russian.
+Vali soovitav keel. Valik rakenamiseks tuleb RealPopup uuesti käivitada. Kui selles keeles on ebastandardne kirjatüüp (nt vene), pead kasutama vastavat Windows versiooni.
+@@RP:200
+Select your coolest font used in the information fields such as From and To.
+Vali oma lemmikfont infoväljade (Kellelt, Kellele) esitamiseks.
+@@RP:201
+Click this button to maintain this window position and size.
+Vajuta siia, kui soovid akna suuruse ja asukoha salvestada.
+@@RP:202
+If you are in troubles, click here to revert to default position and size.
+Siia vajutades taastad programmiakna vaikesuuruse ja -asukoha.
+@@RP:203
+&Ignore thread
+&Ignoreeri teemat
+@@RP:204
+Resume &threads
+Naase &teema juurde
+@@RP:205
+Ignore the current thread.\nIgnore thread
+Ignoreeri antud jututeemat.\nIgnoreeri jututeemat
+@@RP:206
+Resume previously ignored threads.
+Naase varem ingoreeritud jututeema juurde.
+@@RP:207
+User %s is available at %s.
+Kasutaja %s on kuuldel töökohas %s.
+@@RP:208
+RealPopup can't stop the Messenger service because you don't have Administrator rights. Contact your administrator for details.\n\nRealPopup will communicate with other RealPopup clients only.
+Messenger teenuse seiskamiseks peab kasutaja olema Administraatori õigustes. Lisainfo saamiseks pöördu oma arvuti administraatori poole.\n\nRealPopup hakkab sõnumeid vahetama ainult teiste RealPopup kasutajatega.
+@@RP:209
+RealPopup can't stop the Messenger service because an unexpected error occurred. Try this task later.\n\nRealPopup will communicate with other RealPopup clients only.
+Messenger teenuse seiskamine on mingil kummalisel põhjusel võimatu. Proovi teinekord jälle.\n\nRealPopup hakkab sõnumeid vahetama ainult teiste RealPopup kasutajatega.
+@@RP:210
+Sending message came from commandline to %s...
+Käsurealt edastatud sõnum saadetakse kasutajale %s...
+@@RP:211
+*** RealPopup %s internal message ***\r\n\r\nCommand line support.\nBefore to send a message from the command line, RealPopup must be launched one time at least: the operation will start the message pump.\n\n-send <to> <message>\nSend a message to an user or group; you can define more than one destination, separated by commas. Enclose the message in quotes if you use spaces; put the ASCII(13) and ASCII(10) for carriage return.\n\n-noactivate\nThis switch causes RealPopup not to activate when invoked by the command line.\n\n-posreset\nReset window size and position to default values.\n\nExample:\nRealPopup -send MATRO,NEURAL 'Hey man! This rocks! :-)' -noactivate\n
+*** RealPopup %s siseteade ***\r\n\r\nKäsurea parameetrid.\nEnne käsurealt sõnumi saatmist tuleb RealPopup vähemalt korra käivitada: sellega käivitatakse sõnumimootor.\n\n-send <kellele> <sõnum>\nsaadab sõnumi kasutajale või grupile. Sõnumi saatmieks mitmele kasutajale eralda vastuvõtjate nimed komadega. Kui soovid sõnumes tühikuid kasutada, pane sõnum jutumärkidesse; reavahetus tähista kujul ASCII(13) ja ASCII(10).\n\n-noactivate\nKasuta käsureal seda võtit, kui soovid, et programm ei käivituks.\n\n-posreset\nSee võti taastab RealPopup vaikesuuruse ja -asukoha.\n\nNäide:\nRealPopup -send MATRO,NEURAL 'Ohhoo! Ruulib täiega! :-)' -noactivate\n
+@@RP:212
+Favorite users
+Lemmikkasutajad
+@@RP:213
+You're going to send to the network domain %s; this message will be read by all the clients connected to it. Are you sure?\n\nIf you want to disable this message, uncheck 'warn when send to domains' in the options tab.\n
+Sa soovid sõnumi saata kogu %s domeenile; selle sõnumi saavad kõik domeeni liikmed. Oled ikka kindel?\n\nKui Sa seda küsimust enam näha ei soovi, kustuta määrangute akntas linnuke 'Hoiata domeenile saatimsel' valiku eest\n
+@@RP:214
+Disable delete button for a while
+Tühista kustutamisnupp paariks sekundiks
+@@RP:215
+Uses WinPopup for sure
+Kasutab kindlasti WinPopup-i
+@@RP:216
+Welcome to RealPopup, the freeware full featured WinPopup replacer for your lan! Double click this icon to open it and read the welcome message.
+RealPopup - tasuta võimalusterohke WinPopup asendaja - tervitab Sind! Topeltkõpsa seda ikooni, et avada põhiaken ja lugeda tervitussõnumit.
+@@RP:217
+*** RealPopup %s message ***\r\n\r\n
+*** RealPopup %s sõnum ***\r\n\r\n
+@@RP:218
+Message from %s
+Sõnum %s-lt
+@@RP:219
+ (%i msgs waiting)
+ (%i sõnumit ootel)
+@@RP:220
+User %s has not read your message
+Kasutja %s pole Su sõnumit lugenud
+@@RP:221
+Quote original message
+Tsiteeri originaalsõnumit
+@@RP:222
+Members
+Liikmed
+@@RP:223
+Group
+Grupp
+@@RP:224
+WinPopup protocol enabled
+WinPopup protokoll aktiveeritud
+@@RP:225
+RealPopup protocol enabled
+RealPopup protokoll aktiveeritud
+@@RP:226
+WinPopup protocol not active
+WinPopup protokoll pole aktiivne
+@@RP:227
+RealPopup protocol not active
+RealPopup protokoll pole aktiivne
+@@RP:228
+Cannot initialize WinPopup compatible receiver: the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it.\n\nYou can (a) run RealPopup with sufficient privileges, (b) let the Administrator to assign proper rights to your user/group or (c) manually disable the messenger service.\n\nTry again later by double clicking the lower right icon in the status bar.
+WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: Windows Messenger teenus on aktiivne ning RealPopup õigused on selle seiskamiseks ebapiisavad.\n\nSa võid: (a) Käivitada RealPopupi piisavate õigustega, (b) paluda administraatoril omistada Sulle piisavad õigused või (c) seisata Messengeri teenuse käsitsi.\n\nProovi hiljem uuesti topeltklõpsates olekuribal alumist parempoolset ikooni.
+@@RP:229
+Cannot initialize the WinPopup compatible receiver: maybe RealPopup or a WinPopup compatible client is already executing on this machine. Open RealPopup to read more.
+WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: vahest RealPopup või WinPopup juba käivitub siin arvutis. Lisainfo saamiseks ava RealPopup.
+@@RP:230
+Cannot initialize WinPopup compatible receiver: the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it. Open RealPopup to read more.
+WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: Windows Messenger teenus on aktiivne ning RealPopup õigused on selle seiskamiseks ebapiisavad. Lisainfo saamiseks ava RealPopup.
+@@RP:231
+Cannot initialize the RealPopup receiver: maybe another RealPopup instance is already executing on this machine. Open RealPopup to read more.
+RealPopup sõnumite vastuvõtja ei kävitu: vahest RealPopup juba käivitub siin arvutis. Lisainfo saamiseks ava RealPopup.
+@@RP:232
+RealPopup activation hotkey
+RealPopup avamise klahvikombinatsioon
+@@RP:233
+Warn if RealPopup protocol is not active
+Warn if RealPopup protocol is not active
+

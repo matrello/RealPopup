@@ -1,0 +1,716 @@
+; RealPopup localization project
+; handled by RealPopupLocalizer V1.1.14
+; last touch date 2003-01-29 12.24
+
+;
+; Each block is a string in the project resource file:
+; - Line1 string id          @@RP:1
+; - Line2 english string     This program is freeware
+; - Line3 translated string  Questo programma è freeware
+;
+@@RP:0
+RealPopup: About
+RealPopup: A Propos de
+@@RP:1
+Matro! :)
+Matro! :)
+@@RP:2
+From
+De
+@@RP:3
+To
+A
+@@RP:4
+RealPopup: Send message
+RealPopup: Envoyer un message
+@@RP:5
+To
+A
+@@RP:6
+Application
+Application
+@@RP:7
+Execute on Windows startup
+Executer avec Windows
+@@RP:8
+Warn on exit
+Avertir en quittant
+@@RP:9
+Warn on canceling a send
+Avertir en annulant un envoi
+@@RP:10
+Always on top
+Toujours visible
+@@RP:11
+Left button activates tray menu
+Le bouton de gauche active le menu
+@@RP:12
+Determine Favorite Users
+Détermine les utilisateurs favoris
+@@RP:13
+Click left button to save current RealPopup window placement, right one for default.
+Cliquez bouton gauche pour sauver la position courante de RealPopup, droite pour défaut.
+@@RP:14
+Choose your preferred font, left button for message field, right for information ones.
+Choisissez une police préférée, bouton gauche pour le message, droite pour les infos.
+@@RP:15
+Choose your language; restart RealPopup for changes to take effect.
+Choisissez votre langue, redémarrez RealPopup pour l'appliquer.
+@@RP:16
+written by Matro
+Ecrit par Matro
+@@RP:17
+Fonts and localization
+Polices et traduction
+@@RP:18
+Users and groups
+Utilisateurs et groupes
+@@RP:19
+&Add
+&Ajouter
+@@RP:20
+&Remove
+&Supprimer
+@@RP:21
+User
+Utilisateur
+@@RP:22
+Group (members:)
+Groupe (membres:)
+@@RP:23
+Ignore messages
+Ignorer les messages
+@@RP:24
+Pop up on new message
+Fenêtre en avant à la réception d'un message
+@@RP:25
+Uses RealPopup for sure
+Utilise certainement RealPopup
+@@RP:26
+Notify when comes online
+Prévenir quand il se connecte
+@@RP:27
+Redirect messages to:
+Transfert des messages à:
+@@RP:28
+Log messages to:
+Log messages vers:
+@@RP:29
+(members:)
+(membres:)
+@@RP:30
+RealPopup: Network browser
+RealPopup: Explorateur Réseau
+@@RP:31
+Cancel
+Annuler
+@@RP:32
+Mark as &default
+&Defaut
+@@RP:33
+Matro '99
+Matro '99
+@@RP:34
+Messages
+Messages
+@@RP:35
+Delete original message when replied
+Supprimer le message original après réponse
+@@RP:36
+Minimize when replied
+Minimiser la fenêtre après réponse
+@@RP:37
+Minimize when deleting last message
+Minimiser la fenêtre après suppression du dernier message
+@@RP:38
+Automatically show last message
+Montrer automatiquement le dernier message reçu
+@@RP:39
+Beep on new message
+Beeper à la reception d'un nouveau message
+@@RP:40
+Play WAV on new message
+Jouer un WAV à la réception d'un nouveau message
+@@RP:41
+Notify message delivery issues through balloon
+Notifier le résultat de l'envoi des messages avec une bulle
+@@RP:42
+Double click to activate hyperlinks
+Double clique pour activer les liens hypertextes
+@@RP:43
+Sound effects
+Effets sonores
+@@RP:44
+Use Enter to send the message
+Appuyer sur entrée pour envoyer le message
+@@RP:45
+Just to cover
+Juste pour couvrir
+@@RP:46
+Localized resource for RealPopup\0
+Ressource de traduction pour RealPopup\0
+@@RP:47
+Matro\0
+Matro\0
+@@RP:48
+Localized resource (English) for RealPopup\0
+Ressource de Traduction (Anglais) pour RealPopup\0
+@@RP:49
+Include in Favorite Users
+Inclure dans les utilisateurs favoris
+@@RP:50
+RealPopup\0
+RealPopup\0
+@@RP:51
+Matro, freeware\0
+Matro, gratuiciel\0
+@@RP:52
+Localized by Matro\0
+Traduit par Olivier MARTIN\0
+@@RP:53
+RealPopup.EXE\0
+RealPopup.EXE\0
+@@RP:54
+RealPopup\0
+RealPopup\0
+@@RP:55
+%s\0
+%s\0
+@@RP:56
+&Message
+&Message
+@@RP:57
+&Send\tCtrl+S
+&Envoyer\tCtrl+S
+@@RP:58
+C&ancel\tEsc
+&Annuler\tEsc
+@@RP:59
+Cu&t\tCtrl+X
+Co&uper\tCtrl+X
+@@RP:60
+&Copy\tCtrl+C
+&Copier\tCtrl+C
+@@RP:61
+&Paste\tCtrl+V
+Co&ller\tCtrl+V
+@@RP:62
+Network &browser...
+E&xplorateur réseau...
+@@RP:63
+&Environment
+&Environnement
+@@RP:64
+&Do not disturb
+&Ne pas déranger
+@@RP:65
+&Force wake up
+&Force le réveil
+@@RP:66
+&Options...
+&Options...
+@@RP:67
+&Exit
+&Quitter
+@@RP:68
+&Message
+&Message
+@@RP:69
+&New...\tCtrl+N
+&Nouveau...\tCtrl+N
+@@RP:70
+Answe&r...\tCtrl+R
+R&épondre...\tCtrl+R
+@@RP:71
+&Answer all...\tCtrl+A
+&Répondre à tous...\tCtrl+A
+@@RP:72
+&Forward...\tCtrl+F
+&Transférer...\tCtrl+F
+@@RP:73
+Delete a&ll\tCtrl+Shift+Del
+&Tout supprimer\tCtrl+Shift+Del
+@@RP:74
+&Delete\tCtrl+Del
+&Supprimer\tCtrl+Del
+@@RP:75
+&Previous\tCtrl+PgUp
+&Précédent\tCtrl+PgUp
+@@RP:76
+N&ext\tCtrl+PgDn
+&Suivant\tCtrl+PgDn
+@@RP:77
+&Copy\tCtrl+C
+&Copier\tCtrl+C
+@@RP:78
+&Save...
+&Enregistrer...
+@@RP:79
+Network &browser...
+E&xploration réseau...
+@@RP:80
+&?
+&?
+@@RP:81
+&Help...
+&Aide...
+@@RP:82
+Welcome &message
+&Message de Bienvenue...
+@@RP:83
+&About
+&A Propos de...
+@@RP:84
+MATRO
+MATRO
+@@RP:85
+&Open
+&Ouvrir
+@@RP:86
+&Minimize
+&Minimiser
+@@RP:87
+&Do not disturb
+&Ne pas déranger
+@@RP:88
+&Force wake up
+&Force le réveil
+@@RP:89
+&New message...
+&Nouveau message...
+@@RP:90
+E&xit
+&Quitter
+@@RP:91
+&About RealPopup...
+&A Propos de RealPopup...
+@@RP:92
+Send new message to user(s) or broadcast.\nNew Message
+Envoyer un message à un ou plusieurs utilisateur(s) ou général.\nNouveau Message
+@@RP:93
+Answer the source.\nAnswer
+Répondre à l'expéditeur.\nRépondre
+@@RP:94
+Answer to both source and destinations.\nAnswer all
+Répondre à l'expéditeur et aux destinataires.\nRépondre à tous
+@@RP:95
+Forward the message to other user(s).\nForward
+Transférer le message à d'autres utilisateurs.\nTransférer
+@@RP:96
+Delete all messages.\nDelete all
+Supprimer tous les messages.\nTout supprimer
+@@RP:97
+Delete current message.\nDelete
+Supprimer le message courant.\nSupprimer
+@@RP:98
+View previous message.\nPrevious
+Voir le message précédent.\nPrécédent
+@@RP:99
+View next message.\nNext
+Voir le message suivant.\nSuivant
+@@RP:100
+Copy entire or part of the message.\nCopy
+Copier une partie ou totalité du message.\nCopier
+@@RP:101
+Save message as text file.\nSave
+Enregistrer le message en fichier texte.\nEnregistrer
+@@RP:102
+Send the message to the user or broadcast\nSend message
+Envoyer un message à l'utilisateur(s) ou général.\nEnvoyer le message
+@@RP:103
+Cancel the send\nCancel
+Annuler l'envoi\nAnnuler
+@@RP:104
+Open options dialog.\nOptions
+Ouvrir la fenêtre d'options.\nOptions
+@@RP:105
+About box.
+Fenêtre A Propos de.
+@@RP:106
+Look at the welcome message again! :)
+Lisez de nouveau le message de bienvenue! :)
+@@RP:107
+Use this item to open RealPopup window.
+Utilisez cet élément pour ouvrir la fenêtre RealPopup.
+@@RP:108
+Minimize RealPopup to the tray area.
+Minimiser RealPopup dans la barre des tâches.
+@@RP:109
+Do not receive any message.
+Ne recevoir aucun message.
+@@RP:110
+Close RealPopup program.
+Fermer RealPopup.
+@@RP:111
+Disable message redirection and ignore (if any).
+Désactiver la redirection du message et ignorer.
+@@RP:112
+Look for an user on the network.\nNetwork browser
+Rechercher un utilisateur sur le réseau.\nExplorateur réseau
+@@RP:113
+Shows help file.
+Afficher le fichier d'aide.
+@@RP:114
+Copy into clipboard.\nCopy
+Copier dans le Press-Papiers.\nCopier
+@@RP:115
+Cut into clipboard.\nCut
+Couper dans le Presse-Papiers.\nCouper
+@@RP:116
+Paste to the clipboard..\nPaste
+Coller dans le Presse-Papiers..\nColler
+@@RP:117
+Ready.
+Prêt.
+@@RP:118
+Could not find the user, or could not be able to send the message.
+Ne peux trouver l'utilisateur, ou ne peux pas envoyer le message.
+@@RP:119
+Cannot initialize the WinPopup compatible receiver: RealPopup won't be able to listen messages from standard Windows messaging system.\n\nMost common causes are: (a) the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it, (b) RealPopup or a WinPopup compatible client is already executing on this machine, (c) NetBios is not binded to any transport protocol.\n\nTry again later by double clicking the lower right icon in the status bar.
+Impossible d'initialiser le réceptionneur Winpopup: RealPopup ne sera pas en mesure de réceptionner les messages issus du service messagerie de Windows.\n\nLes principales causes sont: a. Le service messagerie est actif et RealPopup ne dispose pas des privilèges suffisants pour le stopper; b. RealPopup (ou Winpopup) s'exécute déjà sur cette machine; c. Netbios n'est attaché à aucun protocole de transport.\n\nEssayez à nouveau plus tard en double-cliquant surl'icône de la barre d'état.
+@@RP:120
+RealPopup message
+Message RealPopup
+@@RP:121
+USER
+UTILISATEUR
+@@RP:122
+RealPopup
+RealPopup
+@@RP:123
+You user!
+Vous utilisateur!
+@@RP:124
+This RealPopup beta preview has expired. Get updated version at http://www.realpopup.it and follow RealPopup discussions at http://groups.yahoo.com/group/RealPopupdisc.
+Cette version beta de RealPopup a expiré. Téléchargez la dernière version sur http://www.realpopup.it et suivez les discussions sur RealPopup sur http://groups.yahoo.com/group/RealPopupdisc.
+@@RP:125
+WARNING: This is a BETA release, expiring on %i-%i-%i.\n\nGet updated version at http://www.realpopup.it and follow RealPopup discussions at http://groups.yahoo.com/group/RealPopupdisc.\n\nsend mail for info at beta@realpopup.it thank you.
+ATTENTION: Il s'agit d'une version BETA qui expire le %i - %i - %i. Téléchargez la dernière version sur http://www.realpopup.it et suivez les discussions sur RealPopup sur http://groups.yahoo.com/group/RealPopupdisc.\n\envoyez un mail pour plus d'infos à beta@realpopup.it merci.
+@@RP:126
+WinPopup compatible message sent to %s.
+Message compatible Winpopup envoyé à %s.
+@@RP:127
+%s received the message.
+%s a reçu le message.
+@@RP:128
+Developed by Matro, Rome (Italy).\n\nThis program is freeware:\nuse and distribute as you want!\n\nRealPopup homepage:\nwww.realpopup.it\n\nMatro homepage:\nwww.realpopup.it/matro\n\nSend feedbacks to matro@realpopup.it.\n\nDownload localized RealPopup with your language from the homepage!\n\nRealPopup would not be so nice without the help of all the localizers, active users, beta testers and freeware source around the globe. Take a look at the download page www.realpopup.it/download.html. thank you all!\n\nA great -thank you- for all your feedbacks, and to all the RealPopup and RealPopup Discussion mailing lists subscribers.\n\nMatro.\n\nRealPopup received %i and sent %i messages since installation.\n
+Développé par Matro, Rome (Italy).\n\nCe programme est un gratuiciel (freeware):\nVous pouvez l'utiliser et le distribuer librement !\n\nPage d'accueil de RealPopup:\nwww.realpopup.it\n\npage d'accueil de Matro:\nwww.realpopup.it/matro\n\nEnvoyez vos commentaires à matro@realpopup.it.\n\nTéléchargez la version de RealPopup dans votre langue depuis la page d'accueil !\n\nRealPopup ne serait pas ce qu'il est sans l'aide des traducteurs, des utilisateurs, des beta testeurs et des codes sources gratuits du monde entier.\n\nJetez un oeil à la page des téléchargements www.realpopup.it/download.html.merci à tous !\n\nUn grand merci pour toutes vos remarques et à tous les abonnés aux mailings lists RealPopup et RealPopup Discussion.\n\nMatro.\n\nRealPopup a reçu %i et a transmis %i messages depuis son installation.\n
+@@RP:129
+If you exit RealPopup, you cannot receive or send messages anymore. Are you sure?\n\nIf you want to disable this message, uncheck 'warn on exit' in the options tab.
+Si vous quittez RealPopup, vous ne pourrez plus recevoir de message. Etes vous sûr ?\n\nSi vous voulez désactiver ce message, décochez l'option 'Avertir en quittant' dans l'onglet option.
+@@RP:130
+Balloon on new message
+Bulle pour un nouveau message
+@@RP:131
+Please specify a filename
+Spécifiez un nom de fichier
+@@RP:132
+OK
+OK
+@@RP:133
+User %s logged out from %s.
+Utilisateur %s déconnecté de %s.
+@@RP:134
+%1\nThis file already exists.\nReplace existing file?
+%1\nCe fichier existe déjà.\nRemplacer le fichier existant?
+@@RP:135
+Log Files (*.log)|*.log||
+Fichiers Log (*.log)|*.log||
+@@RP:136
+Wav Files (*.wav)|*.wav||
+Fichiers Wave (*.wav)|*.wav||
+@@RP:137
+Text Files (*.txt)|*.txt||
+Fichiers Texte (*.txt)|*.txt||
+@@RP:138
+on %a %d, %b %Y at %H:%M.%S
+le %a %d, %b %Y à %H:%M.%S
+@@RP:139
+From %s To %s %s\n\n
+De %s à %s %s\n\n
+@@RP:140
+RealPopup: Options
+RealPopup: Options
+@@RP:141
+Preview on balloon
+Prévisualiser dans une bulle
+@@RP:142
+Cannot initialize the RealPopup receiver: RealPopup won't be able to listen messages from other RealPopup clients.\n\nMost common causes are: (a) another RealPopup instance is already running; (b) NetBios is not binded to any transport protocol.\n\nTry again later by double clicking the lower right icon in the status bar.
+Impossible d'initialiser le réceptionneur RealPopup: RealPopup ne pourra pas écouter les messages des autres clients RealPopup.\n\nLes raisons principales sont: a.une autre session RealPopup s'exécute déjà; b. Netbios n'est attaché à aucun protocole.\n\nEssayez à nouveau plus tard en double-cliquant surl'icône de la barre d'état.
+@@RP:143
+Cannot load users informations: probably the RP<user>.dat is not compatible, you should remove it.
+Impossible de charger les informations utilisateur : le fichier RP<user>.dat n'est certainement pas compatible, vous devez dans ce cas le supprimer.
+@@RP:144
+(ALL USERS)
+(TOUT LE MONDE)
+@@RP:145
+RealPopup
+RealPopup
+@@RP:146
+RealPopup: %i message.
+RealPopup: %i message.
+@@RP:147
+RealPopup: %i messages.
+RealPopup: %i messages.
+@@RP:148
+*** RealPopup %s internal message ***\n\nUser %s hasn't received your message; maybe the user is currently offline, its pc is very busy, or the user hasn't got RealPopup loaded. \n\nIf the user has got WinPopup or compatible listener, add it to the WINPOPUP group in the Users and Groups options tab.
+*** Message Interne de RealPopup %s ***\n\nL'utilisateur %s n'a pas reçu votre message; peut-être est-il hors ligne, son pc est très sollicité, ou il n'a pas lancé RealPopup. \n\nSi l'utilisateur emploie Winpopup ou un programme compatible, ajoutez-le au groupe WINPOPUP dans l'onglet utilisateurs et Groupes des options.
+@@RP:149
+Warning: %s hasn't received the message.
+Attention: %s n'a pas reçu le message.
+@@RP:150
+*** RealPopup %s internal message ***\r\n\r\nUser %s is now online!
+*** Message Interne de RealPopup %s ***\r\n\r\nL'utilisateur %s est en ligne!
+@@RP:151
+User %s hasn't received the online warning.
+L'utilisateur %s n'a pas reçu l'avertissement de mise en ligne.
+@@RP:152
+User %s is available at %s with RealPopup %s.
+L'utilisateur %s est disponible à %s avec RealPopup %s.
+@@RP:153
+Message from %s redirected to %s.
+Message de %s redirigé vers %s.
+@@RP:154
+Cannot redirect from %s to %s: too many loops.
+Ne peux pas rediriger de %s to %s: trop de boucles.
+@@RP:155
+RealPopup %s log file\n\n
+Fichier RealPopup %s de log\n\n
+@@RP:156
+Warning: %s hasn't received the message.
+Attention: %s n'a pas reçu le message.
+@@RP:157
+*** RealPopup %s internal message ***\n\nUser %s hasn't received your message; RealPopup cannot try to send through WinPopup protocol because message is too long - %i chars - and exceeds NET SEND message length limit which is about 900 chars.\n\nSet the DisableMessageLengthCheck registry option to 1 to disable this check.
+*** Message Interne de RealPopup %s ***\n\nL'utilisateur %s n'a pas reçu votre message; RealPopup ne peut pas essayer de passer par le protocole Winpopup car le message est trop long - %i caractères - et dépasse la longueur limite de NET SEND qui est d'environ 900 caractères.\n\nEtablissez l'option DisableMessageLengthCheck de la base de registre à 1 pour désactiver ce controle.
+@@RP:158
+%s received the message; tell to upgrade from %s to %s! :)
+%s a reçu le message; conseillez lui de passer de %s à %s! :)
+@@RP:159
+*** RealPopup %s internal message ***\n\n%s's RealPopup is disabled, so the user hasn't received your message.
+*** Message Interne de RealPopup %s ***\n\n%s's RealPopup est désactivé, l'utilisateur n'a donc pas reçu votre message.
+@@RP:160
+Are you sure to discard this message?\n\nIf you want to disable this message, uncheck the appropriate checkmark in the options tab.
+Etes vous sûr de supprimer ce message?\n\nSi vous voulez désactiver ce message, décochez l'option approprié dans l'onglet options.
+@@RP:161
+Cannot create the file.
+Impossible de créer le fichier.
+@@RP:162
+RealPopup %s saved message\n\n
+Message de %s enregistré.\n\n
+@@RP:163
+Do you want RealPopup to start automatically on Windows startup?
+Voulez vous que RealPopup se lance automatiquement au démarrage de Windows ?
+@@RP:164
+If you find RealPopup useful, set it to start automatically: go to Options->Application and check the 'Execute on Windows startup' option! :)
+Si vous trouvez RealPopup utile, configurez-le pour qu'il démarre automatiquement: allez dans options->Application et cochez l'option 'Executer avec Windows' :)
+@@RP:165
+English language V2.6\nLocalized by Matro.
+French language V2.6\nLocalized by Olivier MARTIN.
+@@RP:166
+English
+French
+@@RP:167
+sun|mon|tue|wed|thu|fri|sat
+dim|lun|mar|mer|jeu|ven|sam
+@@RP:168
+The specified user or group is bad and cannot be inserted.\n\nIf you want to specify a search string, it must be enclosed in brackets, each item separated by a trailing slash, for example:\nSERVER1[SPOOLER|DISK]\nThis entry will consider user or group SERVER1 if the incoming message body contains either the words SPOOLER or DISK.\n\nDo not use more than two brackets, if you want to specify different settings based on message body, insert more than one entry, such as:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nEach entry can have different settings; entry without any search string means 'any body context'.\n\nOtherwise, if you want to specify an user or group name only, do not use brackets.
+L'utilisateur ou le groupe spécifié est erroné et ne peut être insérer.\n\nSi vous désirez spécifier une chaine de recherche, elle doit être entourée de crochets, chaque élément séparé par un slash vertical, par exemple:\nSERVER1[SPOOLER|DISK]\nCette entrée considèrera l'utilisateur ou groupe nommé SERVER1 si le corps du message entrant contient soit le mot SPOOLER soit le mot DISK.\n\nNe jamais utiliser plus que deux crochets. Si vous désirez spécifier differents paramètres basés sur le corps du message, insérez plus qu'une seule entrée comme:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nChaque entrée peut avoir différents paramètres; une entrée sans aucune chaîne de recherche signifie 'contexte de n'importe quel corps'.\n\nAutrement, si vous voulez seulement spécifier un seul utilisateur ou groupe, n'utilisez pas de crochets.
+@@RP:169
+You can associate search criteria along with the user or group you define; settings for it will be accepted if the search matches your requirements. It is possible to associate more search strings separated by a trailing slash | character. Strings are combined with OR clause, this means the user or group is valid if ANY of the strings match.\n\nFor example, the search string criteria 'SPOOLER|DISK' will validate the user or group you defined if the message body contains either the words spooler or disk.\n\nEnter your search criteria here. You can enter it directly on the user or group name enclosing it in brackets []. This dialog will do the translation for you.
+Vous pouvez associer le critère de recherche à la suite de l'utilisateur ou groupe que vous avez défini; les paramètres seront validés si la recherche réponds à vos attentes. Il est possible d'associer plusieurs chaînes de recherche en les séparant par un slash vertical |. Les chaînes de caractères peuvent être combinées avec une clause OR, cela signifie que l'utilisateur ou groupe est valide si n'importe laquelle des chaînes convient.\nPar exemple, le critère de recherche 'SPOOLER|DISK' validera l'utilisateur ou groupe que vous avez défini si le corps du message contient soit le mot SPOOLER ou DISK.\n\nSaisissez vos critères de recherche ici. Vous pouvez directement les saisir directement à la suite du nom de l'utilisateur ou du groupe entouré de crochets []. Cependant, cette boite de dialogue le fera pour vous !
+@@RP:170
+RealPopup: Search criteria input box
+RealPopup: Boite de saisie de recherche par critères
+@@RP:171
+Cancel
+Annuler
+@@RP:172
+devworkbymatro:)
+devworkbymatro:)
+@@RP:173
+Search criteria
+Rechercher les critères
+@@RP:174
+RPHelpENG.htm
+RPHelpFRA.htm
+@@RP:175
+HotKey1
+HotKey1
+@@RP:176
+RealPopup activation hotkey
+Touche pour activer RealPopup
+@@RP:177
+Cannot set the hotkey: the combination is used by another application or another RealPopup instance is already running.
+Impossible d'assigner la touche d'activation: cette combinaison est utilisée par une autre application ou une autre session RealPopup est déjà en cours.
+@@RP:178
+Set away when ScreenSaver runs
+Etat Absent si Ecran de veille
+@@RP:179
+&I'm away
+&Je suis absent
+@@RP:180
+&I'm away
+&Je suis absent
+@@RP:181
+Inform users you're away.
+Informer les utilisateurs de votre absence.
+@@RP:182
+\n\nReply to this message if you want to send it again.\n\nMessage follows:\n---\n
+\n\nRepondez à ce message si vous voulez l'envoyer de nouveau.\n\nMessage :\n---\n
+@@RP:183
+*** RealPopup %s internal message ***\n\nUser %s is away; your message will be read later.
+*** Message Interne de RealPopup %s ***\n\nL'Utilisateur %s est absent; votre message sera lu plus tard.
+@@RP:184
+Warn when send to domains
+Avertir lors d'un envoi vers un domaine
+@@RP:185
+RealPopup provides standard messenger capabilities for Windows NT/2000/XP.
+RealPopup fourni les fonctions standard du service Messagerie de Windows NT/2000/XP.
+@@RP:186
+Let RealPopup take control
+Laisser RealPopup utiliser le service Messagerie
+@@RP:187
+Leave standard messenger
+Ne pas utiliser le service Messagerie
+@@RP:188
+For change to take effect, you must restart RealPopup.
+Pour que le changement soit appliqué, vous devez redémarrer RealPopup.
+@@RP:189
+Put caret on top when replying
+Positionner le curseur au début pour répondre
+@@RP:190
+Send always pc name on from field
+Toujours envoyer avec le nom de l'ordinateur
+@@RP:191
+RealPopup: Messenger service handling
+RealPopup: Traitement du service de messagerie
+@@RP:192
+Let RealPopup take control (recommended)
+Laisser RealPopup utiliser le service Messagerie (recommandé)
+@@RP:193
+Do not touch standard messenger service activity
+Ne pas utiliser le service Messagerie de Windows
+@@RP:194
+You can change this option later in the Application pane.
+Vous pouvez changer cette option plus tard dans le menu de configuration.
+@@RP:195
+RealPopup has detected the messenger service is active. RealPopup provides standard messenger capabilities for Windows NT/2000/XP.
+RealPopup a détecté que le service messagerie est actif. RealPopup fourni les fonctions standard du service Messagerie de Windows NT/2000/XP.
+@@RP:196
+However, you may want to maintain standard service for particular behaviours; if this is the case, RealPopup will communicate with other RealPopup clients only.
+Cependant, vous pouvez ne pas vouloir toucher au service Messagerie pour des raisons particulières; si tel est le cas, RealPopup ne communiquera qu'avec d'autres clients RealPopup.
+@@RP:197
+Layout and languages
+Réglages et langues
+@@RP:198
+Push the button to select your preferred font for the edit controls.
+Appuyez sur le bouton pour choisir votre police préférée pour le contenu des messages.
+@@RP:199
+Choose your wanted language. For changes to take effect, you must restart RealPopup. You must use a localized Windows version for non standard fonts, such as Russian.
+Choisissez votre langue. Redémarrez RealPopup pour l'appliquer. Vous devez utiliser une version de windows pour laquelle une traduction de RealPopup est proposée, pour les polices particulières: russe...
+@@RP:200
+Select your coolest font used in the information fields such as From and To.
+Choisissez votre police pour l'utilisation des champs expéditeur et destinataire(s).
+@@RP:201
+Click this button to maintain this window position and size.
+Appuyez sur ce bouton pour conserver la position et la taille de la fenêtre.
+@@RP:202
+If you are in troubles, click here to revert to default position and size.
+Si vous avez des problèmes, cliquez ici pour revenir à la taille et à la position par défaut.
+@@RP:203
+&Ignore thread
+&Ignorer le fil
+@@RP:204
+Resume &threads
+Reprendre les &fils
+@@RP:205
+Ignore the current thread.\nIgnore thread
+Ignorer le fil de discussion en cours.\nIgnorer le fil
+@@RP:206
+Resume previously ignored threads.
+Reprendre les fils ignorés précédents.
+@@RP:207
+User %s is available at %s.
+L'utilisateur %s est disponible à %s.
+@@RP:208
+RealPopup can't stop the Messenger service because you don't have Administrator rights. Contact your administrator for details.\n\nRealPopup will communicate with other RealPopup clients only.
+RealPopup ne peut pas arrêter le service messagerie car vous n'avez pas les privilèges administrateur. Contactez votre administrateur réseau pour plus de renseignements.\n\nRealPopup ne communiquera qu'avec les autres clients RealPopup.
+@@RP:209
+RealPopup can't stop the Messenger service because an unexpected error occurred. Try this task later.\n\nRealPopup will communicate with other RealPopup clients only.
+RealPopup ne peut pas arrêter le service messagerie car une erreur inconnue s'est produite. Essayez cette fonction plus tard.\n\nRealPopup ne communiquera qu'avec les autres clients RealPopup.
+@@RP:210
+Sending message came from commandline to %s...
+Envoi du message de la ligne de commande à %s...
+@@RP:211
+*** RealPopup %s internal message ***\r\n\r\nCommand line support.\nBefore to send a message from the command line, RealPopup must be launched one time at least: the operation will start the message pump.\n\n-send <to> <message>\nSend a message to an user or group; you can define more than one destination, separated by commas. Enclose the message in quotes if you use spaces; put the ASCII(13) and ASCII(10) for carriage return.\n\n-noactivate\nThis switch causes RealPopup not to activate when invoked by the command line.\n\n-posreset\nReset window size and position to default values.\n\nExample:\nRealPopup -send MATRO,NEURAL 'Hey man! This rocks! :-)' -noactivate\n
+*** Message Interne de RealPopup %s ***\r\n\r\nUtilisation de la ligne de commande.\nAvant d'envoyer un message depuis la ligne de commande, RealPopup doit être lancé au moins une fois: cette opération activera les fonctions de RealPopup.\n\n-send <to> <message>\nEnvoyer un message à un utilisateur ou à un groupe; vous pouvez définir plusieurs destinataires, separés par des virgules. Inclure le message entre guillemets si vous utilisez des espaces; utiliser les ASCII(13) et ASCII(10) pour un retour chariot.\n\n-noactivate\nCe paramètre empêche RealPopup de s'afficher lorsqu'il est appelé par la ligne de commande.\n\n-posreset\nRéajuste la taille et la position de la fenêtre aux valeurs par défaut.\n\nExemple:\nRealPopup -send MATRO,NEURAL 'Hey man! This rocks! :-)' -noactivate\n
+@@RP:212
+Favorite users
+Utilisateurs favoris
+@@RP:213
+You're going to send to the network domain %s; this message will be read by all the clients connected to it. Are you sure?\n\nIf you want to disable this message, uncheck 'warn when send to domains' in the options tab.\n
+Vous allez envoyer un message vers le domaine %s; celui-ci sera lu par tous les clients connectés à ce domaine. Etes-vous certain?\n\nSi vous voulez désactiver ce message, décochez 'Avertir lors d'un envoi vers un domaine' dans les options du programme.\n
+@@RP:214
+Disable delete button for a while
+Désactiver temporairement le bouton supprimer
+@@RP:215
+Uses WinPopup for sure
+Utilise certainement WinPopup
+@@RP:216
+Welcome to RealPopup, the freeware full featured WinPopup replacer for your lan! Double click this icon to open it and read the welcome message.
+Bienvenue sur RealPopup, le freeware remplaçant WinPopup avec toutes ses fonctionnalités pour votre LAN !(réseau local) Double-clickez cet icone pour ouvrir la fenêtre principale et lire le message de bienvenue.
+@@RP:217
+*** RealPopup %s message ***\r\n\r\n
+*** message de RealPopup %s ***\r\n\r\n
+@@RP:218
+Message from %s
+Message de %s
+@@RP:219
+ (%i msgs waiting)
+ (%i msgs en attente)
+@@RP:220
+User %s has not read your message
+L'utilisateur %s n'a pas lu votre message
+@@RP:221
+Quote original message
+Rappeler le message d'origine
+
+
+
+@@RP:222
+Members
+Membres
+@@RP:223
+Group
+Groupe
+@@RP:224
+WinPopup protocol enabled
+Protocole WinPopup activé
+@@RP:225
+RealPopup protocol enabled
+Protocole RealPopup activé
+@@RP:226
+WinPopup protocol not active
+Protocole WinPopup inactif
+@@RP:227
+RealPopup protocol not active
+Protocole RealPopup inactif
+@@RP:228
+Cannot initialize WinPopup compatible receiver: the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it.\n\nYou can (a) run RealPopup with sufficient privileges, (b) let the Administrator to assign proper rights to your user/group or (c) manually disable the messenger service.\n\nTry again later by double clicking the lower right icon in the status bar.
+Impossible d'initialiser le réceptionneur compatible Winpopup: Le service messagerie est actif et RealPopup ne dispose pas des privilèges suffisants pour le stopper.\n\nVous pouvez (a) lancer RealPopup avec des droits suffisants, (b) laisser l'administrateur attribuer les bons droits pour votre utilisateur/groupe ou (c) désactiver manuellement le service messagerie.\n\nEssayez à nouveau plus tard en double-cliquant surl'icône de la barre d'état.
+@@RP:229
+Cannot initialize the WinPopup compatible receiver: maybe RealPopup or a WinPopup compatible client is already executing on this machine. Open RealPopup to read more.
+Impossible d'initialiser le réceptionneur compatible Winpopup:  peut-être RealPopup ou un programme compatible WinPopup est déjà actif sur cette machine. Ouvrez RealPopup pour en apprendre plus.
+@@RP:230
+Cannot initialize WinPopup compatible receiver: the standard Messenger service is active and RealPopup hasn't got enough privileges to stop it. Open RealPopup to read more.
+Impossible d'initialiser le réceptionneur compatible Winpopup: Le service messagerie est actif et RealPopup ne dispose pas des privilèges suffisants pour le stopper. Ouvrez RealPopup pour en apprendre plus.
+@@RP:231
+Cannot initialize the RealPopup receiver: maybe another RealPopup instance is already executing on this machine. Open RealPopup to read more.
+Impossible d'initialiser le réceptionneur RealPopup: peut-être une autre session RealPopup est déjà active sur cette machine. Ouvrez RealPopup pour en apprendre plus.
+@@RP:232
+RealPopup activation hotkey
+Touche pour activer RealPopup
+@@RP:233
+Warn if RealPopup protocol is not active
+Prévenir si le protocole de RealPopup est inactif
+

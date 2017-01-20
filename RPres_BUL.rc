@@ -1,0 +1,772 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ENV DIALOGEX 0, 0, 207, 187
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Програма"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "Стартирай с Windows",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,120,10
+    CONTROL         "Винаги отпред",IDC_CHK_TOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,10,75,8
+    CONTROL         "Потвърди отказ за изпращане",IDC_CHK_WARNDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,120,10
+    CONTROL         "Потвърди изход",IDC_CHK_WARN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,20,75,10
+    CONTROL         "Предупреждавай при изпращане в домейна",IDC_CHK_WARNDOMAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,185,10
+    CONTROL         "Предупреди ако RealPopup протокола не е активен",IDC_CHK_WARNRPPROTOCOLNOTACTIVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,40,185,10
+    CONTROL         "Меню в трея - Ляв бутон",IDC_CHK_LEFTTRAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,185,10
+    CONTROL         "Установи `Надалеко` при стартиран скрийн сейвър",IDC_CHK_AWAY,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,60,188,10,WS_EX_TRANSPARENT
+    CONTROL         "Разреши Избрани потребители",IDC_CHK_NBDETERMINEFAVORITES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,70,182,10
+    CONTROL         "HotKey1",IDC_RPHOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,10,85,72,12
+    LTEXT           "RealPopup обезпечава стандартна съобщителна съвместимост за Windows NT/2000/XP.",IDC_STATIC_MSN1,10,108,150,20
+    LTEXT           "RealPopup клавиш за извикване",IDC_STATIC,84,87,119,8
+    CONTROL         "Предай управлението на RealPopup",IDC_MSN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,128,175,10
+    CONTROL         "Остави стандартната служба за съобщения",IDC_MSN2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,138,180,10
+    ICON            IDR_SERVICE,IDC_STATIC,164,108,20,20
+    LTEXT           "За да са в сила промените, трябва да рестартирате RealPopup.",IDC_STATIC_MSN2,10,152,150,20
+END
+
+IDD_PP_USERS DIALOGEX 0, 0, 212, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Потребители и групи"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TXT_USER,5,11,85,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_USER,"msctls_updown32",UDS_ARROWKEYS | 
+                    WS_DISABLED,93,10,11,14
+    PUSHBUTTON      "6",IDC_NETWORK,106,11,14,13,BS_ICON
+    PUSHBUTTON      "6",IDC_SRCINSERT,121,11,14,13,BS_ICON
+    PUSHBUTTON      "&Добави",IDC_BTN_ADD,138,11,34,13,WS_DISABLED
+    PUSHBUTTON      "&Премахни",IDC_BTN_REMOVE,174,11,34,13,WS_DISABLED
+    LISTBOX         IDC_LISTUSERS,6,30,85,168,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Потребител",IDC_OPT_USER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,95,30,110,8
+    CONTROL         "Група (членове:)",IDC_OPT_GROUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,40,110,8
+    EDITTEXT        IDC_TXT_MEMBERS,105,50,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK2,192,50,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Включи в `Избрани потребители`",IDC_CHK_NBINCLUDEFAVORITES,"Button",
+                    BS_AUTO3STATE | WS_DISABLED | WS_TABSTOP,95,65,110,8
+    CONTROL         "",IDC_CHK_USESRP,"Button",BS_AUTO3STATE | WS_DISABLED | 
+                    WS_TABSTOP,95,88,10,10
+    COMBOBOX        IDC_CBO_USESRP,105,86,100,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_DISABLED | 
+                    WS_TABSTOP
+    CONTROL         "Отхвърляне на съобщенията",IDC_CHK_IGNORE,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,101,110,8
+    CONTROL         "Отвори при ново съобщение",IDC_CHK_POPUPNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,111,110,8
+    CONTROL         "Балон при ново съобщение",IDC_CHK_BALLOONNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,121,110,8
+    CONTROL         "Преглед в балона",IDC_CHK_BALLOONPREVIEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,131,110,8
+    CONTROL         "Извести за нов потребител",IDC_CHK_ONLINEWARN,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,141,110,8
+    CONTROL         "Препрати съобщенията до:",IDC_CHK_REDIRECT,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,151,110,8
+    EDITTEXT        IDC_TXT_REDIRECT,105,161,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK3,192,161,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Запиши в дневник:",IDC_CHK_LOG,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,175,110,8
+    EDITTEXT        IDC_TXT_LOG,105,185,85,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CONTROL         "Членове",IDC_OPT_NBINCLUDEASMEMBERS,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,106,75,44,10
+    CONTROL         "Група",IDC_OPT_NBINCLUDEASGROUP,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,153,75,53,10
+END
+
+IDD_PP_MSG DIALOGEX 0, 0, 212, 181
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Съобщения"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "Изтрий оригиналното съобщение след отговор",IDC_CHK_DELORIGINAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,195,10
+    CONTROL         "Скрий прозореца след отговор",IDC_CHK_MINIMIZEREPL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,195,10
+    CONTROL         "Скрий прозореца след изтриване на последното съобщение",IDC_CHK_MINIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,195,10
+    CONTROL         "Автоматично показвай последното съобщение",IDC_CHK_LASTMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,195,10
+    CONTROL         "Цитирай оригиналното съобщение",IDC_CHK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,195,10
+    CONTROL         "Получен текст - в началото на съобщението",IDC_CHK_REPLYTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,195,10
+    CONTROL         "Използвай `ENTER` за изпращане на съобщение",IDC_CHK_CRSEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,195,10
+    CONTROL         "Забрани изтриващия бутон за момент",IDC_CHK_DISABLEDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,195,10
+    CONTROL         "Уведоми за получено съобщение чрез балон",IDC_CHK_BALLOONONMSGFAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,10,90,195,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Двойно кликване за активиране на хиперлинкове",IDC_CHK_DBLCLICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,100,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Указвай името на компютъра в полето `От`",IDC_CHK_SENDPCNAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,110,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Сигнал при получаване на съобщение",IDC_CHK_BEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,138,195,10
+    CONTROL         "Звук (WAV) при ново съобщение",IDC_CHK_WAV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,148,195,10
+    EDITTEXT        IDC_TXT_WAV,22,159,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_PLAY,143,159,14,13,BS_ICON | WS_DISABLED
+    LTEXT           "Звукови ефекти",IDC_STATIC,10,125,100,10
+    LTEXT           "Допълнително",IDC_STATIC,156,96,52,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | SS_CENTERIMAGE,
+                    10,134,184,1,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 232, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: За програмата"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,5,32,14,WS_GROUP
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,5,5,177,37
+    LTEXT           "",IDC_TXT_ABOUTVERSION,6,120,204,12
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 253, 158
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Матро! :)"
+MENU IDR_MENU1
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        TXT_MAIN_FROM,30,5,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_INFO,120,5,87,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_TO,30,15,155,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "От  ",IDC_MAIN_FROM,5,5,20,9
+    LTEXT           "До  ",IDC_MAIN_TO,5,15,20,9
+END
+
+IDD_DLG_SENDMESSAGE DIALOGEX 0, 0, 196, 147
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "RealPopup: Изпрати съобщение"
+MENU IDR_MENU2
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    LTEXT           "До",IDC_TO,5,7,10,9
+    COMBOBOX        CBO_TO,20,10,165,35,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_NETWORK DIALOG  0, 0, 198, 143
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "RealPopup: Преглед на мрежата"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,5,55,14,WS_DISABLED
+    PUSHBUTTON      "Отказ",IDCANCEL,140,22,55,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,5,5,130,135
+    PUSHBUTTON      "?",ID_HELP,140,125,55,14
+END
+
+IDD_CRITERIA DIALOGEX 0, 0, 322, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Въвеждане на критерий за търсене"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CRITERIA,30,132,150,14,ES_UPPERCASE | ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,265,5,50,14
+    PUSHBUTTON      "Отказ",IDCANCEL,265,22,50,14
+    LTEXT           "devworkbymatro:)",IDC_SEARCHCRITERIA,30,5,225,115
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "Критерии за търсене",IDC_STATIC,30,122,90,10
+END
+
+IDD_SERVICE DIALOG  0, 0, 307, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Интеграция със Службата за съобщения"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Предай управлението на RealPopup",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,65,
+                    195,10
+    CONTROL         "Остави стандартната служба за съобщения",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,76,
+                    195,10
+    LTEXT           "Може да промените тази опция по-късно в Настройки>Програма.",IDC_STATIC,30,90,235,10
+    DEFPUSHBUTTON   "OK",IDOK,250,5,50,14
+    ICON            IDR_SERVICE,IDC_STATIC,4,5,20,20
+    LTEXT           "RealPopup установи, че стандартната служба за съобщения е активна. RealPopup осигурява съвместимост на съобщенията на Windows NT/2000/XP.",IDC_STATIC,30,5,215,25
+    LTEXT           "Вие можете да ползвате и стандартната служба за съобщения; В този случай, RealPopup ще обменя съобщения само с клиенти RealPopup.",IDC_STATIC,30,35,215,25
+END
+
+IDD_PP_LANG DIALOGEX 0, 0, 197, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Оформление и езици"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_FONTRICHEDIT,6,51,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_FONTEDIT,6,71,15,15,BS_ICON
+    LTEXT           "Избор на шрифт за текст на съобщенията.",IDC_STATIC,31,51,160,20
+    LISTBOX         IDC_LSTLANGUAGE,6,96,60,90,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Изберете език на интерфейса. За да влязат в сила промените рестартирайте RealPopup. Използване на нестандартни шрифтове е възможно само в преведени версии на Windows, като Руски и Български.",IDC_STATIC,71,96,120,60
+    LTEXT           "Написано от Матро",IDC_LANGUAGE,71,160,125,22
+    LTEXT           "Избор на шрифт за информационните полета (`До:`,`От:` и т.н.)",IDC_STATIC,31,71,160,22
+    PUSHBUTTON      "",IDC_BTN_SAVEWIN,6,11,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_SAVEWINDEF,6,31,15,15,BS_ICON
+    LTEXT           "Запазване позицията и размера на прозореца.",IDC_STATIC,31,11,145,18
+    LTEXT           "Връщане към първоначалната позиция и размер.",IDC_STATIC,31,31,145,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PP_ENV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        VERTGUIDE, 10
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_PP_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_PP_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PP_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,6,0,0
+ PRODUCTVERSION 2,6,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Локализиран ресурс за RealPopup\0"
+            VALUE "CompanyName", "Matro\0"
+            VALUE "FileDescription", "Localized resource (English) for RealPopup\0"
+            VALUE "FileVersion", "2.6"
+            VALUE "InternalName", "RealPopup\0"
+            VALUE "LegalCopyright", "Матро, безплатно\0"
+            VALUE "LegalTrademarks", "Превод-инж.Илко Караатанасов\0"
+            VALUE "OriginalFilename", "RealPopup.EXE\0"
+            VALUE "ProductName", "RealPopup\0"
+            VALUE "ProductVersion", "2.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_NEW
+    BUTTON      ID_BTN_ANSWER
+    BUTTON      ID_BTN_ANSWERALL
+    BUTTON      ID_BTN_FORWARD
+    SEPARATOR
+    BUTTON      ID_BTN_DEL
+    BUTTON      ID_BTN_DELTHREAD
+    SEPARATOR
+    BUTTON      ID_BTN_PREV
+    BUTTON      ID_BTN_NEXT
+    BUTTON      ID_BTN_COPY
+    BUTTON      ID_BTN_SAVE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+    BUTTON      ID_BTN_OPTIONS
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_SEND
+    BUTTON      ID_BTN_CANCEL
+    SEPARATOR
+    BUTTON      ID_BTN_SENDCUT
+    BUTTON      ID_BTN_SENDCOPY
+    BUTTON      ID_BTN_SENDPASTE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_NETTREE             BITMAP                  "res\\nettreepc.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "res\\rptitle.bmp"
+IDB_BITMAP_RPLOGO       BITMAP                  "res\\NetworkBrowserLogo.bmp"
+IDB_TOOLBAR1HI          BITMAP                  "res\\toolbar1hi.bmp"
+IDB_TOOLBAR2HI          BITMAP                  "res\\toolbar2hi.bmp"
+IDB_TOOLBAR1HIDIS       BITMAP                  "res\\toolbar1hi dis.bmp"
+IDB_TOOLBAR2HIDIS       BITMAP                  "res\\toolbar2hi dis.bmp"
+IDB_TOOLBAR2HIHOT       BITMAP                  "res\\toolbar2hi hot.bmp"
+IDB_TOOLBAR1HIHOT       BITMAP                  "res\\toolbar1hi hot.bmp"
+IDB_NETTREEHI           BITMAP                  "res\\nettreepchi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&Съобщение"
+    BEGIN
+        MENUITEM "Изпр&ати\tCtrl+S",                     ID_BTN_SEND
+        MENUITEM "&Отказ\tEsc",                     ID_BTN_CANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "Из&режи\tCtrl+X",                     ID_BTN_SENDCUT
+        MENUITEM "&Копирай\tCtrl+C",                     ID_BTN_SENDCOPY
+        MENUITEM "&Постави\tCtrl+V",                     ID_BTN_SENDPASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Преглед на мрежата...",                     ID_BTN_NETWORK
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "С&реда"
+    BEGIN
+        MENUITEM "Не ме &безпокойте",                     ID_TRAY_DISABLE
+        MENUITEM "Надалек&о",                    ID_TRAY_AWAY
+        MENUITEM "&Получавай всички съобщения",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Настройка...",                     ID_BTN_OPTIONS
+        MENUITEM "&Изход",                     ID_TRAY_EXIT
+    END
+    POPUP "&Съобщение"
+    BEGIN
+        MENUITEM "&Създай...\tCtrl+N",                     ID_BTN_NEW
+        MENUITEM "&Отговори...\tCtrl+R",                     ID_BTN_ANSWER
+        MENUITEM "Отговори на &всички...\tCtrl+A",                     ID_BTN_ANSWERALL
+        MENUITEM "&Препрати...\tCtrl+F",                     ID_BTN_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "&Игнорирай обсъждане",                    ID_BTN_DELTHREAD
+        MENUITEM "Поднови обсъждани&я",                    ID_BTN_RESUMETHREADS
+        MENUITEM SEPARATOR
+        MENUITEM "Изтрий вс&ички\tCtrl+Shift+Del",                     ID_BTN_DELALL
+        MENUITEM "&Изтрий\tCtrl+Del",                     ID_BTN_DEL
+        MENUITEM "П&редишно\tCtrl+PgUp",                     ID_BTN_PREV
+        MENUITEM "С&ледващо\tCtrl+PgDn",                     ID_BTN_NEXT
+        MENUITEM "&Копирай\tCtrl+C",                     ID_BTN_COPY
+        MENUITEM "Съх&рани...",                     ID_BTN_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Преглед на мре&жата...",                     ID_BTN_NETWORK
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Помощ...",                     ID_BTN_HELP
+        MENUITEM "&Приветствие",                     ID_BTN_WELCOMEMSG
+        MENUITEM "&За програмата",                     ID_BTN_ABOUT
+    END
+END
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "MATRO"
+    BEGIN
+        MENUITEM "&Отвори",                     ID_TRAY_OPEN
+        MENUITEM "&Минимизирай",                     ID_TRAY_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "Не &безпокойте",                     ID_TRAY_DISABLE
+        MENUITEM "Надалек&о",                    ID_TRAY_AWAY
+        MENUITEM "&Получи всички съобщения",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Създай съобщение...",                     ID_BTN_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Настройка...",                     ID_BTN_OPTIONS
+        MENUITEM "Изход",                     ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LINK         CURSOR                  "res\\LGEUP.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_RPENABLED           ICON                    "res\\rppe.ico"
+IDR_MAINFRAME           ICON                    "res\\RealPopup.ico"
+IDR_MSGARRIVED          ICON                    "res\\new_msg.ico"
+IDR_TRAYICON            ICON                    "res\\idr_msga.ico"
+IDR_MSGDISABLED         ICON                    "res\\idr_msgd.ico"
+IDR_PLAY                ICON                    "res\\idr_play.ico"
+IDR_NETWORK             ICON                    "res\\icon1.ico"
+IDR_EDITFONT            ICON                    "res\\idr_edit.ico"
+IDR_RICHEDITFONT        ICON                    "res\\idr_rich.ico"
+IDR_POSSAVE             ICON                    "res\\idr_poss.ico"
+IDR_POSDEFAULT          ICON                    "res\\idr_posd.ico"
+IDR_SRCINSERT           ICON                    "res\\idr_srci.ico"
+IDR_MSGARRIVED2         ICON                    "res\\old_msgs.ico"
+IDR_MSGAWAY             ICON                    "res\\idr_away.ico"
+IDR_SERVICE             ICON                    "res\\service.ico"
+IDR_WPENABLED           ICON                    "res\\wppe.ico"
+IDR_WPDISABLED          ICON                    "res\\wppd.ico"
+IDR_RPDISABLED          ICON                    "res\\rppd.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMENU1 ACCELERATORS 
+BEGIN
+    "A",            ID_BTN_ANSWERALL,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_BTN_FORWARD,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_BTN_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_BTN_ANSWER,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DEL,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DELALL,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_BTN_HELP,            VIRTKEY, NOINVERT
+    VK_NEXT,        ID_BTN_NEXT,            VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_BTN_PREV,            VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCMENU2 ACCELERATORS 
+BEGIN
+    "S",            ID_BTN_SEND,            VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_BTN_CANCEL,          VIRTKEY, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\RealPopup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_WELCOMEMSG          TEXT                    "res\\welcomeBUL.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+2                       RT_MANIFEST             "res\\rt_manif.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&За програмата RealPopup..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SENDPASTE        "Постави от клипборда..\nПостави"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW              "Изпрати ново съобщение до потребител(и) или до всички.\nНово съобщение"
+    ID_BTN_ANSWER           "Отговори на подателя.\nОтговори"
+    ID_BTN_ANSWERALL        "Отговори на подателя и на всички получатели.\nОтговори на всички"
+    ID_BTN_FORWARD          "Препрати съобщението до друг(и) потребител(и).\nПрепрати"
+    ID_BTN_DELTHREAD        "Игнорира текущо обсъждане.\nИгнорира обсъждане"
+    ID_BTN_RESUMETHREADS    "Възобнови приемането на всички обсъждания."
+    ID_BTN_DELALL           "Изтрий всички съобщения.\nИзтрий всички"
+    ID_BTN_DEL              "Изтрий текущото съобщение.\nИзтрий"
+    ID_BTN_PREV             "Покажи предходно съобщение.\nПредходно"
+    ID_BTN_NEXT             "Покажи следващо съобщение.\nСледващо"
+    ID_BTN_COPY             "Копирай цялото или част от съобщението.\nКопирай"
+    ID_BTN_SAVE             "Запиши съобщението в текстов файл.\nЗапиши"
+    ID_BTN_SEND             "Изпрати съобщението\nИзпрати"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_CANCEL           "Откажи съобщението\nОткажи"
+    ID_BTN_OPTIONS          "Настройка на параметрите.\nНастройки"
+    ID_BTN_ABOUT            "Информация за програмата."
+    ID_BTN_WELCOMEMSG       "Покажи приветстващото съобщение отново! :)"
+    ID_BTN_HELP             "Покажи помощния файл."
+    ID_TRAY_OPEN            "Отвори прозорец RealPopup."
+    ID_TRAY_MINIMIZE        "Минимизирай RealPopup в tray зоната."
+    ID_TRAY_DISABLE         "Прекрати получаването на съобщения и известявай подателите за това."
+    ID_TRAY_EXIT            "Затвори програмата RealPopup."
+    ID_TRAY_REDIRECT        "Забрани пренасочванията и игнорирането на съобщенията (ако има такива)."
+    ID_TRAY_AWAY            "Информирайте потребителите, че не сте пред компютъра."
+    ID_BTN_NETWORK          "Потърси потребител в мрежата.\nПреглед на мрежата"
+    ID_HELPFILE             "RPHelpRUS.htm"
+    ID_BTN_SENDCOPY         "Копирай в клипборда.\nКопирай"
+    ID_BTN_SENDCUT          "Изрежи в клипборда.\nИзрязване"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Готово."
+    MSG_SEND_ERROR          "Не може да бъде намерен потребителя, или не може да се изпрати съобщението."
+    MSG_POPUP_ERRINIT       "Грешка при инициализацията на службата за съобщения, съвместима с WinPopup: RealPopup не може да приема съобщения от стандартната служба на Windows.\n\nНай-вероятни причини за това са: Службата за съобщения на Windows е стартирана и RealPopup няма право на нейното установяване; б) RealPopup (или Winpopup) вече работи на този компютър; в) Липсва обвързаност с NetBios към кой да е транспортен протокол.\n\nОпитайте по-късно, използвайки двоен клик на иконката в трея."
+    MSG_DIALOG_CAPTION      "RealPopup системно съобщение"
+    DEF_USERNAME            "ПОТРЕБИТЕЛ"
+    AUTOMSG_BETA_FROM       "RealPopup"
+    AUTOMSG_BETA_TO         "Потребителю!"
+    MSG_BETA_OUT            "Приключи срока за оценка на бета версията на RealPopup. Вземете обновена версия от http://www.realpopup.it и следете дискусиите за RealPopup на сайта http://groups.yahoo.com/group/RealPopupdisc."
+    MSG_VERSION             "ВНИМАНИЕ: Това е BETA версия, изтичаща на %i-%i-%i.\n\nВземете актуална версия от http://www.realpopup.it и потърсете за RealPopup дискусии на http://groups.yahoo.com/group/RealPopupdisc.\n\nЗа подробности пишете на адрес beta@realpopup.it Благодаря Ви."
+    MSG_STATUS_WPSENT       "Съобщението до %s е изпратено във формат WinPopup."
+    MSG_STATUS_RPSENT       "%s получи съобщението."
+    MSG_ABOUT               "Автор Матро, Рим (Италия).\n\nТази програма е безплатна:\Можете да я използвате по ваше усмотрение!\n\nУеб страницата на RealPopup е:\nwww.realpopup.it\n\nЛична уеб страница на Матро:\nwww.realpopup.it/matro\n\nОтзиви изпращайте на matro@realpopup.it.\n\nОт уеб страницата можете да изтеглете пакет с превод за RealPopup на Вашия език!\n\nRealPopup не би бил толкова добър без помощта на група преводачи, активни потребители, бета тестери и свободно разпространени изходни текстове по целия свят. Посетете страницата за изтегляния www.realpopup.it/download.html. Благодаря на всички тях!\n\nСъщо -БЛАГОДАРЯ ВИ- за всички Ваши отзиви и препоръки, и на групата поддържаща RealPopup и RealPopup Discussion разпращане по `mail` листи.\n\nМатро.\n\nRealPopup Получени %i и изпратени %i съобщения от началото на инсталацията.\n"
+    MSG_WARNONEXIT          "Ако затворите програмата RealPopup, Вие няма да можете да получавате и изпращате съобщения. Сигурни ли сте?\n\nАко желаете да забраните това предупреждение, размаркирайте 'Потвърди при изход' в настройките на програмата."
+    MSG_RECEIVE_MULTIPARTERROR "Балон при ново съобщение"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DDXFILE_TT_CAPTION  "Моля укажете име на файл"
+    IDS_DDXFILE_OK          "OK"
+    IDS_DDXFILE_EDIT_TEXT   "..."
+    IDS_DDXFILE_OVERWRITE_PROMPT "%1\nТози файл вече съществува.\nДа се замени ли съществуващия файл?"
+    IDS_DDXFILE_FILTER_LOG  "Файлове за дневник (*.log)|*.log||"
+    IDS_DDXFILE_FILTER_WAV  "Файлове за звук (*.wav)|*.wav||"
+    IDS_DDXFILE_FILTER_TXT  "Текстови файлове (*.txt)|*.txt||"
+    FMT_LOG_DATE            "на %a %d, %b %Y в %H:%M.%S"
+    FMT_LOG_FROMTO          "От %s До %s %s\n\n"
+    OPTIONS_CAPTION         "RealPopup: Настройка"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_SEND_MULTIPARTERROR "Преглед в балона"
+    MSG_REALPOPUP_ERRINIT   "Грешка при инициализацията на RealPopup receiver: RealPopup не може да получава съобщения от други RealPopup клиенти.\n\nНай-вероятни причини за това са: a) на този компютър е пусната друга програма RealPopup; b) NetBios не е свързан към транспортен протокол.\n\nОпитайте по-късно с двойно кликване на долната дясна икона в статус бара."
+    MSG_USERS_ERRLOAD       "Не може да зареди информация за потребителите и групите: вероятно файлът RP<user>.dat е стара версия, и следва да го изтриете."
+    DEF_ALLUSERS            "(ВСИЧКИ ПОТРЕБИТЕЛИ)"
+    TOOLTIP_IDLE            "RealPopup"
+    TOOLTIP_MSG             "RealPopup: %i ново съобщение."
+    TOOLTIP_MSGS            "RealPopup: %i нови съобщения."
+    MSG_ERRNOTRECEIVED      "*** RealPopup %s служебно съобщение ***\n\nПотребителят %s не получи Вашето съобщение; Вероятно потребителят е изключен от мрежата, компютърът е много зает, или потребителят няма стартирана програма RealPopup. \n\nАко потребителят има WinPopup или съвместима програма за приемане на съобщения, добавете го към WINPOPUP групата в `ПОТРЕБИТЕЛИ И ГРУПИ` в настройките."
+    MSG_STATUS_NOTRECEIVED  "Внимание: %s НЕ получи съобщението."
+    MSG_ONLINEWARN          "Потребителят %s е включен като %s."
+    MSG_STATUS_ONLINEWARNNOTRECEIVED "Потребителят %s НЕ получи предупреждение за Вашето присъствие в мрежата."
+    MSG_ONLINEWARNSTATUS    "Потребителят %s е достъпен на %s с RealPopup версия %s."
+    MSG_REDIRECTING         "Съобщение от %s препратено до %s."
+    MSG_REDIRECTING_ERR     "Грешка! Не може да се препрати от %s до %s: !!!Твърде много направления!!!"
+    MSG_LOGHEAD             "RealPopup %s дневник\n\n"
+    MSG_STATUS_TOOLONG      "Внимание: %s НЕ получи съобщението."
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRTOOLONG          "*** RealPopup %s служебно съобщение ***\n\nПотребителят %s НЕ получи Вашето съобщение; RealPopup не може да опита през WinPopup протокола, защото съобщението е твърде дълго - %i символа - и превишава NET SEND ограничението за дължина на съобщение, което е около 900 символа.\n\nУстановете DisableMessageLengthCheck опция в регистрите на 1 за да забраните тази проверка."
+    MSG_STATUS_RPSENT_OLDVER "%s получи съобщението; Уведомете го за надграждане от %s към %s! :)"
+    MSG_ERRDISABLED         "*** RealPopup %s служебно съобщение ***\n\n%s RealPopup не е стартиран, така че потребителят не получи вашето съобщение."
+    MSG_WARNONCANCELINGSEND "Сигурни ли сте, че желаете да откажете изпращането?\n\nАко желаете да забраните това съобщение, размаркирайте съответната отметка в настройките на програмата."
+    MSG_ERR_NOTCREATABLE    "Не може да се създаде файл."
+    MSG_SAVEHEAD            "Съобщението RealPopup %s е записано\n\n"
+    MSG_AUTOSTART_WARN      "Желаете ли RealPopup да се стартира автоматично след зареждане на Windows?"
+    MSG_AUTOSTART_MSG       "Ако намирате RealPopup за полезен, установете го да се стартира автоматично: Изберете Настройки->Програма и проверете опцията 'Стартирай с Windows'! :)"
+    MSG_LOCALIZE_ABOUT      "Bulgarian language V2.6\nLocalized by eng.Ilko Karaatanasov."
+    MSG_LOCALIZE_DESC       "Bulgarian"
+    IDS_WEEKDAYS            "нед|пон|втр|срд|чтв|пет|съб"
+    MSG_ERR_USERINSERT      "Въведено е недопустимо име за ползвател или група.\n\nАко желаете да въведете критерий за търсене, заключете ги в квадратни скоби [], разделяйки частите на критерия с вертикална черта, за пример:\nSERVER1[SPOOLER|DISK]\nТова определение ще се асоциира със съобщение група/ползватели SERVER1, ако в текста на съобщението се срещнат думи SPOOLER или DISK.\n\nНе използвайте повече от две ъглови скоби <>, ако желаете да зададете няколко различни критерии в тялото на съобщението, създайте повече от едно въвеждане за ползватели/групи с различни критерии, като:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nВсяко описание може да има различни настройки; Запис без какъв да е стринг за търсене означава 'кой да е контекст'.\n\nАко желаете да зададете само име за потребител или група, не използвайте скоби от типа <>."
+    MSG_SEARCHCRITERIA      "Вие можете да асоциирате критерий за търсене като дефинирате потребител или група; Настройките ще действат в случаите на съвпадения на части от текста с ващите критерии. За задаване на множество критерии, отделете частите на критерия със символа вертикална черта `|`. Частите на критерия действат на принципа `ИЛИ` - това означава, че условието е истина, ако съвпада коя да е част на критерия.\n\nЗа пример, критерий 'SPOOLER|DISK' ще бъде истина, ако в текста на съобщението се срещнат думи 'spooler' ИЛИ 'disk'.\n\nВъведете Вашият критерий за търсене. Можете да го въведете директно в този диалог или в полето на потребител или група, заграден с []. Така ще се направи транслацията Ви."
+    MSG_ERR_HOTKEY          "Грешка при назначаването на горещ клавиш: комбинацията се използва от друга програма или друг RealPopup е вече стартиран."
+    MSG_ERR_REPLY           "\n\nНатиснете `Отговор` на това съобщение, ако желаете да го изпратите отново.\n\nСъобщението е:\n---\n"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRAWAY             "*** RealPopup %s служебно съобщение ***\n\nПотребителят %s не ползва компютъра в момента; Вашето съобщение ще бъде прочетено по-късно."
+    MSG_ERR_MSNSTOPDENIED   "RealPopup не може да спре службата за съобщения (Messenger service), защото нямате права на Администратор. Обърнете се към Вашият системен администратор.\n\nRealPopup ще комуникира само с RealPopup клиенти."
+    MSG_ERR_MSNSTOPERR      "RealPopup не може да спре службата за съобщения (Messenger service), защото възникна неочаквана грешка. Опитайте по-късно.\n\nRealPopup ще комуникира само с RealPopup клиенти."
+    MSG_STATUS_CMDLINESENT  "Изпращане на съобщение от команден ред до %s..."
+    MSG_CMDLINE_HELP        "*** RealPopup %s служебно съобщение ***\r\n\r\nПоддръжка на Команден ред.\nПреди да изпратите съобщение от команден ред, RealPopup трябва да е пуснат поне веднъж преди това: Операцията ще стартира `message pump`.\n\n-send <ПОЛУЧАТЕЛ> <СЪОБЩЕНИЕ>\nИзпращане на съобщение до потребител или група; можете да укажете повече от една дестинация, разделена от запетаи. Заградете съобщението с кавички, ако използвате интервали; сложете ASCII(13) и ASCII(10) за следващ ред.\n\n-noactivate\nТози ключ кара RealPopup да не е активен при обръщение от команден ред.\n\n-posreset\nУстановява в първоначално състояние размера на прозореца и позицията.\n\nПример:\nRealPopup -send MATRO,NEURAL 'Hey man! This rocks! :-)' -noactivate\n"
+    MSG_NBROWSER_RPUSERS    "Избрани потребители"
+    MSG_WARNDOMAIN          "Вие ще изпратите съобщението до всички потребители в домейна %s; Съобщението ще бъде прочетено от всички потребители свързани към него. Сигурни ли сте в това?\n\nАко желаете да не виждате повече това предупреждение, размаркирайте 'Предупреждавай при изпращане в домейна' в настройките на програмата.\n"
+    ITEM_USESREALPOPUP      "Използва RealPopup"
+    ITEM_USESWINPOPUP       "Използва WinPopup"
+    MSG_WELCOME             "Добре дошли в RealPopup, пълен с много възможности и безплатен с пълна функционалност WinPopup заместител за Вашата мрежа! Кликнете двойно върху иконата за да отворите и прочетете приветстващото съобщение."
+    MSG_INTERNALMSGHEAD     "*** RealPopup %s съобщение ***\r\n\r\n"
+    MSG_BALLOON_NEWMSG      "Съобщение от %s"
+    MSG_MESSAGESWAITING     " (%i съобщ. в очакване)"
+    MSG_BALLOON_ERRMSG      "Потребителят %s не прочете вашето съобщение"
+    MSG_OFFLINEWARNSTATUS   "Потребителят %s се изключи от %s."
+    TOOLTIP_STATUS_WPENABLED "WinPopup протоколът е включен"
+END
+
+STRINGTABLE 
+BEGIN
+    TOOLTIP_STATUS_RPENABLED "RealPopup протоколът е включен"
+    TOOLTIP_STATUS_WPDISABLED "WinPopup протоколът не е включен"
+    TOOLTIP_STATUS_RPDISABLED "RealPopup протоколът не е включен"
+    MSG_POPUP_ERRMSGSERVICE "Не може да инициализира WinPopup съвместим протокол: стандартния Messenger service е активен и RealPopup няма достатъчно права за да го спре.\n\nВие можете да (a) стартирате RealPopup със достатъчни права, (b) Нека Системния администратор  да зададе подходящи права за потребител/група или (c) ръчно да се забрани `messenger service`.\n\nОпитайте отново по-късно чрез двойно кликване върху по-долната лява икона в статус бара."
+    MSG_BALLOON_POPUP_ERRMSGSERVICE "Не може да инициализира WinPopup съвместим протокол: Стандартния Messenger service е активен и RealPopup няма достатъчно права за да го спре. Отворете RealPopup за повече информация."
+    MSG_BALLOON_POPUP_ERRINIT "Не може да инициализира WinPopup съвместим протокол: Може би RealPopup или WinPopup съвместим клиент вече е пуснат на този компютър. Отворете RealPopup за да прочетете повече."
+    MSG_BALLOON_REALPOPUP_ERRINIT "Не може да инициализира RealPopup протокол: Може би друг RealPopup е пуснат на този компютър. Отворете RealPopup за повече информация."
+    MSG_ERR_HOTKEYHEAD      "Клавиш за извикване на RealPopup"
+END
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\RealPopup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+

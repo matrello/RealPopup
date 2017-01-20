@@ -1,0 +1,749 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ENV DIALOGEX 0, 0, 207, 173
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Program"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "Laai outomaties met Windows",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,120,10
+    CONTROL         "Waarsku met afsit",IDC_CHK_WARN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,10,75,10
+    CONTROL         "Waarsku voor kansellasie",IDC_CHK_WARNDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,120,10
+    CONTROL         "Altyd bo-op",IDC_CHK_TOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,20,75,8
+    CONTROL         "Waarsku wanneer jy aan groepe stuur",IDC_CHK_WARNDOMAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,185,10
+    CONTROL         "Linkerknoppie aktiveer tray menu",IDC_CHK_LEFTTRAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,185,10
+    CONTROL         "Sit weg wanneer screensaver loop",IDC_CHK_AWAY,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,50,188,10,WS_EX_TRANSPARENT
+    CONTROL         "Keer toets vir boodskaplengte",IDC_CHK_LENCHK,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,120,66,85,10
+    CONTROL         "HotKey1",IDC_RPHOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,10,71,72,12
+    LTEXT           "RealPopup ondersteun 'standard messenger' vermoëns vir Windows NT en 2000.",IDC_STATIC_MSN1,10,94,150,20
+    LTEXT           "RealPopup kortpad-sleutel",IDC_STATIC,85,73,120,8
+    CONTROL         "Laat RealPopup beheer neem",IDC_MSN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,114,175,10
+    CONTROL         "Los 'standard messenger'",IDC_MSN2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,125,180,10
+    ICON            IDR_SERVICE,IDC_STATIC,160,94,21,18
+    LTEXT           "RealPopup moet oorbegin word om veranderinge te laat geld.",IDC_STATIC_MSN2,10,139,150,20
+END
+
+IDD_PP_USERS DIALOGEX 0, 0, 212, 187
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Gebruikers en groepe"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TXT_USER,5,11,85,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_USER,"msctls_updown32",UDS_ARROWKEYS | 
+                    WS_DISABLED,93,10,11,14
+    PUSHBUTTON      "6",IDC_NETWORK,106,11,14,13,BS_ICON
+    PUSHBUTTON      "6",IDC_SRCINSERT,121,11,14,13,BS_ICON
+    PUSHBUTTON      "&Byvoeg",IDC_BTN_ADD,138,11,34,13,WS_DISABLED
+    PUSHBUTTON      "&Verwyder",IDC_BTN_REMOVE,174,11,34,13,WS_DISABLED
+    LISTBOX         IDC_LISTUSERS,5,30,85,150,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Gebruiker",IDC_OPT_USER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,30,110,8
+    CONTROL         "Groep (lede:)",IDC_OPT_GROUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,40,110,8
+    EDITTEXT        IDC_TXT_MEMBERS,105,50,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK2,192,50,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "",IDC_CHK_USESRP,"Button",BS_AUTO3STATE | WS_DISABLED | 
+                    WS_TABSTOP,95,72,10,10
+    COMBOBOX        IDC_CBO_USESRP,105,70,100,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_DISABLED | 
+                    WS_TABSTOP
+    CONTROL         "Ignoreer boodskappe",IDC_CHK_IGNORE,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,85,110,8
+    CONTROL         "Pop op met nuwe boodskap",IDC_CHK_POPUPNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,95,110,8
+    CONTROL         "** RealPopyp interne boodksap **\n\n'n Boodskap is deur %s gestuur, maar het misluk. Sender is gewaarsku.",IDC_CHK_BALLOONNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,105,110,8
+    CONTROL         "** RealPopup interne boodskap **\n\nDie boodskap aan %s kon nie versend word nie. Probeer weer.",IDC_CHK_BALLOONPREVIEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,115,110,8
+    CONTROL         "Waarsku wanneer online gaan",IDC_CHK_ONLINEWARN,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,125,110,8
+    CONTROL         "Herstuur boodksappe aan:",IDC_CHK_REDIRECT,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,135,110,8
+    EDITTEXT        IDC_TXT_REDIRECT,105,145,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK3,192,145,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Log boodskappe na:",IDC_CHK_LOG,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,159,110,8
+    EDITTEXT        IDC_TXT_LOG,105,169,85,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+END
+
+IDD_PP_MSG DIALOGEX 0, 0, 212, 181
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Boodskappe"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "Vee oorspronklike boodskap uit na beantwoording",IDC_CHK_DELORIGINAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,195,10
+    CONTROL         "Minimeer indien beantwoord",IDC_CHK_MINIMIZEREPL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,195,10
+    CONTROL         "Minimeer wanneer laaste boodkap uitgevee word",IDC_CHK_MINIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,195,10
+    CONTROL         "Wys outomaties laaste boodskap",IDC_CHK_LASTMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,195,10
+    CONTROL         "Quote original message",IDC_CHK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,195,10
+    CONTROL         "Sit cursor bo-aan wanneer jy antwoord",IDC_CHK_REPLYTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,195,10
+    CONTROL         "Aksies",IDC_CHK_CRSEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,195,10
+    CONTROL         "Deaktiveer die afvee-knop vir 'n rukkie",IDC_CHK_DISABLEDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,195,10
+    CONTROL         "Pop op met gebruiker online waarskuwing",IDC_CHK_BALLOONONMSGFAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,10,90,195,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Dubbelklik om hyperlinks te aktiveer",IDC_CHK_DBLCLICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,100,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Stuur altyd rekenaarnaam in 'van' veld",IDC_CHK_SENDPCNAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,110,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Biep met nuwe boodskap",IDC_CHK_BEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,138,195,10
+    CONTROL         "Speel WAV met nuwe boodskap",IDC_CHK_WAV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,148,195,10
+    EDITTEXT        IDC_TXT_WAV,22,159,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_PLAY,143,159,14,13,BS_ICON | WS_DISABLED
+    LTEXT           "Klank-effekte",IDC_STATIC,10,125,100,10
+    LTEXT           "Vir ingeval",IDC_STATIC,156,96,52,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | SS_CENTERIMAGE,
+                    10,134,184,1,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 232, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Inligting"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,5,32,14,WS_GROUP
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,5,5,177,37
+    LTEXT           "yo men dudez matro rulez:-)",IDC_TXT_ABOUTVERSION,6,120,
+                    204,12
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 253, 158
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Matro! :)"
+MENU IDR_MENU1
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        TXT_MAIN_FROM,30,5,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_INFO,120,5,87,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_TO,30,15,155,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Van",IDC_MAIN_FROM,5,5,20,9
+    LTEXT           "Aan",IDC_MAIN_TO,5,15,20,9
+END
+
+IDD_DLG_SENDMESSAGE DIALOGEX 0, 0, 196, 147
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "RealPopup: Stuur Boodskap"
+MENU IDR_MENU2
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    LTEXT           "Aan",IDC_TO,5,7,10,9
+    COMBOBOX        CBO_TO,20,10,165,35,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_NETWORK DIALOG  0, 0, 198, 143
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "RealPopup: Netwerk navigeerder"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,5,55,14,WS_DISABLED
+    PUSHBUTTON      "Kanselleer",IDCANCEL,140,22,55,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,5,5,130,135
+    PUSHBUTTON      "?",ID_HELP,140,125,55,14
+END
+
+IDD_CRITERIA DIALOGEX 0, 0, 322, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Soek-kriteria invoegvenster"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CRITERIA,30,132,150,14,ES_UPPERCASE | ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,265,5,50,14
+    PUSHBUTTON      "Kanselleer",IDCANCEL,265,22,50,14
+    LTEXT           "devworkbymatro:)",IDC_SEARCHCRITERIA,30,5,225,115
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "Soek-kriteria",IDC_STATIC,30,122,90,10
+END
+
+IDD_SERVICE DIALOG  0, 0, 307, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: 'Messenger service' hantering"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Laat RealPopup beheer neem (aanbeveel)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,65,
+                    195,10
+    CONTROL         "Moenie 'standard messenger service' aanraak nie",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,76,
+                    195,10
+    LTEXT           "Jy kan dié opsie later vanuit die Program venster verander.",IDC_STATIC,30,90,235,10
+    DEFPUSHBUTTON   "OK",IDOK,250,5,50,14
+    ICON            IDR_SERVICE,IDC_STATIC,4,5,20,20
+    LTEXT           "RealPopup het gemerk dat die 'messenger service' aktief is. RealPopup ondersteun 'standard messenger' vermoëns vir Windows NT en 2000.",IDC_STATIC,30,5,215,25
+    LTEXT           "Jy kan egter die 'standard service' behou; in daardie geval sal RealPopup slegs met ander RealPopup kliënte kan kommunikeer.",IDC_STATIC,30,35,215,25
+END
+
+IDD_PP_LANG DIALOG  0, 0, 197, 173
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Uitleg en tale"
+FONT 8, "Arial"
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_FONTRICHEDIT,5,45,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_FONTEDIT,5,65,15,15,BS_ICON
+    LTEXT           "Druk die knoppie om jou voorkeur font en redigeringskontroles te kies.",IDC_STATIC,30,45,160,20
+    LISTBOX         IDC_LSTLANGUAGE,5,90,60,75,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Kies jou gunsteling taal. Vir veranderinge om plaas te vind, moet jy RealPopup oorbegin. Jy moet 'n plaaslike Windows weergawe gebruik vir ongewone fonts, soos Russies.",IDC_STATIC,70,90,120,55
+    LTEXT           "geskryf deur Matro",IDC_LANGUAGE,70,145,125,22
+    LTEXT           "Kies jou gunsteling font vir die inligtingsvelde soos Van en Aan.",IDC_STATIC,30,65,160,22
+    PUSHBUTTON      "",IDC_BTN_SAVEWIN,5,5,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_SAVEWINDEF,5,25,15,15,BS_ICON
+    LTEXT           "Druk die knoppie om die venstergrootte en -posisie te behou.",IDC_STATIC,30,5,145,18
+    LTEXT           "As jy probleme het, kan jy hiermee die versuimposisie en -grootte herstel.",IDC_STATIC,30,25,145,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PP_ENV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_PP_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_PP_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PP_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,4,0,0
+ PRODUCTVERSION 2,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Plaaslike hulpbron vir RealPopup\0"
+            VALUE "CompanyName", "Matro\0"
+            VALUE "FileDescription", "Localized resource (Afrikaans) for RealPopup\0"
+            VALUE "FileVersion", "2.5"
+            VALUE "InternalName", "RealPopup\0"
+            VALUE "LegalCopyright", "Matro, freeware\0"
+            VALUE "LegalTrademarks", "Vertaal deur Francois Malan\0"
+            VALUE "OriginalFilename", "RealPopup.EXE\0"
+            VALUE "ProductName", "RealPopup\0"
+            VALUE "ProductVersion", "2.5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_NEW
+    BUTTON      ID_BTN_ANSWER
+    BUTTON      ID_BTN_ANSWERALL
+    BUTTON      ID_BTN_FORWARD
+    SEPARATOR
+    BUTTON      ID_BTN_DEL
+    BUTTON      ID_BTN_DELTHREAD
+    SEPARATOR
+    BUTTON      ID_BTN_PREV
+    BUTTON      ID_BTN_NEXT
+    BUTTON      ID_BTN_COPY
+    BUTTON      ID_BTN_SAVE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+    BUTTON      ID_BTN_OPTIONS
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_SEND
+    BUTTON      ID_BTN_CANCEL
+    SEPARATOR
+    BUTTON      ID_BTN_SENDCUT
+    BUTTON      ID_BTN_SENDCOPY
+    BUTTON      ID_BTN_SENDPASTE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_NETTREE             BITMAP                  "res\\nettreepc.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "res\\rptitle.bmp"
+IDB_BITMAP_RPLOGO       BITMAP                  "res\\NetworkBrowserLogo.bmp"
+IDB_TOOLBAR1HI          BITMAP                  "res\\toolbar1hi.bmp"
+IDB_TOOLBAR2HI          BITMAP                  "res\\toolbar2hi.bmp"
+IDB_TOOLBAR1HIDIS       BITMAP                  "res\\toolbar1hi dis.bmp"
+IDB_TOOLBAR2HIDIS       BITMAP                  "res\\toolbar2hi dis.bmp"
+IDB_TOOLBAR2HIHOT       BITMAP                  "res\\toolbar2hi hot.bmp"
+IDB_TOOLBAR1HIHOT       BITMAP                  "res\\toolbar1hi hot.bmp"
+IDB_NETTREEHI           BITMAP                  "res\\nettreepchi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&Boodskap"
+    BEGIN
+        MENUITEM "&Stuur\tCtrl+S",                     ID_BTN_SEND
+        MENUITEM "K&anselleer\tEsc",                     ID_BTN_CANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "Kni&p\tCtrl+X",                     ID_BTN_SENDCUT
+        MENUITEM "&Kopiëer\tCtrl+C",                     ID_BTN_SENDCOPY
+        MENUITEM "P&lak\tCtrl+V",                     ID_BTN_SENDPASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Netwerk &navigeerder...",                     ID_BTN_NETWORK
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&Omgewing"
+    BEGIN
+        MENUITEM "&Moenie steur nie",                     ID_TRAY_DISABLE
+        MENUITEM "Ek &is weg",                    ID_TRAY_AWAY
+        MENUITEM "&Forseer kennisgewing",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Opsies",                     ID_BTN_OPTIONS
+        MENUITEM "B&eëindig",                     ID_TRAY_EXIT
+    END
+    POPUP "&Boodskappe"
+    BEGIN
+        MENUITEM "&Nuut...\tCtrl+N",                     ID_BTN_NEW
+        MENUITEM "Antwoo&rd...\tCtrl+R",                     ID_BTN_ANSWER
+        MENUITEM "&Antwoord almal...\tCtrl+A",                     ID_BTN_ANSWERALL
+        MENUITEM "&Stuur aan...\tCtrl+F",                     ID_BTN_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "&Ignoreer gesprek",                    ID_BTN_DELTHREAD
+        MENUITEM "&Hervat gesprekke",                    ID_BTN_RESUMETHREADS
+        MENUITEM SEPARATOR
+        MENUITEM "Vee a&lmal af\tCtrl+Shift+Del",                     ID_BTN_DELALL
+        MENUITEM "Vee &uit\tCtrl+Del",                     ID_BTN_DEL
+        MENUITEM "&Vorige\tCtrl+PgUp",                     ID_BTN_PREV
+        MENUITEM "V&olgende\tCtrl+PgDn",                     ID_BTN_NEXT
+        MENUITEM "&Kopiëer\tCtrl+C",                     ID_BTN_COPY
+        MENUITEM "&Stoor...",                     ID_BTN_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Netwerk navigeerder...",                     ID_BTN_NETWORK
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Hulp...",                     ID_BTN_HELP
+        MENUITEM "&Verwelkomingsboodskap...",                     ID_BTN_WELCOMEMSG
+        MENUITEM "&Inligting",                     ID_BTN_ABOUT
+    END
+END
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "MATRO"
+    BEGIN
+        MENUITEM "&Maak oop",                     ID_TRAY_OPEN
+        MENUITEM "&Minimeer",                     ID_TRAY_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "Moenie &steur nie",                     ID_TRAY_DISABLE
+        MENUITEM "Ek &is weg",                    ID_TRAY_AWAY
+        MENUITEM "&Forseer kennisgewing",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Nuwe boodskap....",                     ID_BTN_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Opsies",                     ID_BTN_OPTIONS
+        MENUITEM "&Eindig",                     ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LINK         CURSOR                  "res\\LGEUP.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RealPopup.ico"
+IDR_MSGARRIVED          ICON                    "res\\new_msg.ico"
+IDR_TRAYICON            ICON                    "res\\idr_msga.ico"
+IDR_MSGDISABLED         ICON                    "res\\idr_msgd.ico"
+IDR_PLAY                ICON                    "res\\idr_play.ico"
+IDR_NETWORK             ICON                    "res\\icon1.ico"
+IDR_EDITFONT            ICON                    "res\\idr_edit.ico"
+IDR_RICHEDITFONT        ICON                    "res\\idr_rich.ico"
+IDR_POSSAVE             ICON                    "res\\idr_poss.ico"
+IDR_POSDEFAULT          ICON                    "res\\idr_posd.ico"
+IDR_SRCINSERT           ICON                    "res\\idr_srci.ico"
+IDR_MSGARRIVED2         ICON                    "res\\old_msgs.ico"
+IDR_MSGAWAY             ICON                    "res\\idr_away.ico"
+IDR_SERVICE             ICON                    "res\\service.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMENU1 ACCELERATORS 
+BEGIN
+    "A",            ID_BTN_ANSWERALL,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_BTN_FORWARD,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_BTN_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_BTN_ANSWER,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DEL,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DELALL,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_BTN_HELP,            VIRTKEY, NOINVERT
+    VK_NEXT,        ID_BTN_NEXT,            VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_BTN_PREV,            VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCMENU2 ACCELERATORS 
+BEGIN
+    "S",            ID_BTN_SEND,            VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_BTN_CANCEL,          VIRTKEY, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\RealPopup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_WELCOMEMSG          TEXT                    "res\\welcomeAFR.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+2                       RT_MANIFEST             "res\\rt_manif.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&Omtrent RealPopup..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW              "Stuur nuwe boodskap aan gebruiker(s) of saai uit.\nNuwe Boodskap"
+    ID_BTN_ANSWER           "Antwoord bron.\nAntwoord"
+    ID_BTN_ANSWERALL        "Antwoord beide bron en bestemmings.\nAntwoord almal"
+    ID_BTN_FORWARD          "Stuur boodskap aan na ander gebruiker(s).\nStuur aan"
+    ID_BTN_DELTHREAD        "Ignoreer die huidige gesprek.\nIgnoreer gesprek"
+    ID_BTN_RESUMETHREADS    "Hervat voormalig geïgnoreerde gesprekke."
+    ID_BTN_DELALL           "Vee alle boodskappe uit.\nVerwyder alle"
+    ID_BTN_DEL              "Vee huidige boodskap uit.\nVee uit"
+    ID_BTN_PREV             "Sien vorige boodskap.\nVorige"
+    ID_BTN_NEXT             "Sien volgende boodskap.\nVolgende"
+    ID_BTN_COPY             "Kopiëer geheel of deel van boodskap.\nKopiëer"
+    ID_BTN_SAVE             "Stoor boodskap as teks lêer.\nStoor"
+    ID_BTN_SEND             "Stuur boodskap aan gebruiker of saai uit\nStuur boodskap"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_CANCEL           "Kanselleer boodskap\nKanselleer"
+    ID_BTN_OPTIONS          "Maak keuselys oop."
+    ID_BTN_ABOUT            "Inligting."
+    ID_BTN_WELCOMEMSG       "Kyk weer na verwelkomingsboodskap! :)"
+    ID_BTN_HELP             "Wys hulplêer."
+    ID_TRAY_OPEN            "Gebruik dié item om Realpopup venster oop te maak."
+    ID_TRAY_MINIMIZE        "Minimeer Realpopup na die tray area."
+    ID_TRAY_DISABLE         "Ontvang geen boodskappe nie."
+    ID_TRAY_EXIT            "Sluit RealPopup program."
+    ID_TRAY_REDIRECT        "Deaktiveer boodskap herdireksie en ignorering (indien enige)."
+    ID_TRAY_AWAY            "Vertel gebruikers dat jy weg is."
+    ID_BTN_NETWORK          "Soek 'n gebruiker op die netwerk.\nNetwerk navigeerder"
+    ID_HELPFILE             "RPHelpENG.htm"
+    ID_BTN_SENDCOPY         "Kopiëer na clipboard.\nKopiëer"
+    ID_BTN_SENDCUT          "Knip uit na clipboard.\nKnip"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SENDPASTE        "Plak in clipboard.\nPlak"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Gereed."
+    MSG_SEND_ERROR          "Kon gebruiker nie vind nie, of nie in staat om boodskap te stuur nie."
+    MSG_POPUP_ERRINIT       "Kan nie Winpopup-versoenbare ontvanger inisialiseer nie: RealPopup sal nie boodskappe vanaf Winpopup kliënte kan ontvang nie.\n\nWaarskynlik loop Winpopup reeds op die masjien, of daar is 'n ander Winpopup hanteerder.\n\nAs jy onder Windows NT of 2000 is, moet jy Realpopup beheer laat neem van die 'messenger service' deur dié opsie in die program-menu te selekteer."
+    MSG_DIALOG_CAPTION      "RealPopup boodskap"
+    DEF_USERNAME            "GEBRUIKER"
+    AUTOMSG_BETA_FROM       "RealPopup"
+    AUTOMSG_BETA_TO         "Jou!"
+    MSG_BETA_OUT            "Dié Realpopup beta voorskou het verval. Kry 'n nuwe weergawe hier: http://www.realpopup.it. Die nuutste beta's is hier beskikbaar: www.realpopup.it/rpbeta.html."
+    MSG_VERSION             "AANDAG: BETA WEERGAWE SE VERVALDATUM IS %i - %i - %i."
+    MSG_STATUS_WPSENT       "Winpopup versoenbare boodskap gestuur aan %s."
+    MSG_STATUS_RPSENT       "%s het die boodskap ontvang."
+    MSG_ABOUT               "Ontwikkel deur Matro, Rome (Italië).\n\nHierdie program is freeware:\ngebruik en versprei soos jy wil!\n\nMatro tuisblad:\nhttp://www.realpopup.it/matro\n\nRealPopup tuisblad:\nhttp://realpopup.it\n\nStuur terugvoer aan matro@usa.net.\n\nDownload 'n vertaling van Realpopup in jóú taal vanaf die tuisblad!\n\nRealPopup sou nie so lekker gewees het sonder die hulp van al die vertalers, gebruikers, beta toetsers en freeware bronne regoor die wêreld nie. Die bedankingslys groei met elke nuwe vrystelling, dus het ek 'n spesiale webblad daarvoor, http://realpopup.it/credits.html.\n\n'n Groot -dankie- vir al julle terugvoer, en aan al die RealPopup gespreksforums en 'mailing list' deelnemers.\n\nMatro. =o)\n\n\nHierdie is die Afrikaanse weergawe van RealPopup. Stuur enige (verkieslik goeie) kommentaar of raad i.v.m. die vertaling aan Francois Malan by francois@starplace.com\nGroete aan almal op Stellenbosch!\n\n-Francois\n"
+    MSG_WARNONEXIT          "As jy RealPopup beëindig, sal jy nie meer boodskappe kan ontvang of stuur nie. Is jy seker?\n\nAs jy dié boodskap wil afskakel, sit die 'Waarsku met afsit' opsie in keuselys af."
+    MSG_RECEIVE_MULTIPARTERROR "** RealPopyp interne boodksap **\n\n'n Boodskap is deur %s gestuur, maar het misluk. Sender is gewaarsku."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DDXFILE_TT_CAPTION  "Spesifiseer asb. 'n lêernaam"
+    IDS_DDXFILE_OK          "OK"
+    IDS_DDXFILE_EDIT_TEXT   "..."
+    IDS_DDXFILE_OVERWRITE_PROMPT "%1\nDié lêer bestaan reeds.\nHuidige lêer vervang?"
+    IDS_DDXFILE_FILTER_LOG  "Log Lêers (*.log)|*.log||"
+    IDS_DDXFILE_FILTER_WAV  "Wav Lêers(*.wav)|*.wav||"
+    IDS_DDXFILE_FILTER_TXT  "Teks Lêers (*.txt)|*.txt||"
+    FMT_LOG_DATE            "op %a %d, %b %Y teen %H:%M.%S"
+    FMT_LOG_FROMTO          "Van %s Aan %s %s\n\n"
+    OPTIONS_CAPTION         "RealPopup: Opsies"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_SEND_MULTIPARTERROR "** RealPopup interne boodskap **\n\nDie boodskap aan %s kon nie versend word nie. Probeer weer."
+    MSG_REALPOPUP_ERRINIT   "Kan nie RealPopup ontvanger opstel nie: RealPopup sal nie boodskappe vanaf ander RealPopup kliënte kan ontvang "
+    MSG_USERS_ERRLOAD       "Kan nie gebruiker se inligting laai nie: waarskynlik is RP<user>.dat nie versoenbaar nie, en moet dit verwyder word."
+    DEF_ALLUSERS            "(ALMAL)"
+    TOOLTIP_IDLE            "RealPopup"
+    TOOLTIP_MSG             "RealPopup: %i boodskap."
+    TOOLTIP_MSGS            "RealPopup: %i boodskappe."
+    MSG_ERRNOTRECEIVED      "*** RealPopup %s interne boodskap ***\n\nGebruiker %s het nie jou boodskap ontvang nie; miskien is die gebruiker offline, sy rekenaar baie besig, of die gebruiker se RealPopup nie aan nie. \n\nAs die gebruiker 'n Winpopup versoenbare ontvanger het, voeg hom by die WINPOPUP groep in die Gebruikers en Groepe keuselys."
+    MSG_STATUS_NOTRECEIVED  "Aandag: %s het nie jou boodskap ontvang nie."
+    MSG_ONLINEWARN          "*** RealPopup %s interne boodskap ***\r\n\r\nGebruiker %s is nou online met RealPopup %s!"
+    MSG_STATUS_ONLINEWARNNOTRECEIVED "Gebruiker %s het nie die online waarskuwing ontvang nie."
+    MSG_ONLINEWARNSTATUS    "Gebruiker %s is nou online!"
+    MSG_REDIRECTING         "Boodskap van %s is aan %s aangestuur."
+    MSG_REDIRECTING_ERR     "Kan nie van %s na %s aanstuur nie: te baie lusse."
+    MSG_LOGHEAD             "RealPopup %s log lêer\n\n"
+    MSG_STATUS_TOOLONG      "Aandag: %s het nie die boodskap ontvang nie."
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRTOOLONG          "to send through Winpopup protocol because message is too long - %i chars - and exceeds NET SEND "
+    MSG_STATUS_RPSENT_OLDVER "%s het die boodskap ontvang; sê om weergawe vanaf %s na %s te verander! :)"
+    MSG_ERRDISABLED         "*** RealPopup %s interne boodskap ***\n\n%s se RealPopup is afgeskakel, en het dus nie jou boodskap ontvang nie."
+    MSG_WARNONCANCELINGSEND "Is jy seker jy wil die boodskap afvee?\n\nDié boodskap kan afgesit word in RealPopup se keuselys."
+    MSG_ERR_NOTCREATABLE    "Kan nie die lêer skep nie."
+    MSG_SAVEHEAD            "RealPopup %s gestoorde boodskap\n\n  "
+    MSG_AUTOSTART_WARN      "Wil jy hê dat RealPopup outomaties saam met Windows begin?"
+    MSG_AUTOSTART_MSG       "*** RealPopup %s interne boodskap ***\n\nHou jy van RealPopup? =o)\n\nAs jy dink dat dit 'n oulike program is, kies Opsies  vanuit die Omgewing-lys, en kies dan die 'Laai outomaties met Windows' opsie!\n\nMatro"
+    MSG_LOCALIZE_ABOUT      "Afrikaans language V2.2\nLocalized by Francois Malan"
+    MSG_LOCALIZE_DESC       "Afrikaans"
+    IDS_WEEKDAYS            "son|maa|din|woe|don|vry|sat"
+    MSG_ERR_USERINSERT      "Die gespesifiseerde gebruiker of groep is sleg en kan nie bygevoeg word nie.\n\nAs jy 'n soekstring wil spesifiseer, moet dit in hakies wees, met elke item deur 'n | geskei, bv:\nSERVER1[SPOOLER|DISK]\nDié inskrywing sal gebruiker of groep "
+    MSG_SEARCHCRITERIA      "Jy kan soek-kriteria saam met 'n gebruiker of groep definiëer; reëls daarvoor sal aanvaar word as die soektog aan jou vereistes voldoen. Dit is moontlik om meer soekstringe te assosiëer deur hulle met 'n | karakter te skei. Stringe word met OR saamgevoeg, en dus is die gebruiker of groep geldig indien ENIGE van die stringe ooreenstem.\n\nB.v., die soekstring kriteria 'SPOOLER|DISK' sal die gedefiniëerde gebruiker of groep valideer indien die boodskap die woorde 'spooler' of 'disk' bevat.\n\nVoeg jou soek-kriteria hier in. Jy kan dit direk in die gebruiker- of groepnaam invoeg deur dit in hakies [] te plaas. Dié dialoog sal die vertaling vir jou doen."
+    MSG_ERR_HOTKEY          "Kan nie die kortpad-sleutel stel nie, miskien word die kombinasie deur 'n ander program gebruik. Probeer gerus 'n ander een."
+    MSG_ERR_REPLY           "\n\nAntwoord op dié boodskap as jy dit weer wil stuur.\n\nBoodskap volg:\n---\n"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRAWAY             "*** RealPopup %s interne boodskap ***\n\nGebruiker %s is nie daar nie; Jou boodskap sal later gelees word."
+    MSG_ERR_MSNSTOPDENIED   "RealPopup kan nie die 'messenger service' stop nie omdat jy nie administratiewe regte het nie. Kontak jou administreerder vir details.\n\nRealPopup sal slegs met ander RealPopup kliënte kommunikeer."
+    MSG_ERR_MSNSTOPERR      "RealPopup kan nie die 'messenger service' stop nie omdat 'n onverwagte fout plaasgevind het. Kontak jou administreerder vir details.\n\nRealPopup sal slegs met ander RealPopup kliënte kommunikeer."
+    MSG_STATUS_CMDLINESENT  "Gestuurde boodskap het gekom vanaf commandline aan %s..."
+    MSG_CMDLINE_HELP        "*** RealPopup %s interne boodskap ***\r\n\r\nCommand line ondersteuning.\nVoordat 'n boodskap vanaf die command line gestuur word, moes RealPopup ten minste een keer loop: die aksie sal die boodskap pomp begin.\n\n-send <aan> <boodskap>\nStuur 'n boodskap aan 'n gebruiker of groep; jy kan meer as een bestemming definieer (deur kommas gekei). Sit die boodskap tussen aanhalingstekens as jy spasies gebruik; plaas chr(13) of chr(10) vir nuwe lyn.\n\n-noactivate\nDié switch laat RealPopup nie aktiveer nie wanneer deur die command line geroep.\n\n-posreset\nHerstel venstergrootte en -posisie na versuimwaardes.\n\nVoorbeeld:\nrealpopup -send MATRO,IO 'Hey man! This rocks! :-)' -noactivate\n"
+    MSG_NBROWSER_RPUSERS    "RealPopup gebruikers"
+    MSG_WARNDOMAIN          "Jy gaan aan die netwerkgroep %s stuur; dié boodskap sal deur al die kliënte daarin gelees word. Is jy seker jy wil dit doen?\n\nAs jy dié boodskap wil afsit, stel die opsie 'Waarsku wanneer jy aan groepe stuur' in die keuselys.\n"
+    ITEM_USESREALPOPUP      "Gebruik definitief RealPopup"
+    ITEM_USESWINPOPUP       "Gebruik definitief WinPopup"
+    MSG_WELCOME             "Welcome to RealPopup, the freeware full featured WinPopup replacer for your lan! Double click the icon below to open the main dialog and read the welcome message."
+    MSG_INTERNALMSGHEAD     "*** RealPopup %s message ***\r\n\r\n"
+    MSG_BALLOON_NEWMSG      "Message from %s"
+    MSG_MESSAGESWAITING     " (%i msgs waiting)"
+    MSG_BALLOON_ERRMSG      "User %s has not read your message"
+END
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\RealPopup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+

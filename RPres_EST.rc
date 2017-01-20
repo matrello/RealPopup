@@ -1,0 +1,774 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ENV DIALOGEX 0, 0, 207, 173
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Programm"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "Käivita koos Windowsiga",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,120,10
+    CONTROL         "Hoiata sulgemisel",IDC_CHK_WARN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,10,75,10
+    CONTROL         "Hoiata saatmise tühistamisel",IDC_CHK_WARNDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,120,10
+    CONTROL         "Kõige pealmine",IDC_CHK_TOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,20,75,8
+    CONTROL         "Hoiata domeenile saatimsel",IDC_CHK_WARNDOMAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,185,10
+    CONTROL         "Vasaku nupu klõps ikoonil avab menüü",IDC_CHK_LEFTTRAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,185,10
+    CONTROL         "Olen ära, kui ekraanisäästja töötab",IDC_CHK_AWAY,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,50,188,10,WS_EX_TRANSPARENT
+    CONTROL         "Tuvasta lemmikkasutajad",IDC_CHK_NBDETERMINEFAVORITES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,61,182,10
+    CONTROL         "Kiirklahv1",IDC_RPHOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,10,76,72,12
+    LTEXT           "RealPopup täidab Windows NT/2000/XP Messenger funktsioone.",IDC_STATIC_MSN1,10,98,150,20
+    LTEXT           "RealPopup avamise kiirklahv",IDC_STATIC,85,78,120,8
+    CONTROL         "Kasuta RealPopupi sõnumite näitamiseks",IDC_MSN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,118,175,10
+    CONTROL         "Las Windows ise näitab",IDC_MSN2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,129,180,10
+    ICON            IDR_SERVICE,IDC_STATIC,160,98,20,20
+    LTEXT           "Et muudatus aktiveeruks, tuleb RealPopup uuesti käivitada.",IDC_STATIC_MSN2,10,143,150,20
+END
+
+IDD_PP_USERS DIALOGEX 0, 0, 212, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Kasutajad ja grupid"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TXT_USER,5,11,85,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_USER,"msctls_updown32",UDS_ARROWKEYS | 
+                    WS_DISABLED,93,10,11,14
+    PUSHBUTTON      "6",IDC_NETWORK,106,11,14,13,BS_ICON
+    PUSHBUTTON      "6",IDC_SRCINSERT,121,11,14,13,BS_ICON
+    PUSHBUTTON      "&Lisa",IDC_BTN_ADD,138,11,34,13,WS_DISABLED
+    PUSHBUTTON      "&Eemalda",IDC_BTN_REMOVE,174,11,34,13,WS_DISABLED
+    LISTBOX         IDC_LISTUSERS,6,30,85,168,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Kasutaja",IDC_OPT_USER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,95,30,110,8
+    CONTROL         "Grupp (liikmed:)",IDC_OPT_GROUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,40,110,8
+    EDITTEXT        IDC_TXT_MEMBERS,105,50,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK2,192,50,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Lisa lemmikkasutajate gruppi",IDC_CHK_NBINCLUDEFAVORITES,"Button",
+                    BS_AUTO3STATE | WS_DISABLED | WS_TABSTOP,95,65,110,8
+    CONTROL         "",IDC_CHK_USESRP,"Button",BS_AUTO3STATE | WS_DISABLED | 
+                    WS_TABSTOP,95,88,10,10
+    COMBOBOX        IDC_CBO_USESRP,105,86,100,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_DISABLED | 
+                    WS_TABSTOP
+    CONTROL         "Ignoreeri sõnumeid",IDC_CHK_IGNORE,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,101,110,8
+    CONTROL         "Hüppa ette kui sõnum saabub",IDC_CHK_POPUPNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,111,110,8
+    CONTROL         "Teata uuest sõnumist mullis",IDC_CHK_BALLOONNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,121,110,8
+    CONTROL         "Eelvaatlus mullis",IDC_CHK_BALLOONPREVIEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,131,110,8
+    CONTROL         "Teavita levisse saabumisest",IDC_CHK_ONLINEWARN,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,141,110,8
+    CONTROL         "Suuna sõnumid edasi:",IDC_CHK_REDIRECT,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,151,110,8
+    EDITTEXT        IDC_TXT_REDIRECT,105,161,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK3,192,161,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Salvesta sõnumid:",IDC_CHK_LOG,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,175,110,8
+    EDITTEXT        IDC_TXT_LOG,105,185,85,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    CONTROL         "Liikmed",IDC_OPT_NBINCLUDEASMEMBERS,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,106,75,44,10
+    CONTROL         "Grupp",IDC_OPT_NBINCLUDEASGROUP,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,153,75,53,10
+END
+
+IDD_PP_MSG DIALOGEX 0, 0, 212, 181
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Sõnumid"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "Kustuta saabunud sõnum pärast vastamist",IDC_CHK_DELORIGINAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,195,10
+    CONTROL         "Minimeeri pärast vastamist",IDC_CHK_MINIMIZEREPL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,195,10
+    CONTROL         "Minimeeri pärast viimase sõnumi kustutamist",IDC_CHK_MINIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,195,10
+    CONTROL         "Näita automaatselt viimast sõnumit",IDC_CHK_LASTMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,195,10
+    CONTROL         "Tsiteeri originaalsõnumit",IDC_CHK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,195,10
+    CONTROL         "Vastamisel aseta kursor sõnumi ette",IDC_CHK_REPLYTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,195,10
+    CONTROL         "Enter-klahv saadab sõnumi",IDC_CHK_CRSEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,195,10
+    CONTROL         "Tühista kustutamisnupp paariks sekundiks",IDC_CHK_DISABLEDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,195,10
+    CONTROL         "Kuva teated sõnumi edastamise kohta mullis",IDC_CHK_BALLOONONMSGFAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,10,90,195,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Lingid avanevad topeltklõpsuga",IDC_CHK_DBLCLICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,100,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Kasuta From-real alati arvuti nime",IDC_CHK_SENDPCNAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,110,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Häälemärguanne sõnumi saabumisel",IDC_CHK_BEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,138,195,10
+    CONTROL         "Mängi WAV-fail sõnumi saabumisel",IDC_CHK_WAV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,148,195,10
+    EDITTEXT        IDC_TXT_WAV,22,159,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_PLAY,143,159,14,13,BS_ICON | WS_DISABLED
+    LTEXT           "Heliefektid",IDC_STATIC,10,125,100,10
+    LTEXT           "-------------",IDC_STATIC,156,96,52,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | SS_CENTERIMAGE,
+                    10,134,184,1,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 232, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Lühiinfo"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,5,32,14,WS_GROUP
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,5,5,177,37
+    LTEXT           "yo men dudez matro rulez:-)",IDC_TXT_ABOUTVERSION,6,120,
+                    204,12
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 253, 158
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Matro! :)"
+MENU IDR_MENU1
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        TXT_MAIN_FROM,30,5,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_INFO,120,5,87,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_TO,30,15,155,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Saatja",IDC_MAIN_FROM,5,5,20,9
+    LTEXT           "Saaja",IDC_MAIN_TO,5,15,20,9
+END
+
+IDD_DLG_SENDMESSAGE DIALOGEX 0, 0, 196, 147
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "RealPopup: Saada sõnum"
+MENU IDR_MENU2
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    LTEXT           "Saaja",IDC_TO,5,7,10,9
+    COMBOBOX        CBO_TO,20,10,165,35,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_NETWORK DIALOG  0, 0, 198, 143
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "RealPopup: Võrgusirvija"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,5,55,14,WS_DISABLED
+    PUSHBUTTON      "Loobu",IDCANCEL,140,22,55,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,5,5,130,135
+    PUSHBUTTON      "?",ID_HELP,140,125,55,14
+END
+
+IDD_CRITERIA DIALOGEX 0, 0, 322, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Otsingukriteeriumi sisestamine"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CRITERIA,30,132,150,14,ES_UPPERCASE | ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,265,5,50,14
+    PUSHBUTTON      "Loobu",IDCANCEL,265,22,50,14
+    LTEXT           "devworkbymatro:)",IDC_SEARCHCRITERIA,30,5,225,115
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "Otsingukriteerium",IDC_STATIC,30,122,90,10
+END
+
+IDD_SERVICE DIALOG  0, 0, 307, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Messenger funktsioonide täitmine"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Kasuta RealPopup sõnumite näitamiseks (soovitav)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,65,
+                    195,10
+    CONTROL         "Las Messenger teenus jääb, nagu on",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,76,
+                    195,10
+    LTEXT           "Seda seadistust saab hiljem Programmi lahtris muuta.",IDC_STATIC,30,90,235,10
+    DEFPUSHBUTTON   "OK",IDOK,250,5,50,14
+    ICON            IDR_SERVICE,IDC_STATIC,4,5,20,20
+    LTEXT           "RealPopup tuvastas, et Messenger teenus on aktiveeritud. RealPopup võib täita Windows NT/2000/XP Messenger funktsioone.",IDC_STATIC,30,5,215,25
+    LTEXT           "Soovi korral võid Windowsi enda Messengeri edasi kasutada; ent siis vahetab RealPopup sõnumeid ainult teiste RealPopup klientidega.",IDC_STATIC,30,35,215,25
+END
+
+IDD_PP_LANG DIALOGEX 0, 0, 197, 205
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Kujundus ja keeled"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_FONTRICHEDIT,6,51,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_FONTEDIT,6,71,15,15,BS_ICON
+    LTEXT           "Vajuta siia, kui soovid muuta sõnumite fonti.",IDC_STATIC,31,51,160,20
+    LISTBOX         IDC_LSTLANGUAGE,6,96,60,90,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Vali soovitav keel. Valik rakenamiseks tuleb RealPopup uuesti käivitada. Kui selles keeles on ebastandardne kirjatüüp (nt vene), pead kasutama vastavat Windows versiooni.",IDC_STATIC,71,96,120,60
+    LTEXT           "Autor on Matro",IDC_LANGUAGE,71,160,125,22
+    LTEXT           "Vali oma lemmikfont infoväljade (Kellelt, Kellele) esitamiseks.",IDC_STATIC,31,71,160,22
+    PUSHBUTTON      "",IDC_BTN_SAVEWIN,6,11,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_SAVEWINDEF,6,31,15,15,BS_ICON
+    LTEXT           "Vajuta siia, kui soovid akna suuruse ja asukoha salvestada.",IDC_STATIC,31,11,145,18
+    LTEXT           "Siia vajutades taastad programmiakna vaikesuuruse ja -asukoha.",IDC_STATIC,31,31,145,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PP_ENV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_PP_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_PP_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PP_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,4,0,0
+ PRODUCTVERSION 2,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "RealPopup keele andmefail\0"
+            VALUE "CompanyName", "Matro\0"
+            VALUE "FileDescription", "RealPopup (inglise) keele andmefail\0"
+            VALUE "FileVersion", "2.5"
+            VALUE "InternalName", "RealPopup\0"
+            VALUE "LegalCopyright", "Matro, vabavara\0"
+            VALUE "LegalTrademarks", "Tõlkija: Matro\0"
+            VALUE "OriginalFilename", "RealPopup.EXE\0"
+            VALUE "ProductName", "RealPopup\0"
+            VALUE "ProductVersion", "2.5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_NEW
+    BUTTON      ID_BTN_ANSWER
+    BUTTON      ID_BTN_ANSWERALL
+    BUTTON      ID_BTN_FORWARD
+    SEPARATOR
+    BUTTON      ID_BTN_DEL
+    BUTTON      ID_BTN_DELTHREAD
+    SEPARATOR
+    BUTTON      ID_BTN_PREV
+    BUTTON      ID_BTN_NEXT
+    BUTTON      ID_BTN_COPY
+    BUTTON      ID_BTN_SAVE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+    BUTTON      ID_BTN_OPTIONS
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_SEND
+    BUTTON      ID_BTN_CANCEL
+    SEPARATOR
+    BUTTON      ID_BTN_SENDCUT
+    BUTTON      ID_BTN_SENDCOPY
+    BUTTON      ID_BTN_SENDPASTE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_NETTREE             BITMAP                  "res\\nettreepc.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "res\\rptitle.bmp"
+IDB_BITMAP_RPLOGO       BITMAP                  "res\\NetworkBrowserLogo.bmp"
+IDB_TOOLBAR1HI          BITMAP                  "res\\toolbar1hi.bmp"
+IDB_TOOLBAR2HI          BITMAP                  "res\\toolbar2hi.bmp"
+IDB_TOOLBAR1HIDIS       BITMAP                  "res\\toolbar1hi dis.bmp"
+IDB_TOOLBAR2HIDIS       BITMAP                  "res\\toolbar2hi dis.bmp"
+IDB_TOOLBAR2HIHOT       BITMAP                  "res\\toolbar2hi hot.bmp"
+IDB_TOOLBAR1HIHOT       BITMAP                  "res\\toolbar1hi hot.bmp"
+IDB_NETTREEHI           BITMAP                  "res\\nettreepchi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&Sõnum"
+    BEGIN
+        MENUITEM "&Saada\tCtrl+S",                     ID_BTN_SEND
+        MENUITEM "L&oobu\tEsc",                     ID_BTN_CANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "&Lõika\tCtrl+X",                     ID_BTN_SENDCUT
+        MENUITEM "&Kopeeri\tCtrl+C",                     ID_BTN_SENDCOPY
+        MENUITEM "&Aseta\tCtrl+V",                     ID_BTN_SENDPASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Võrgu sirvija...",                     ID_BTN_NETWORK
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&Keskkond"
+    BEGIN
+        MENUITEM "&Levist väljas",                     ID_TRAY_DISABLE
+        MENUITEM "&Olen ära",                    ID_TRAY_AWAY
+        MENUITEM "&Ignoreeri suunamist",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Seadistused...",                     ID_BTN_OPTIONS
+        MENUITEM "Lõpeta &töö",                     ID_TRAY_EXIT
+    END
+    POPUP "&Sõnum"
+    BEGIN
+        MENUITEM "&Uus...\tCtrl+N",                     ID_BTN_NEW
+        MENUITEM "&Vasta...\tCtrl+R",                     ID_BTN_ANSWER
+        MENUITEM "Vasta &kõigile...\tCtrl+A",                     ID_BTN_ANSWERALL
+        MENUITEM "E&dasta...\tCtrl+F",                     ID_BTN_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "&Ignoreeri teemat",                    ID_BTN_DELTHREAD
+        MENUITEM "Naase &teema juurde",                    ID_BTN_RESUMETHREADS
+        MENUITEM SEPARATOR
+        MENUITEM "Ku&stuta kõik\tCtrl+Shift+Del",                     ID_BTN_DELALL
+        MENUITEM "&Kustuta\tCtrl+Del",                     ID_BTN_DEL
+        MENUITEM "&Eelmine\tCtrl+PgUp",                     ID_BTN_PREV
+        MENUITEM "&Järgmine\tCtrl+PgDn",                     ID_BTN_NEXT
+        MENUITEM "K&opeeri\tCtrl+C",                     ID_BTN_COPY
+        MENUITEM "Sa&lvesta...",                     ID_BTN_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Võ&rgu sirvija...",                     ID_BTN_NETWORK
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Abi...",                     ID_BTN_HELP
+        MENUITEM "&Tervitussõnum",                     ID_BTN_WELCOMEMSG
+        MENUITEM "&Lühiinfo",                     ID_BTN_ABOUT
+    END
+END
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "MATRO"
+    BEGIN
+        MENUITEM "&Ava",                     ID_TRAY_OPEN
+        MENUITEM "&Minimeeri",                     ID_TRAY_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "&Levist väljas",                     ID_TRAY_DISABLE
+        MENUITEM "&Olen ära",                    ID_TRAY_AWAY
+        MENUITEM "&Ignoreeri suunamist",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Uus sõnum...",                     ID_BTN_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Seadistused...",                     ID_BTN_OPTIONS
+        MENUITEM "Lõpeta &töö",                     ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LINK         CURSOR                  "res\\LGEUP.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_RPENABLED           ICON                    "res\\rppe.ico"
+IDR_MAINFRAME           ICON                    "res\\RealPopup.ico"
+IDR_MSGARRIVED          ICON                    "res\\new_msg.ico"
+IDR_TRAYICON            ICON                    "res\\idr_msga.ico"
+IDR_MSGDISABLED         ICON                    "res\\idr_msgd.ico"
+IDR_PLAY                ICON                    "res\\idr_play.ico"
+IDR_NETWORK             ICON                    "res\\icon1.ico"
+IDR_EDITFONT            ICON                    "res\\idr_edit.ico"
+IDR_RICHEDITFONT        ICON                    "res\\idr_rich.ico"
+IDR_POSSAVE             ICON                    "res\\idr_poss.ico"
+IDR_POSDEFAULT          ICON                    "res\\idr_posd.ico"
+IDR_SRCINSERT           ICON                    "res\\idr_srci.ico"
+IDR_MSGARRIVED2         ICON                    "res\\old_msgs.ico"
+IDR_MSGAWAY             ICON                    "res\\idr_away.ico"
+IDR_SERVICE             ICON                    "res\\service.ico"
+IDR_WPENABLED           ICON                    "res\\wppe.ico"
+IDR_WPDISABLED          ICON                    "res\\wppd.ico"
+IDR_RPDISABLED          ICON                    "res\\rppd.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMENU1 ACCELERATORS 
+BEGIN
+    "A",            ID_BTN_ANSWERALL,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_BTN_FORWARD,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_BTN_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_BTN_ANSWER,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DEL,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DELALL,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_BTN_HELP,            VIRTKEY, NOINVERT
+    VK_NEXT,        ID_BTN_NEXT,            VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_BTN_PREV,            VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCMENU2 ACCELERATORS 
+BEGIN
+    "S",            ID_BTN_SEND,            VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_BTN_CANCEL,          VIRTKEY, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\RealPopup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_WELCOMEMSG          TEXT                    "res\\welcomeEST.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+2                       RT_MANIFEST             "res\\rt_manif.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&RealPopup Lühiinfo..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SENDPASTE        "Aseta siia lõikepuhvri sisu.\nAseta"
+    STATUS_WPPROTOCOLENABLED " "
+    STATUS_RPPROTOCOLENABLED " "
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW              "Saada kasutaja(grupi)le uus sõnum.\nUus sõnum"
+    ID_BTN_ANSWER           "Vasta sõnumi saatjale.\nVasta"
+    ID_BTN_ANSWERALL        "Vasta nii sõnumi saatjale kui saajale.\nVasta kõigile"
+    ID_BTN_FORWARD          "Edasta sõnum teis(t)ele kasutaja(te)le.\nEdasta"
+    ID_BTN_DELTHREAD        "Ignoreeri antud jututeemat.\nIgnoreeri jututeemat"
+    ID_BTN_RESUMETHREADS    "Naase varem ingoreeritud jututeema juurde."
+    ID_BTN_DELALL           "Kustuta kõik sõnumid.\nKustuta kõik"
+    ID_BTN_DEL              "Kustuta see sõnum.\nKustuta"
+    ID_BTN_PREV             "Vaata eelmist sõnumit.\nEelmine"
+    ID_BTN_NEXT             "Vaata järgmist sõnumit.\nJärgmine"
+    ID_BTN_COPY             "Kopeeri sõnum või osa sellest mällu.\nKopeeri"
+    ID_BTN_SAVE             "Salvesta sõnum tekstifaili.\nSalvesta"
+    ID_BTN_SEND             "Saada see sõnum ära\nSaada sõnum"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_CANCEL           "Loobu sõnumi saatmisest\nLoobu"
+    ID_BTN_OPTIONS          "Ava seadistusteaken.\nSeadistused"
+    ID_BTN_ABOUT            "Lühiinfo."
+    ID_BTN_WELCOMEMSG       "Loe veelkord tervitussõnumit :)"
+    ID_BTN_HELP             "Näitab abiinfot."
+    ID_TRAY_OPEN            "Kliki siia, et RealPopup ette manada."
+    ID_TRAY_MINIMIZE        "Minimiseeri RealPopup tray alasse."
+    ID_TRAY_DISABLE         "Ükski saabuv sõnum ei häiri."
+    ID_TRAY_EXIT            "Pane RealPopup kinni."
+    ID_TRAY_REDIRECT        "Katkesta sõnumite suunamine (kui see on aktiveeritud)"
+    ID_TRAY_AWAY            "Teistele antakse teada, et Sind ei ole."
+    ID_BTN_NETWORK          "Otsi kasutajat võrgust.\nVõrgu sirvija"
+    ID_HELPFILE             "RPHelpEST.htm"
+    ID_BTN_SENDCOPY         "Kopeerib lõikepuhvrisse.\nKopeeri"
+    ID_BTN_SENDCUT          "Tõsta lõikepuhvrisse.\nLõika"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Valmis."
+    MSG_SEND_ERROR          "Kasutajat ei õnnestu leida või ei saa sõnumi saatmisega hakkama."
+    MSG_POPUP_ERRINIT       "WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: RealPopup ei suuda Windowsi standardseid teateid näidata.\n\nTüüpilisemad põhjused on: (a) Messenger teenus on aktiivne ning RealPopup õigused on selle seiskamiseks ebapiisavad; (b) RealPopup või WinPopup juba käivitub siin arvutis; (c) NetBios ei ole ühegi transportprotokolliga seotud.\n\nProovi hiljem uuesti topeltklõpsates olekuribal alumist parempoolset ikooni."
+    MSG_DIALOG_CAPTION      "RealPopup sõnum"
+    DEF_USERNAME            "KASUTAJA"
+    AUTOMSG_BETA_FROM       "RealPopup"
+    AUTOMSG_BETA_TO         "Sulle, kasutaja!"
+    MSG_BETA_OUT            "See RealPopup ßeta-versioon on aegunud. Tõmba uus versioon aadressilt http://www.realpopup.it ja loe RealPopup vestlusi aadresilt http://groups.yahoo.com/group/realpopupdisc."
+    MSG_VERSION             "HOIATUS: See on BETA versioon, mis aegub %i.%i.%i.\n\nUue versiooni saad tõmmata http://www.realpopup.it ning loe ka RealPopup vestlusi http://groups.yahoo.com/group/realpopupdisc.\n\nInfo edastamiseks kirjuta beta@realpopup.it, aitäh."
+    MSG_STATUS_WPSENT       "Winpopup tüüpi sõnum saadeti aadressile %s."
+    MSG_STATUS_RPSENT       "%s sai sõnumi kätte."
+    MSG_ABOUT               "Programmi autor on Matro, ta on pärit Roomast (Itaaliast).\n\nSee programm on vabavara:\nkasuta ja levita, nagu soovid!\n\nRealPopup koduleht:\nwww.realpopup.it\n\nMatro koduleht:\nwww.realpopup.it/matro\n\nTagasiside-aadress: matro@realpopup.it.\n\nTõmba koduleheküljelt omale Sinu keelde tõlgitud versioon!\n\nRealPopupi loomisele on kaasa aidanud tõlkijad, aktiivsed kasutajad, beta-testijad ja tasuta levitatav tarkvara üle maailma. Vaata allalaadimislehte www.realpopup.it/download.html. Tänud teile kõigile!\n\nSuur -aitäh- kõigile tagasiside eest ning kõigile RealPopup ja RealPopup Discussion postilistide tellijatele.\n\nMatro.\n\nAlates paigaldamisest on RealPopup vastu võtnud %i ja saatnud %i sõnumit.\n\nTõlge eesti keelde: Marko Laurits. Tagasiside tõlke kohta on oodatud aadressil marko.laurits@neti.ee\n"
+    MSG_WARNONEXIT          "Kui Sa RealPopupi sulged, ei saa Sa sõnumeid saata ega vastu võtta. Oled kindel?\n\nKui Sa ei soovi seda küsimust enam näha, muuda määrangut 'hoiata sulgemisel'."
+    MSG_RECEIVE_MULTIPARTERROR "Teata uuest sõnumist mullis"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DDXFILE_TT_CAPTION  "Sisesta failinimi"
+    IDS_DDXFILE_OK          "OK"
+    IDS_DDXFILE_EDIT_TEXT   "..."
+    IDS_DDXFILE_OVERWRITE_PROMPT "%1\nSee fail on juba olemas.\nKas kirjutame üle?"
+    IDS_DDXFILE_FILTER_LOG  "Logifailid (*.log)|*.log||"
+    IDS_DDXFILE_FILTER_WAV  "Wave-failid (*.wav)|*.wav||"
+    IDS_DDXFILE_FILTER_TXT  "Tekstifailid (*.txt)|*.txt||"
+    FMT_LOG_DATE            "%a %d, %b %Y, kell %H:%M.%S"
+    FMT_LOG_FROMTO          "%s -> %s: %s\n\n"
+    OPTIONS_CAPTION         "RealPopup: Seadistused"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_SEND_MULTIPARTERROR "Eelvaatlus mullis"
+    MSG_REALPOPUP_ERRINIT   "\n\nTry again later by double clicking the lower right icon in the status bar."
+    MSG_USERS_ERRLOAD       "Kasutajainfot ei õnnestu lugeda: tõenäoliselt on RP<user>.dat ebasobiv, kustuta see ära."
+    DEF_ALLUSERS            "(KÕIK KASUTAJAD)"
+    TOOLTIP_IDLE            "RealPopup"
+    TOOLTIP_MSG             "RealPopup: %i sõnum."
+    TOOLTIP_MSGS            "RealPopup: %i sõnumit."
+    MSG_ERRNOTRECEIVED      "*** RealPopup %s sisemine teade ***\n\nKasutaja %s ei saanud Sinu teadet kätte; võib-olla pole ta hetkel võrgus, tema arvuti on väga koormatud, või tal pole RealPopup käivitatud. \n\nKui sel kasutajal on WinPopup tüüpi programm, lisa kasutaja WINPOPUP gruppi - seadistuste aknas Kasuatajad ja Grupid lehel."
+    MSG_STATUS_NOTRECEIVED  "Hoiatus: %s ei saanud sõnumit kätte."
+    MSG_ONLINEWARN          "Kasutaja %s on kuuldel töökohas %s."
+    MSG_STATUS_ONLINEWARNNOTRECEIVED "Kasutaja %s ei saanud hoiatust kätte."
+    MSG_ONLINEWARNSTATUS    "RealPopup kasutaja %s on saadaval %s nime all %s."
+    MSG_REDIRECTING         "%s sõnum on suunatud aadressile %s."
+    MSG_REDIRECTING_ERR     "%s ei saa aadressile %s ümber suunata: liiga palju tsükleid."
+    MSG_LOGHEAD             "RealPopup %s logifail\n\n"
+    MSG_STATUS_TOOLONG      "Hoiatus: %s ei saanud sõnumit kätte."
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRTOOLONG          "*** RealPopup %s siseteade ***\n\nKasutaja %s ei saanud Sinu sõnumit kätte; WinPopup protokolli kasutamine selle teate saatmisel pole võimalik, kuna sõnum on liiga pikk - %i tähemärki - see ületab NET SEND ca 900 märgise sõnupikkuse piirangu.\n\nAntud kontrolli on võimalik välja lülitada määrates Registrys muutuja DisableMessageLengthCheck väärtuseks 1."
+    MSG_STATUS_RPSENT_OLDVER "%s sai teate kätte; soovita tal uuendada RP %s RP %s-ks! :)"
+    MSG_ERRDISABLED         "*** RealPopup %s siseteade ***\n\n%s RealPopup pole aktiveeritud - kasutaja ei saanud sõnumit kätte."
+    MSG_WARNONCANCELINGSEND "Oled kindel, et soovid saatmise katkestada?\n\nKui Sa ei soovi seda küsimust enam näha, kustuta määrangute lahtris vastav linnuke."
+    MSG_ERR_NOTCREATABLE    "Seda faili pole võimalik luua."
+    MSG_SAVEHEAD            "RealPopup %s salvestas sõnumi\n\n"
+    MSG_AUTOSTART_WARN      "Kas soovid, et Windowsi käivitumisel läheks ka RealPopup tööle?"
+    MSG_AUTOSTART_MSG       "Kui RealPopup tundub Sulle vajalik, siis lase tal automaatselt käivituda: mine Seadistuste menüüsse ja tee linnuke 'Käivita koos Windowsiga' lahtrisse! :)"
+    MSG_LOCALIZE_ABOUT      "Eesti keel V2.5\nTõlkinud Marko Laurits."
+    MSG_LOCALIZE_DESC       "Estonian"
+    IDS_WEEKDAYS            "P|E|T|K|N|R|L"
+    MSG_ERR_USERINSERT      "Antud kasutaja- või grupinimi on sobimatu.\n\nKui Sa soovisid sisestada otsingusõna, siis see peab olema nurksulgudes, igale elemendile peab järgnema püstkriips, näiteks:\nSERVER1[SPOOLER|DISK]\nSellele stringile vastab kasutaja või grupp SERVER1 juhul kui saabuva sõnumi tekstis on sõna SPOOLER või DISK.\n\nÜhes otsingustringis võib olla kuni üks paar nurksulge: kui Sa soovid luua mitu sõnumi sisul põhinevat määrangut, siis loo mitu kirjet. Näiteks:\nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nIgale kirjele võivad vastata erinevad määrangud; kirje ilma otsingustringita tähendab 'suvalise sisuga sõnum'.\n\nTeisalt, kui soovid kirjeldada ainult kasutajat või gruppi, ära kasuta nurksulge."
+    MSG_SEARCHCRITERIA      "Sa võid kasutaja- või grupinime siduda otsingukriteeriumitega; määrangud rakendatakse kui sõnumi sisu vastab otsingumäärangule. Kui soovitakse kasutada mitut otsingustringi, eraldatakse need püstkriipsuga '|'. Otsingul rakendatakse VÕI kriteeriumi: kasutaja- või grupinimi kehtib kui tekstis esineb vähemalt üks loetelus olevatest stringidest.\n\nNäiteks otsingukriteeriumile 'SPOOLER|DISK' loetakse kasutaja või grupp vastavaks kui sõnumis esines sõna 'spooler' või sõna 'disk'.\n\nSisesta otsingukriteerium siia lahtrisse. Otsingukriteeriumi võib sisestada ka nurksulgudesse [] kasutaja või grupi nime järele. Antud dialoogiaken teeb selle teisenduse Sinu eest."
+    MSG_ERR_HOTKEY          "Seda klahvikombinatsiooni ei saa kasutusele võtta: seda kasutab mõni muu rakendus või on RealPopup käivitatud mitu korda."
+    MSG_ERR_REPLY           "\n\nVasta sellele sõnumile, kui soovid alljärgnevat sõnumit uuesti saata.\n\nSõnum:\n---\n"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRAWAY             "*** RealPopup %s siseteade ***\n\nKasutaja %s on ära; Sinu sõnumit loetakse hiljem."
+    MSG_ERR_MSNSTOPDENIED   "Messenger teenuse seiskamiseks peab kasutaja olema Administraatori õigustes. Lisainfo saamiseks pöördu oma arvuti administraatori poole.\n\nRealPopup hakkab sõnumeid vahetama ainult teiste RealPopup kasutajatega."
+    MSG_ERR_MSNSTOPERR      "Messenger teenuse seiskamine on mingil kummalisel põhjusel võimatu. Proovi teinekord jälle.\n\nRealPopup hakkab sõnumeid vahetama ainult teiste RealPopup kasutajatega."
+    MSG_STATUS_CMDLINESENT  "Käsurealt edastatud sõnum saadetakse kasutajale %s..."
+    MSG_CMDLINE_HELP        "*** RealPopup %s siseteade ***\r\n\r\nKäsurea parameetrid.\nEnne käsurealt sõnumi saatmist tuleb RealPopup vähemalt korra käivitada: sellega käivitatakse sõnumimootor.\n\n-send <kellele> <sõnum>\nsaadab sõnumi kasutajale või grupile. Sõnumi saatmieks mitmele kasutajale eralda vastuvõtjate nimed komadega. Kui soovid sõnumes tühikuid kasutada, pane sõnum jutumärkidesse; reavahetus tähista kujul ASCII(13) ja ASCII(10).\n\n-noactivate\nKasuta käsureal seda võtit, kui soovid, et programm ei käivituks.\n\n-posreset\nSee võti taastab RealPopup vaikesuuruse ja -asukoha.\n\nNäide:\nRealPopup -send MATRO,NEURAL 'Ohhoo! Ruulib täiega! :-)' -noactivate\n"
+    MSG_NBROWSER_RPUSERS    "Lemmikkasutajad"
+    MSG_WARNDOMAIN          "Sa soovid sõnumi saata kogu %s domeenile; selle sõnumi saavad kõik domeeni liikmed. Oled ikka kindel?\n\nKui Sa seda küsimust enam näha ei soovi, kustuta määrangute akntas linnuke 'Hoiata domeenile saatimsel' valiku eest\n"
+    ITEM_USESREALPOPUP      "Kasutab kindlasti RealPopupi"
+    ITEM_USESWINPOPUP       "Kasutab kindlasti WinPopup-i"
+    MSG_WELCOME             "RealPopup - tasuta võimalusterohke WinPopup asendaja - tervitab Sind! Topeltkõpsa seda ikooni, et avada põhiaken ja lugeda tervitussõnumit."
+    MSG_INTERNALMSGHEAD     "*** RealPopup %s sõnum ***\r\n\r\n"
+    MSG_BALLOON_NEWMSG      "Sõnum %s-lt"
+    MSG_MESSAGESWAITING     " (%i sõnumit ootel)"
+    MSG_BALLOON_ERRMSG      "Kasutja %s pole Su sõnumit lugenud"
+    MSG_OFFLINEWARNSTATUS   "Kasutaja %s logis masinast %s välja."
+    TOOLTIP_STATUS_WPENABLED "WinPopup protokoll aktiveeritud"
+END
+
+STRINGTABLE 
+BEGIN
+    TOOLTIP_STATUS_RPENABLED "RealPopup protokoll aktiveeritud"
+    TOOLTIP_STATUS_WPDISABLED "WinPopup protokoll pole aktiivne"
+    TOOLTIP_STATUS_RPDISABLED "RealPopup protokoll pole aktiivne"
+    MSG_POPUP_ERRMSGSERVICE "WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: Windows Messenger teenus on aktiivne ning RealPopup õigused on selle seiskamiseks ebapiisavad.\n\nSa võid: (a) Käivitada RealPopupi piisavate õigustega, (b) paluda administraatoril omistada Sulle piisavad õigused või (c) seisata Messengeri teenuse käsitsi.\n\nProovi hiljem uuesti topeltklõpsates olekuribal alumist parempoolset ikooni."
+    MSG_BALLOON_POPUP_ERRMSGSERVICE "WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: Windows Messenger teenus on aktiivne ning RealPopup õigused on selle seiskamiseks ebapiisavad. Lisainfo saamiseks ava RealPopup."
+    MSG_BALLOON_POPUP_ERRINIT "WinPopupiga ühilduv sõnumi vastuvõtmine ei käivitu: vahest RealPopup või WinPopup juba käivitub siin arvutis. Lisainfo saamiseks ava RealPopup."
+    MSG_BALLOON_REALPOPUP_ERRINIT "RealPopup sõnumite vastuvõtja ei kävitu: vahest RealPopup juba käivitub siin arvutis. Lisainfo saamiseks ava RealPopup."
+    MSG_ERR_HOTKEYHEAD      "RealPopup avamise klahvikombinatsioon"
+END
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\RealPopup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+

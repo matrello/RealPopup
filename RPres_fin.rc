@@ -1,0 +1,749 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ENV DIALOGEX 0, 0, 207, 173
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Sovellus"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    CONTROL         "Suorita Windowsin käynnistyessä",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,120,10
+    CONTROL         "Varoita poistuttaessa",IDC_CHK_WARN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,10,75,10
+    CONTROL         "Varoita lähetystä peruutettaessa",IDC_CHK_WARNDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,120,10
+    CONTROL         "Aina päällimmäisenä",IDC_CHK_TOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,130,20,75,8
+    CONTROL         "Varoita kun vastaanottaja on toimialue",IDC_CHK_WARNDOMAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,185,10
+    CONTROL         "Ykköspainike aktivoi valikon",IDC_CHK_LEFTTRAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,185,10
+    CONTROL         "'Poissa'-tilaan kun näytönsäästäjä käynnistyy",IDC_CHK_AWAY,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,50,188,10,WS_EX_TRANSPARENT
+    CONTROL         "Ei viestin pituuden tarkistusta",IDC_CHK_LENCHK,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,120,66,85,10
+    CONTROL         "HotKey1",IDC_RPHOTKEY,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,10,71,72,12
+    LTEXT           "RealPopup tarjoaa viestinvälityspalvelun Windows NT:hen, 2000:een ja XP:hen.",IDC_STATIC_MSN1,10,94,150,20
+    LTEXT           "RealPopupin pikakäynnistysnäppäin",IDC_STATIC,85,73,120,8
+    CONTROL         "Anna RealPopupin huolehtia viestinvälityksestä",IDC_MSN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,114,175,10
+    CONTROL         "Säilytä olemassa oleva viestinvälityspalvelu",IDC_MSN2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,10,125,180,10
+    ICON            IDR_SERVICE,IDC_STATIC,160,94,21,18
+    LTEXT           "Käynnistä RealPopup uudelleen, jotta muutokset tulevat voimaan.",IDC_STATIC_MSN2,10,139,150,20
+END
+
+IDD_PP_USERS DIALOGEX 0, 0, 212, 187
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Käyttäjät ja ryhmät"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TXT_USER,5,11,85,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_USER,"msctls_updown32",UDS_ARROWKEYS | 
+                    WS_DISABLED,93,10,11,14
+    PUSHBUTTON      "6",IDC_NETWORK,106,11,14,13,BS_ICON
+    PUSHBUTTON      "6",IDC_SRCINSERT,121,11,14,13,BS_ICON
+    PUSHBUTTON      "&Lisää",IDC_BTN_ADD,138,11,34,13,WS_DISABLED
+    PUSHBUTTON      "&Poista",IDC_BTN_REMOVE,174,11,34,13,WS_DISABLED
+    LISTBOX         IDC_LISTUSERS,5,30,85,150,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Käyttäjä",IDC_OPT_USER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,30,110,8
+    CONTROL         "Ryhmä (jäsenet:)",IDC_OPT_GROUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,95,40,110,8
+    EDITTEXT        IDC_TXT_MEMBERS,105,50,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK2,192,50,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "",IDC_CHK_USESRP,"Button",BS_AUTO3STATE | WS_DISABLED | 
+                    WS_TABSTOP,95,72,10,10
+    COMBOBOX        IDC_CBO_USESRP,105,70,100,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_DISABLED | 
+                    WS_TABSTOP
+    CONTROL         "Jätä viestit huomiotta",IDC_CHK_IGNORE,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,85,110,8
+    CONTROL         "Popup viestin saapuessa",IDC_CHK_POPUPNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,95,110,8
+    CONTROL         "Ilmoita viestistä puhekuplalla",IDC_CHK_BALLOONNEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,105,110,8
+    CONTROL         "Esikatselu puhekuplassa",IDC_CHK_BALLOONPREVIEW,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,115,110,8
+    CONTROL         "Ilmoita käyttäjän kirjautuessa",IDC_CHK_ONLINEWARN,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,125,110,8
+    CONTROL         "Ohjaa viestit käyttäjälle:",IDC_CHK_REDIRECT,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,135,110,8
+    EDITTEXT        IDC_TXT_REDIRECT,105,145,85,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_NETWORK3,192,145,14,13,BS_ICON | 
+                    WS_DISABLED
+    CONTROL         "Kirjaa viestit tiedostoon:",IDC_CHK_LOG,"Button",BS_AUTO3STATE | 
+                    WS_DISABLED | WS_TABSTOP,95,159,110,8
+    EDITTEXT        IDC_TXT_LOG,105,169,85,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+END
+
+IDD_PP_MSG DIALOGEX 0, 0, 212, 181
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Viestit"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "Poista alkuperäinen viesti vastattaessa",IDC_CHK_DELORIGINAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,10,195,10
+    CONTROL         "Pienennä, kun vastaus on lähetetty",IDC_CHK_MINIMIZEREPL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,195,10
+    CONTROL         "Pienennä, kun viimeinen viesti poistetaan",IDC_CHK_MINIMIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,30,195,10
+    CONTROL         "Näytä viimeisin viesti automaattisesti",IDC_CHK_LASTMSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,40,195,10
+    CONTROL         "Kopioi alkuperäinen viesti vastaukseen",IDC_CHK_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,50,195,10
+    CONTROL         "Sijoita kursori alkuun vastatessa",IDC_CHK_REPLYTOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,195,10
+    CONTROL         "Lähetä viesti painamalla Enteriä",IDC_CHK_CRSEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,195,10
+    CONTROL         "Estä viestin välitön poisto",IDC_CHK_DISABLEDEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,195,10
+    CONTROL         "Ilmoita puhekuplalla, jos viestiä ei voida toimittaa",IDC_CHK_BALLOONONMSGFAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,10,90,195,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Avaa hyperlinkit kaksoisnapsauttamalla",IDC_CHK_DBLCLICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,100,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Merkitse aina koneen nimi lähettäjäksi",IDC_CHK_SENDPCNAME,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | WS_TABSTOP,10,110,195,10,WS_EX_TRANSPARENT
+    CONTROL         "Äänimerkki uuden viestin saapuessa",IDC_CHK_BEEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,138,195,10
+    CONTROL         "Toista wav-tiedosto uuden viestin saapuessa",IDC_CHK_WAV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,148,195,10
+    EDITTEXT        IDC_TXT_WAV,22,159,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED
+    PUSHBUTTON      "IDB_PLAY",IDC_PLAY,143,159,14,13,BS_ICON | WS_DISABLED
+    LTEXT           "Äänitehosteet",IDC_STATIC,10,125,100,10
+    LTEXT           "Lisäasetukset?",IDC_STATIC,156,96,52,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | SS_CENTERIMAGE,
+                    10,134,184,1,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 232, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Tietoja"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,195,5,32,14,WS_GROUP
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,5,5,177,37
+    LTEXT           "yo men dudez matro rulez:-)",IDC_TXT_ABOUTVERSION,6,120,
+                    204,12
+END
+
+IDD_DLG_MAIN DIALOGEX 0, 0, 253, 158
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Matro! :)"
+MENU IDR_MENU1
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        TXT_MAIN_FROM,30,5,70,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_INFO,120,5,87,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    EDITTEXT        TXT_MAIN_TO,30,15,155,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    LTEXT           "Lähettäjä",IDC_MAIN_FROM,5,5,20,9
+    LTEXT           "Vastaanottaja",IDC_MAIN_TO,5,15,20,9
+END
+
+IDD_DLG_SENDMESSAGE DIALOGEX 0, 0, 196, 147
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "RealPopup: Lähetä viesti"
+MENU IDR_MENU2
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    LTEXT           "Vastaanottaja",IDC_TO,5,7,10,9
+    COMBOBOX        CBO_TO,20,10,165,35,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DLG_NETWORK DIALOG  0, 0, 198, 143
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "RealPopup: Verkon selaus"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,5,55,14,WS_DISABLED
+    PUSHBUTTON      "Peruuta",IDCANCEL,140,22,55,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,5,5,130,135
+    PUSHBUTTON      "?",ID_HELP,140,125,55,14
+END
+
+IDD_CRITERIA DIALOGEX 0, 0, 322, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: hakuehtojen syöttökenttä"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CRITERIA,30,132,150,14,ES_UPPERCASE | ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,265,5,50,14
+    PUSHBUTTON      "Peruuta",IDCANCEL,265,22,50,14
+    LTEXT           "devworkbymatro:)",IDC_SEARCHCRITERIA,30,5,225,115
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "hakuehdot",IDC_STATIC,30,122,90,10
+END
+
+IDD_SERVICE DIALOG  0, 0, 307, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RealPopup: Viestinvälityspalvelusta huolehtiminen"
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Anna RealPopupin huolehtia viestinvälityksestä (suositeltavaa)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,30,65,
+                    195,10
+    CONTROL         "Älä muuta olemassa olevaa viestinvälityspalvelua",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,30,76,
+                    195,10
+    LTEXT           "Voit muuttaa näitä asetuksia myöhemmin asetusten Sovellus-välilehdellä.",IDC_STATIC,30,90,235,10
+    DEFPUSHBUTTON   "OK",IDOK,250,5,50,14
+    ICON            IDR_SERVICE,IDC_STATIC,4,5,20,20
+    LTEXT           "RealPopup on havainnut, että viestinvälityspalvelu on toiminnassa. RealPopup tarjoaa viestinvälityspalvelun Windows NT:hen, 2000:een ja XP:hen.",IDC_STATIC,30,5,215,25
+    LTEXT           "Haluat ehkä kuitenkin säilyttää olemassa olevan palvelun tiettyjen ominaisuuksien vuoksi; jos teet niin, voit kommunikoida RealPopupilla vain toisten RealPopupia käyttävien kanssa.",IDC_STATIC,30,35,215,25
+END
+
+IDD_PP_LANG DIALOG  0, 0, 197, 173
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Ulkoasu ja kielet"
+FONT 8, "Arial"
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_FONTRICHEDIT,5,45,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_FONTEDIT,5,65,15,15,BS_ICON
+    LTEXT           "Valitse haluamasi fontti viestikenttiä varten.",IDC_STATIC,30,45,160,20
+    LISTBOX         IDC_LSTLANGUAGE,5,90,60,75,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Valitse haluamasi kieli. Käynnistä RealPopup uudelleen, jotta muutokset tulevat voimaan. Jos valitsemasi kieli vaatii omaa fonttia (esim. venäjä), Windows-versiosi on oltava samankielinen.",IDC_STATIC,70,90,120,55
+    LTEXT           "tekijä Matro",IDC_LANGUAGE,70,145,125,22
+    LTEXT           "Valitse mieleisesi fontti tietokenttiä (esim. Lähettäjä) varten.",IDC_STATIC,30,65,160,22
+    PUSHBUTTON      "",IDC_BTN_SAVEWIN,5,5,15,15,BS_ICON
+    PUSHBUTTON      "",IDC_BTN_SAVEWINDEF,5,25,15,15,BS_ICON
+    LTEXT           "Tallenna ikkunan nykyinen koko ja sijainti.",IDC_STATIC,30,5,145,18
+    LTEXT           "Tällä painikkeella voit tarvittaessa palauttaa oletuskoon ja -sijainnin.",IDC_STATIC,30,25,145,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PP_ENV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_PP_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_PP_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_SERVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_PP_LANG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,4,0,0
+ PRODUCTVERSION 2,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "RealPopupin lokalisoitu resurssi\0"
+            VALUE "CompanyName", "Matro\0"
+            VALUE "FileDescription", "RealPopupin lokalisoitu resurssi (suomi)\0"
+            VALUE "FileVersion", "2.5"
+            VALUE "InternalName", "RealPopup\0"
+            VALUE "LegalCopyright", "Matro, freeware\0"
+            VALUE "LegalTrademarks", "Localized by Satu\0"
+            VALUE "OriginalFilename", "RealPopup.EXE\0"
+            VALUE "ProductName", "RealPopup\0"
+            VALUE "ProductVersion", "2.5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_NEW
+    BUTTON      ID_BTN_ANSWER
+    BUTTON      ID_BTN_ANSWERALL
+    BUTTON      ID_BTN_FORWARD
+    SEPARATOR
+    BUTTON      ID_BTN_DEL
+    BUTTON      ID_BTN_DELTHREAD
+    SEPARATOR
+    BUTTON      ID_BTN_PREV
+    BUTTON      ID_BTN_NEXT
+    BUTTON      ID_BTN_COPY
+    BUTTON      ID_BTN_SAVE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+    BUTTON      ID_BTN_OPTIONS
+END
+
+IDR_TOOLBAR2 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BTN_SEND
+    BUTTON      ID_BTN_CANCEL
+    SEPARATOR
+    BUTTON      ID_BTN_SENDCUT
+    BUTTON      ID_BTN_SENDCOPY
+    BUTTON      ID_BTN_SENDPASTE
+    SEPARATOR
+    BUTTON      ID_BTN_NETWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDB_NETTREE             BITMAP                  "res\\nettreepc.bmp"
+IDB_BITMAP_LOGO         BITMAP                  "res\\rptitle.bmp"
+IDB_BITMAP_RPLOGO       BITMAP                  "res\\NetworkBrowserLogo.bmp"
+IDB_TOOLBAR1HI          BITMAP                  "res\\toolbar1hi.bmp"
+IDB_TOOLBAR2HI          BITMAP                  "res\\toolbar2hi.bmp"
+IDB_TOOLBAR1HIDIS       BITMAP                  "res\\toolbar1hi dis.bmp"
+IDB_TOOLBAR2HIDIS       BITMAP                  "res\\toolbar2hi dis.bmp"
+IDB_TOOLBAR2HIHOT       BITMAP                  "res\\toolbar2hi hot.bmp"
+IDB_TOOLBAR1HIHOT       BITMAP                  "res\\toolbar1hi hot.bmp"
+IDB_NETTREEHI           BITMAP                  "res\\nettreepchi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&Viesti"
+    BEGIN
+        MENUITEM "&Lähetä\tCtrl+S",                     ID_BTN_SEND
+        MENUITEM "&Peruuta\tEsc",                     ID_BTN_CANCEL
+        MENUITEM SEPARATOR
+        MENUITEM "L&eikkaa\tCtrl+X",                     ID_BTN_SENDCUT
+        MENUITEM "&Kopioi\tCtrl+C",                     ID_BTN_SENDCOPY
+        MENUITEM "L&iitä\tCtrl+V",                     ID_BTN_SENDPASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Verkon &selaus...",                     ID_BTN_NETWORK
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&Ohjelma"
+    BEGIN
+        MENUITEM "&Ei viestejä",                     ID_TRAY_DISABLE
+        MENUITEM "Po&issa",                    ID_TRAY_AWAY
+        MENUITEM "&Kaikki viestit",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Asetukset...",                     ID_BTN_OPTIONS
+        MENUITEM "&Lopeta",                     ID_TRAY_EXIT
+    END
+    POPUP "&Viesti"
+    BEGIN
+        MENUITEM "&Uusi...\tCtrl+N",                     ID_BTN_NEW
+        MENUITEM "V&astaa...\tCtrl+R",                     ID_BTN_ANSWER
+        MENUITEM "Vas&taa kaikille...\tCtrl+A",                     ID_BTN_ANSWERALL
+        MENUITEM "Vä&litä...\tCtrl+F",                     ID_BTN_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "&Ohita keskustelu",                    ID_BTN_DELTHREAD
+        MENUITEM "&Palaa keskusteluun",                    ID_BTN_RESUMETHREADS
+        MENUITEM SEPARATOR
+        MENUITEM "P&oista kaikki\tCtrl+Shift+Del",                     ID_BTN_DELALL
+        MENUITEM "&Poista\tCtrl+Del",                     ID_BTN_DEL
+        MENUITEM "&Edellinen\tCtrl+PgUp",                     ID_BTN_PREV
+        MENUITEM "Seu&raava\tCtrl+PgDn",                     ID_BTN_NEXT
+        MENUITEM "&Kopioi\tCtrl+C",                     ID_BTN_COPY
+        MENUITEM "Talle&nna...",                     ID_BTN_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Verkon &selaus...",                     ID_BTN_NETWORK
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Ohje...",                     ID_BTN_HELP
+        MENUITEM "Tervetulo&viesti",                     ID_BTN_WELCOMEMSG
+        MENUITEM "&Tietoja",                     ID_BTN_ABOUT
+    END
+END
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "MATRO"
+    BEGIN
+        MENUITEM "&Avaa",                     ID_TRAY_OPEN
+        MENUITEM "&Pienennä",                     ID_TRAY_MINIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "&Ei viestejä",                     ID_TRAY_DISABLE
+        MENUITEM "Po&issa",                    ID_TRAY_AWAY
+        MENUITEM "&Kaikki viestit",                     ID_TRAY_REDIRECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Uusi viesti...",                     ID_BTN_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Asetukset...",                     ID_BTN_OPTIONS
+        MENUITEM "&Lopeta",                     ID_TRAY_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_LINK         CURSOR                  "res\\LGEUP.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RealPopup.ico"
+IDR_MSGARRIVED          ICON                    "res\\new_msg.ico"
+IDR_TRAYICON            ICON                    "res\\idr_msga.ico"
+IDR_MSGDISABLED         ICON                    "res\\idr_msgd.ico"
+IDR_PLAY                ICON                    "res\\idr_play.ico"
+IDR_NETWORK             ICON                    "res\\icon1.ico"
+IDR_EDITFONT            ICON                    "res\\idr_edit.ico"
+IDR_RICHEDITFONT        ICON                    "res\\idr_rich.ico"
+IDR_POSSAVE             ICON                    "res\\idr_poss.ico"
+IDR_POSDEFAULT          ICON                    "res\\idr_posd.ico"
+IDR_SRCINSERT           ICON                    "res\\idr_srci.ico"
+IDR_MSGARRIVED2         ICON                    "res\\old_msgs.ico"
+IDR_MSGAWAY             ICON                    "res\\idr_away.ico"
+IDR_SERVICE             ICON                    "res\\service.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCMENU1 ACCELERATORS 
+BEGIN
+    "A",            ID_BTN_ANSWERALL,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_BTN_FORWARD,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_BTN_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_BTN_ANSWER,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DEL,             VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_BTN_DELALL,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_BTN_HELP,            VIRTKEY, NOINVERT
+    VK_NEXT,        ID_BTN_NEXT,            VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_BTN_PREV,            VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCMENU2 ACCELERATORS 
+BEGIN
+    "S",            ID_BTN_SEND,            VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_BTN_CANCEL,          VIRTKEY, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\RealPopup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_WELCOMEMSG          TEXT                    "res\\welcomeFIN.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+2                       RT_MANIFEST             "res\\rt_manif.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&Tietoja RealPopupista..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW              "Lähetä uusi viesti tai yleislähetysviesti.\nUusi viesti"
+    ID_BTN_ANSWER           "Vastaa lähettäjälle.\nVastaa"
+    ID_BTN_ANSWERALL        "Vastaa sekä lähettäjälle että vastaanottajille.\nVastaa kaikille"
+    ID_BTN_FORWARD          "Välitä viesti toisille käyttäjille.\nVälitä"
+    ID_BTN_DELTHREAD        "Jätä tämä keskustelu huomiotta.\nOhita keskustelu"
+    ID_BTN_RESUMETHREADS    "Palaa aiemmin ohitettuihin keskusteluihin."
+    ID_BTN_DELALL           "Poista kaikki viestit.\nPoista kaikki"
+    ID_BTN_DEL              "Poista nykyinen viesti.\nPoista"
+    ID_BTN_PREV             "Näytä edellinen viesti.\nEdellinen"
+    ID_BTN_NEXT             "Näytä seuraava viesti.\nSeuraava"
+    ID_BTN_COPY             "Kopioi koko viesti tai osa siitä.\nKopioi"
+    ID_BTN_SAVE             "Tallenna viesti tekstitiedostona.\nTallenna"
+    ID_BTN_SEND             "Lähetä viesti käyttäjälle tai ryhmälle\nLähetä viesti"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_CANCEL           "Peruuta lähetys\nPeruuta"
+    ID_BTN_OPTIONS          "Avaa asetukset-valintaikkuna.\nAsetukset"
+    ID_BTN_ABOUT            "Tietoja-ikkuna."
+    ID_BTN_WELCOMEMSG       "Lue tervetuloviesti uudelleen! :)"
+    ID_BTN_HELP             "Näyttää ohjetiedoston."
+    ID_TRAY_OPEN            "Avaa RealPopup-ikkuna."
+    ID_TRAY_MINIMIZE        "Pienennä RealPopup tehtäväpalkkiin."
+    ID_TRAY_DISABLE         "Älä ota viestejä vastaan."
+    ID_TRAY_EXIT            "Sulje RealPopup."
+    ID_TRAY_REDIRECT        "Ohita viestien uudelleenohjaus ja huomiotta jättäminen."
+    ID_TRAY_AWAY            "Ilmoita lähettäjille, että olet poissa."
+    ID_BTN_NETWORK          "Etsi käyttäjä verkossa.\nVerkon selaus"
+    ID_HELPFILE             "RPHelpFIN.htm"
+    ID_BTN_SENDCOPY         "Kopioi leikepöydälle.\nKopioi"
+    ID_BTN_SENDCUT          "Leikkaa leikepöydälle.\nLeikkaa"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SENDPASTE        "Liitä leikepöydälle.\nLiitä"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Valmis."
+    MSG_SEND_ERROR          "Käyttäjää ei löytynyt, tai viestiä ei voitu lähettää."
+    MSG_POPUP_ERRINIT       "Winpopup-yhteensopivaa vastaanottajaa ei voi valmistella: RealPopup ei voi vastaanottaa viestejä Windowsin viestinvälitysjärjestelmältä.\n\nYleisimmät syyt ovat: a. Viestinvälitys on käytössä eikä RealPopupilla ole riittäviä oikeuksia sen pysäyttämiseen; b. RealPopup (tai Winpopup) on todennäköisesti jo käynnissä tällä koneella; c. jokin muu ohjelma huolehtii viestien välityksestä.\n\nJos käytössäsi on Windows NT, 2000 tai XP, voit antaa RealPopupin huolehtia viestinvälityspalvelusta valitsemalla Sovellus-välilehdellä sopivan vaihtoehdon."
+    MSG_DIALOG_CAPTION      "RealPopup-viesti"
+    DEF_USERNAME            "KÄYTTÄJÄ"
+    AUTOMSG_BETA_FROM       "RealPopup"
+    AUTOMSG_BETA_TO         "Sinä käyttäjä!"
+    MSG_BETA_OUT            "Tämän betaversion käyttöaika on kulunut umpeen. Hae päivitetty versio osoitteesta http://www.realpopup.it, ja seuraa RealPopupia koskevia keskusteluja osoitteessa http://groups.yahoo.com/group/realpopupdisc."
+    MSG_VERSION             "VAROITUS: Tämä on BETA-versio, jonka käyttöaika loppuu %i-%i-%i.\n\nHae päivitetty versio osoitteesta http://www.realpopup.it, ja seuraa RealPopupia koskevia keskusteluja osoitteessa http://groups.yahoo.com/group/realpopupdisc.\n\nlisätietoja saat sähköpostitse osoitteesta beta@realpopup.it. Kiitos."
+    MSG_STATUS_WPSENT       "Winpopup-yhteensopiva viesti lähetetty käyttäjälle %s."
+    MSG_STATUS_RPSENT       "%s on vastaanottanut viestin."
+    MSG_ABOUT               "Kehittänyt Matro, Rooma (Italia).\n\nTämä ohjelma on ilmainen:\nkäytä ja jaa kuten haluat!\n\nRealPopupin kotisivu:\nwww.realpopup.it\n\nMatron kotisivu:\nwww.realpopup.it/matro\n\nLähetä palaute osoitteeseen matro@realpopup.it.\n\nLataa kotisivulta omalle kielellesi lokalisoitu versio RealPopupista!\n\nOsansa kiitoksista RealPopupin kehityksessä ansaitsevat lokalisoijat, aktiiviset käyttäjät, betatestaajat ja ilmaisen lähdekoodin tuottajat ympäri maailman. Vilkaise ohjelman lataussivulle www.realpopup.it/download.html. Kiitos kaikille!\n\nIso -kiitos- kaikesta palautteesta ja kaikille Realpopupin postituslistoille kuuluville.\n\nMatro.\n\nRealPopup on vastaanottanut %i ja lähettänyt %i viestiä asennuksen jälkeen.\n\n\nKääntäjä Satu (silva@nic.fi) heiluttaa kaikille tutuille, jotka tätä ohjelmaa mahdollisesti käyttävät - toivottavasti suomenkielinen versio on kelvollinen :)"
+    MSG_WARNONEXIT          "Jos poistut RealPopupista, et voi vastaanottaa tai lähettää viestejä. Oletko varma?\n\nJos et halua nähdä tätä ilmoitusta uudelleen, poista rasti 'Varoita poistuttaessa'-kohdasta asetukset-valintaikkunassa."
+    MSG_RECEIVE_MULTIPARTERROR "Ilmoita viestistä puhekuplalla"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DDXFILE_TT_CAPTION  "Määritä tiedostonimi."
+    IDS_DDXFILE_OK          "OK"
+    IDS_DDXFILE_EDIT_TEXT   "..."
+    IDS_DDXFILE_OVERWRITE_PROMPT "%1\nTämä tiedosto on jo olemassa.\nKorvataanko olemassa oleva tiedosto?"
+    IDS_DDXFILE_FILTER_LOG  "Lokitiedostot (*.log)|*.log||"
+    IDS_DDXFILE_FILTER_WAV  "Äänitiedostot (*.wav)|*.wav||"
+    IDS_DDXFILE_FILTER_TXT  "Tekstitiedostot (*.txt)|*.txt||"
+    FMT_LOG_DATE            "%ana %d. %bta %Y klo %H:%M:%S"
+    FMT_LOG_FROMTO          "Käyttäjältä %s käyttäjälle %s\n\n"
+    OPTIONS_CAPTION         "RealPopup: Asetukset"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_SEND_MULTIPARTERROR "Esikatselu puhekuplassa"
+    MSG_REALPOPUP_ERRINIT   "Realpopup-vastaanottajaa ei voi valmistella: RealPopup ei voi vastaanottaa viestejä muilta RealPopup-käyttäjiltä.\n\nYleisimmät syyt ovat: a. RealPopup on jo käynnissä; b. NetBiosia ei ole sidottu mihinkään verkkoprotokollaan."
+    MSG_USERS_ERRLOAD       "Käyttäjätietoja ei voi ladata: RP<käyttäjä>.dat ei todennäköisesti ole yhteensopiva, poista se."
+    DEF_ALLUSERS            "(KAIKKI)"
+    TOOLTIP_IDLE            "RealPopup"
+    TOOLTIP_MSG             "RealPopup: %I viesti."
+    TOOLTIP_MSGS            "RealPopup: %I viestiä."
+    MSG_ERRNOTRECEIVED      "*** RealPopupin (%s) sisäinen viesti ***\n\nKäyttäjä %s ei ole saanut viestiäsi; käyttäjä ei ehkä ole kytkeytyneenä verkkoon, hänen koneensa saattaa suorittaa raskasta prosessointia, tai RealPopup ei ole käynnissä. \n\nJos käyttäjällä on Winpopup tai vastaava viestiohjelma, lisää hänet WINPOPUP-ryhmään asetuksissa Käyttäjät ja ryhmät -välilehdellä"
+    MSG_STATUS_NOTRECEIVED  "Varoitus: %s ei ole vastaanottanut viestiä."
+    MSG_ONLINEWARN          "Käyttäjä %s on koneella %s."
+    MSG_STATUS_ONLINEWARNNOTRECEIVED "Käyttäjä %s ei ole vastaanottanut verkkoonkirjautumisilmoitusta."
+    MSG_ONLINEWARNSTATUS    "Käyttäjä %s on koneella %s ja käyttää RealPopupin versiota %s."
+    MSG_REDIRECTING         "Viesti käyttäjältä %s ohjattu käyttäjälle %s."
+    MSG_REDIRECTING_ERR     "Ei voi ohjata käyttäjältä %s käyttäjälle %s Liian monta kierrosta."
+    MSG_LOGHEAD             "RealPopup %s lokitiedosto\n\n"
+    MSG_STATUS_TOOLONG      "Varoitus: %s ei ole vastaanottanut viestiä."
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRTOOLONG          "*** RealPopupin (%s) sisäinen viesti ***\n\nKäyttäjä %s ei ole saanut viestiäsi; RealPopup ei voi lähettää viestiäsi WinPopup-protokollalla, koska viesti on liian pitkä - %i merkkiä - ja ylittää myös NET SEND -komennon viestin pituusrajan, joka on noin 900 merkkiä.\n\nAseta rekisterissä DisableMessageLengthCheck -kohdan arvoksi 1, jos haluat poistaa tämän tarkistuksen."
+    MSG_STATUS_RPSENT_OLDVER "%s vastaanotti viestin; käske hänen päivittää %s-versiosta %s-versioon! :)"
+    MSG_ERRDISABLED         "*** RealPopupin (%s) sisäinen viesti ***\n\nKäyttäjän %s RealPopup ei ole käynnissä, joten käyttäjä ei ole saanut viestiäsi."
+    MSG_WARNONCANCELINGSEND "Oletko varma että haluat peruuttaa viestin?\n\nJos et halua nähdä tätä ilmoitusta uudelleen, poista rasti 'Varoita lähetystä peruutettaessa' -kohdasta asetukset-valintaikkunassa."
+    MSG_ERR_NOTCREATABLE    "Tiedostoa ei voi luoda."
+    MSG_SAVEHEAD            "RealPopup %s tallennettu viesti\n\n"
+    MSG_AUTOSTART_WARN      "Haluatko että RealPopup käynnistyy automaattisesti Windowsin käynnistyessä?"
+    MSG_AUTOSTART_MSG       "Jos pidät RealPopupia hyödyllisenä, aseta se käynnistymään automaattisesti: valitse Asetukset->Sovellus-välilehti ja varmista, että 'Suorita Windowsin käynnistyessä' -valinta on päällä! :)"
+    MSG_LOCALIZE_ABOUT      "Finnish language V2.5\nLocalized by Satu."
+    MSG_LOCALIZE_DESC       "Finnish"
+    IDS_WEEKDAYS            "su|ma|ti|ke|to|pe|la"
+    MSG_ERR_USERINSERT      "Määritettyä käyttäjää tai ryhmää ei voida lisätä.\n\nJos haluat lisätä hakuehdon, sen pitää olla hakasulkeissa ja kunkin ehdon pitää olla erotettu pystyviivalla (|-merkki), esimerkiksi \nSERVER1[SPOOLER|DISK]\nTämä ehto toteutuu, kun viesti tulee käyttäjältä tai ryhmältä SERVER1, ja sisältää joko sanan SPOOLER tai DISK.\n\nÄlä käytä useampaa kuin kahta sulkumerkkiä. Jos haluat määrittää erilaisia asetuksia viestin sisällön mukaan, tee useampi erillinen hakuehto, esim. \nSERVER1[SPOOLER|DISK]\nSERVER1[FULL]\nSERVER1\nKussakin kohdassa voi olla eri asetukset; jos et lisää mitään sisältöehtoa, viestin sisältöä ei oteta huomioon.\n\nJos haluat vain määrittää käyttäjän tai ryhmän nimen, älä käytä sulkeita lainkaan."
+    MSG_SEARCHCRITERIA      "Voit liittää hakuehtoja määrittelemiisi käyttäjä- tai ryhmäasetuksiin; asetuksia käytetään, jos viesti vastaa annettuja ehtoja. Voit lisätä useita ehtoja erottamalla ne pystyviivalla (|-merkki). Ehdot yhdistetään OR-lauseina, eli asetuksia käytetään, jos yksikin ehdoista toteutuu.\n\nEsimerkiksi hakuehdolla 'SPOOLER|DISK' määrittämäsi asetukset otetaan käyttöön, jos saapuvassa viestissä esiintyy joko sana spooler tai disk.\n\nLisää hakuehtosi tähän. Vois lisätä ne suoraan käyttäjän tai ryhmän nimen perään hakasulkeissa []. Tämä valintaikkuna tekee sen puolestasi."
+    MSG_ERR_HOTKEY          "Pikanäppäintä ei voi asettaa. Näppäinyhdistelmä saattaa olla toisen sovelluksen käytössä; kokeile jotain muuta yhdistelmää."
+    MSG_ERR_REPLY           "\n\nJos haluat lähettää viestin uudelleen, vastaa tähän viestiin.\n\nViesti:\n---\n"
+END
+
+STRINGTABLE 
+BEGIN
+    MSG_ERRAWAY             "*** RealPopupin (%s) sisäinen viesti ***\n\nKäyttäjä %s on poissa; viestisi luetaan myöhemmin."
+    MSG_ERR_MSNSTOPDENIED   "RealPopup ei voi pysäyttää viestinvälityspalvelua, koska sinulla ei ole järjestelmänvalvojan oikeuksia. Käänny verkon ylläpitäjän puoleen.\n\nVoit kommunikoida RealPopupilla vain toisten RealPopupia käyttävien kanssa."
+    MSG_ERR_MSNSTOPERR      "RealPopup ei voi pysäyttää viestinvälityspalvelua, koska tapahtui odottamaton virhe. Yritä myöhemmin uudelleen.\n\nVoit kommunikoida RealPopupilla vain toisten RealPopupia käyttävien kanssa."
+    MSG_STATUS_CMDLINESENT  "Lähetetään komentoriviltä viesti käyttäjälle %s..."
+    MSG_CMDLINE_HELP        "*** RealPopupin (%s) sisäinen viesti***\r\n\r\nKomentorivituki.\nRealPopup on käynnistettävä ennenkuin voit lähettää viestejä komentoriviltä: tämä käynnistää viestinvälityksen.\n\n-send <vastaanottaja> <viesti>\nLähettää viestin käyttäjälle tai ryhmälle; jos vastaanottajia on useita, nimet on erotettava pilkulla. Laita viesti lainausmerkkeihin, jos käytät välilyöntejä; rivinvaihdon saat kirjoittamalla ASCII(13) ja ASCII(10).\n\n-noactivate\nTämä vipu estää RealPopupia tulemasta näyttöön, kun lähetetään viesti komentoriviltä.\n\n-posreset\nPalauttaa ikkunan oletuskokoon ja -sijaintiin.\n\nEsimerkki:\nrealpopup -send MATRO,NEURAL 'Hey man! This rocks! :-)' -noactivate\n"
+    MSG_NBROWSER_RPUSERS    "RealPopupin käyttäjät"
+    MSG_WARNDOMAIN          "Olet lähettämässä viestiä verkon toimialueelle %s; viestin saavat kaikki toimialueelle kirjautuneet käyttäjät. Oletko varma?\n\nJos et halua nähdä tätä varoitusta uudelleen, poista rasti 'Varoita kun vastaanottaja on toimialue' -kohdasta asetukset-valintaikkunassa.\n"
+    ITEM_USESREALPOPUP      "Käyttää RealPopupia varmasti"
+    ITEM_USESWINPOPUP       "Käyttää varmasti WinPopupia"
+    MSG_WELCOME             "Tervetuloa RealPopupin käyttäjäksi! Se on ilmainen ja monipuolinen lähiverkkoviestiohjelma, joka korvaa WinPopupin. Kaksoisnapsauta tätä kuvaketta avataksesi pääikkunan ja nähdäksesi tervetuloviestin."
+    MSG_INTERNALMSGHEAD     "*** RealPopup %s viesti ***\r\n\r\n"
+    MSG_BALLOON_NEWMSG      "Viesti käyttäjältä %s"
+    MSG_MESSAGESWAITING     " (%i viestiä saapunut)"
+    MSG_BALLOON_ERRMSG      "Käyttäjä %s ei ole lukenut viestiäsi"
+END
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\RealPopup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+
